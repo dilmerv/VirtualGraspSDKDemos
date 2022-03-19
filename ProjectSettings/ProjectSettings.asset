@@ -701,7 +701,7 @@ PlayerSettings:
   webGLThreadsSupport: 0
   webGLDecompressionFallback: 0
   scriptingDefineSymbols:
-    Standalone: USE_OCULUS_CONTROLLER
+    Standalone: USE_OCULUS_CONTROLLER;USE_UNITYXR_CONTROLLER
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}
