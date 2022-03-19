@@ -1,0 +1,2795 @@
+%PDF-1.4
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [31.19 543.17 120.52 531.17] /Border [0 0 0] /Dest [5 0 R /XYZ 0 841.89 null]>><</Type /Annot /Subtype /Link /Rect [31.19 514.82 118.53 502.82] /Border [0 0 0] /Dest [15 0 R /XYZ 0 841.89 null]>><</Type /Annot /Subtype /Link /Rect [31.19 486.47 226.57 474.47] /Border [0 0 0] /Dest [17 0 R /XYZ 0 841.89 null]>><</Type /Annot /Subtype /Link /Rect [31.19 458.13 337.21 446.13] /Border [0 0 0] /Dest [23 0 R /XYZ 0 841.89 null]>><</Type /Annot /Subtype /Link /Rect [31.19 429.78 190.56 417.78] /Border [0 0 0] /Dest [27 0 R /XYZ 0 841.89 null]>><</Type /Annot /Subtype /Link /Rect [31.19 401.43 220.57 389.43] /Border [0 0 0] /Dest [29 0 R /XYZ 0 841.89 null]>><</Type /Annot /Subtype /Link /Rect [31.19 373.09 233.21 361.09] /Border [0 0 0] /Dest [37 0 R /XYZ 0 841.89 null]>><</Type /Annot /Subtype /Link /Rect [31.19 344.74 228.56 332.74] /Border [0 0 0] /Dest [39 0 R /XYZ 0 841.89 null]>><</Type /Annot /Subtype /Link /Rect [31.19 316.39 244.55 304.39] /Border [0 0 0] /Dest [43 0 R /XYZ 0 841.89 null]>>]
+/Group <</Type /Group /S /Transparency /CS /DeviceRGB>>
+/Contents 4 0 R>>
+endobj
+4 0 obj
+<</Length 2084>>
+stream
+2 J
+0.57 w
+BT /F1 10.00 Tf ET
+q 0.000 g BT 31.19 796.37 Td (VirtualGrasp SDK \(v0.10.0\) API Documentation.) Tj ET 31.19 795.37 212.86 -0.50 re f Q
+q 0.000 g BT 512.95 796.37 Td (2022-02-25) Tj ET Q
+0.784 0.784 0.784 rg
+BT /F2 16.00 Tf ET
+BT /F1 8.00 Tf ET
+q 0.000 g BT 31.19 25.95 Td (CONFIDENTIAL. Copyright 2014-2022 Gleechi AB. All rights reserved.) Tj ET Q
+q 0.000 g BT 511.16 25.95 Td (Page 1 of 22.) Tj ET Q
+BT /F3 16.00 Tf ET
+q 0.000 g BT 31.19 716.62 Td (VirtualGrasp Unity API) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 661.72 Td ([ENUMS] describe VirtualGrasp enums and are listed first only to allow other parts of this pdf to link back to them.) Tj ET Q
+q 0.000 g BT 31.19 633.38 Td ([EVENTS] describe VirtualGrasp events and are very useful to listen to for your own application.) Tj ET Q
+q 0.000 g BT 31.19 605.03 Td (Any of the \(71\) API functions from an _API section can be accessed typing 'VG_Controller.' from C# scripts.) Tj ET Q
+q 0.000 g BT 31.19 590.86 Td (They are grouped in different sections for readability.) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 0.000 1.000 rg BT 31.19 533.57 Td (1. [ENUMS] \(23\)) Tj ET 31.19 532.37 89.34 -0.60 re f Q
+q 0.000 0.000 1.000 rg BT 31.19 505.22 Td (2. [EVENTS] \(8\)) Tj ET 31.19 504.02 87.35 -0.60 re f Q
+q 0.000 0.000 1.000 rg BT 31.19 476.87 Td (3.1 OBJECT_SELECTION_API \(17\)) Tj ET 31.19 475.67 195.38 -0.60 re f Q
+q 0.000 0.000 1.000 rg BT 31.19 448.53 Td (3.2 VIRTUALGRASP_CONTROLLER_FUNCTIONS \(12\)) Tj ET 31.19 447.33 306.02 -0.60 re f Q
+q 0.000 0.000 1.000 rg BT 31.19 420.18 Td (3.3 GRASP_EDITOR_API \(3\)) Tj ET 31.19 418.98 159.37 -0.60 re f Q
+q 0.000 0.000 1.000 rg BT 31.19 391.83 Td (3.4 GRASP_SELECTION_API \(18\)) Tj ET 31.19 390.63 189.38 -0.60 re f Q
+q 0.000 0.000 1.000 rg BT 31.19 363.49 Td (3.5 NETWORK_INTERFACE_API \(2\)) Tj ET 31.19 362.29 202.02 -0.60 re f Q
+q 0.000 0.000 1.000 rg BT 31.19 335.14 Td (3.6 SENSOR_INTERFACE_API \(10\)) Tj ET 31.19 333.94 197.38 -0.60 re f Q
+q 0.000 0.000 1.000 rg BT 31.19 306.79 Td (3.7 RECORDING_INTERFACE_API \(9\)) Tj ET 31.19 305.59 213.36 -0.60 re f Q
+
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Group <</Type /Group /S /Transparency /CS /DeviceRGB>>
+/Contents 6 0 R>>
+endobj
+6 0 obj
+<</Length 5423>>
+stream
+2 J
+0.57 w
+BT /F2 16.00 Tf ET
+0.784 0.784 0.784 rg
+BT /F1 10.00 Tf ET
+q 0.000 g BT 31.19 768.02 Td (VirtualGrasp SDK \(v0.10.0\) API Documentation.) Tj ET 31.19 767.02 212.86 -0.50 re f Q
+q 0.000 g BT 512.95 768.02 Td (2022-02-25) Tj ET Q
+BT /F2 16.00 Tf ET
+BT /F3 16.00 Tf ET
+q 0 g BT 31.19 723.70 Td ([ENUMS]) Tj ET Q
+q 0 g BT 482.32 723.70 Td (\(Unity API\)) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0 g BT 31.19 689.47 Td (VG_AutoSetup) Tj ET Q
+0.00 708.66 m 595.28 708.66 l S
+q 595.28 0 0 25.51 0.00 683.15 cm /I1 Do Q
+BT /F2 10.00 Tf ET
+q 0 g BT 31.19 673.06 Td (Enum for quickly setting up projects for a specific controller / build.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0 g BT 31.19 656.06 Td (NONE: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 66.19 656.06 Td (No setup) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 639.05 Td (UNITY_XR: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 86.75 639.05 Td (Setup for UnityXR supported controllers) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 622.04 Td (QUEST_FT: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 89.52 622.04 Td (Setup for Quest / finger tracking) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 605.03 Td (STEAMVR: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 86.19 605.03 Td (Setup for SteamVR) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 588.02 Td (STEAMVR_FT: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 103.96 588.02 Td (Setup for SteamVR finger tracking / Knuckles) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 571.02 Td (MOUSE: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 73.97 571.02 Td (Setup for Mouse) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 554.01 Td (BEBOP_FT: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 90.64 554.01 Td (Setup for Bebop Haptic Gloves) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 537.00 Td (LEAP_EXT: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 88.97 537.00 Td (Setup for LeapMotion finger tracking \(external controller\)) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 519.99 Td (LEAP_VG: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 83.97 519.99 Td (Setup for LeapMotion finger tracking \(internal controller\)) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 502.98 Td (OPENVR: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 79.52 502.98 Td (Setup for OpenVR) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 471.20 Td (VG_AvatarInputType) Tj ET Q
+0.00 490.39 m 595.28 490.39 l S
+q 595.28 0 0 25.51 0.00 464.88 cm /I1 Do Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 454.80 Td (Need to know what type made the avatar registration for scaling.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 437.79 Td (MESH: ) Tj ET Q
+BT /F2 10.00 Tf ET
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 420.78 Td (URDF: ) Tj ET Q
+BT /F2 10.00 Tf ET
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 403.77 Td (MESH_PHYSICAL: ) Tj ET Q
+BT /F2 10.00 Tf ET
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 371.99 Td (VG_AvatarType) Tj ET Q
+0.00 391.18 m 595.28 391.18 l S
+q 595.28 0 0 25.51 0.00 365.67 cm /I1 Do Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 355.58 Td (An enum to descibe an avatar type) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 338.58 Td (DEFAULT: ) Tj ET Q
+BT /F2 10.00 Tf ET
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 321.57 Td (REMOTE: ) Tj ET Q
+BT /F2 10.00 Tf ET
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 304.56 Td (REPLAY: ) Tj ET Q
+BT /F2 10.00 Tf ET
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 272.78 Td (VG_BoneType) Tj ET Q
+0.00 291.97 m 595.28 291.97 l S
+q 595.28 0 0 25.51 0.00 266.46 cm /I1 Do Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 256.37 Td (An enum to describe a bone type, used for accessing of bones from outside the library.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 239.36 Td (WRIST: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 69.52 239.36 Td (The wrist bone of a hand) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 222.35 Td (ELBOW: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 74.52 222.35 Td (The elbow bone of an arm) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 205.35 Td (SHOULDER: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 93.40 205.35 Td (The shoulder bone of an arm) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 188.34 Td (CLAVICLE: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 87.30 188.34 Td (The clavicle bone of an arm) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 171.33 Td (APPROACH: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 94.51 171.33 Td (The approach handle of a grasp) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 139.55 Td (VG_EditorAction) Tj ET Q
+0.00 158.74 m 595.28 158.74 l S
+q 595.28 0 0 25.51 0.00 133.23 cm /I1 Do Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 123.14 Td (Action towards the grasp editor, see EditGrasp\(\)) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 106.13 Td (PRIMARY_CURRENT: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 137.84 106.13 Td (Label the current grasp as primary, so it will be the only grasp for this object) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 89.13 Td (DISABLE_CURRENT: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 135.62 89.13 Td (Label the current grasp as disabled, so it will not be accessible for static grasping.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 72.12 Td (DELETE_CURRENT: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 131.18 72.12 Td (Currently the same as DISABLE_CURRENT, since we do not really want to remove grasps.) Tj ET Q
+BT /F3 10.00 Tf ET
+BT /F1 8.00 Tf ET
+q 0.000 g BT 31.19 25.95 Td (CONFIDENTIAL. Copyright 2014-2022 Gleechi AB. All rights reserved.) Tj ET Q
+q 0.000 g BT 511.16 25.95 Td (Page 2 of 22.) Tj ET Q
+
+endstream
+endobj
+7 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Group <</Type /Group /S /Transparency /CS /DeviceRGB>>
+/Contents 8 0 R>>
+endobj
+8 0 obj
+<</Length 6313>>
+stream
+2 J
+0.57 w
+BT /F3 10.00 Tf ET
+0.784 0.784 0.784 rg
+BT /F1 10.00 Tf ET
+q 0.000 g BT 31.19 768.02 Td (VirtualGrasp SDK \(v0.10.0\) API Documentation.) Tj ET 31.19 767.02 212.86 -0.50 re f Q
+q 0.000 g BT 512.95 768.02 Td (2022-02-25) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 746.76 Td (ADD_CURRENT: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 113.39 746.76 Td (Add the current grasp as a valid one, so it becomes accessible for static grasping.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 729.76 Td (CLEAR_PRIMARY: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 123.40 729.76 Td (Remove the label of the current object's primary grasp, so all grasps will be valid again.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 712.75 Td (CLEAR_DISABLED: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 128.41 712.75 Td (Remove the label of the current object's disabled grasps, so all grasps will be valid again.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 695.74 Td (TOGGLE_SYNTHESIS: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 141.76 695.74 Td (Toggle synthesis mode for this object between static grasping and dynamic grasping \(see) Tj ET Q
+q 0.000 g BT 31.19 681.57 Td (VG_SynthesisMethod\).) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 664.56 Td (TOGGLE_INTERACTION: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 153.41 664.56 Td (Toggle interaction type for this object between TRIGGER_GRASP and) Tj ET Q
+q 0.000 g BT 31.19 650.39 Td (JUMP_PRIMARY_GRASP \(see VG_InteractionType\).) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 618.60 Td (VG_FingerControlType) Tj ET Q
+0.00 637.80 m 595.28 637.80 l S
+q 595.28 0 0 25.51 0.00 612.28 cm /I1 Do Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 602.20 Td (An enum to describe how fingers are controlled.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 585.19 Td (BY_NOTHING: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 102.85 585.19 Td (When not grasping, fingers are not controlled at all.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 568.18 Td (BY_SENSOR_FULL_DOFS: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 163.42 568.18 Td (When not grasping, fingers are fully controlled by sensor) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 551.17 Td (BY_SENSOR_LOW_DOFS: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 161.20 551.17 Td (When not grasping, fingers are controlled by sensor, but less DOF.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 534.17 Td (BY_ANIMATION: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 113.41 534.17 Td (When not grasping, fingers are controlled by animation.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 517.16 Td (BY_OSCILLATED_ANIMATION: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 182.85 517.16 Td (When not grasping, fingers are controlled by oscillating between two state of) Tj ET Q
+q 0.000 g BT 31.19 502.98 Td (animations) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 471.20 Td (VG_GraspConstraintType) Tj ET Q
+0.00 490.39 m 595.28 490.39 l S
+q 595.28 0 0 25.51 0.00 464.88 cm /I1 Do Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 454.80 Td (Specify for an object how to constrain grasp synthesis.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 437.79 Td (NO_CONSTRAINT: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 123.40 437.79 Td (No constraint on grasp) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 420.78 Td (GRASP_ALONG_AXIS: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 143.42 420.78 Td (Grasp opposing targets on the two ends of a provided axis) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 403.77 Td (GRASP_ON_PLANE: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 132.86 403.77 Td (Grasp opposing targets on the plane whose normal is defined by the provided axis) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 371.99 Td (VG_GraspLabel) Tj ET Q
+0.00 391.18 m 595.28 391.18 l S
+q 595.28 0 0 25.51 0.00 365.67 cm /I1 Do Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 355.58 Td (For labeling grasps \(grasp editor functionality\).) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 338.58 Td (DISABLED: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 88.41 338.58 Td (Labels a grasp as disabled) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 321.57 Td (PRIMARY: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 83.41 321.57 Td (Labels a grasp as primary) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 304.56 Td (SUCCEEDED: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 100.08 304.56 Td (Labels a grasp as succeeded) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 287.55 Td (FAILED: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 73.41 287.55 Td (Labels a grasp as failed) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 270.54 Td (RANK: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 66.18 270.54 Td (TBD) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 238.76 Td (VG_GraspSelectionMethod) Tj ET Q
+0.00 257.95 m 595.28 257.95 l S
+q 595.28 0 0 25.51 0.00 232.44 cm /I1 Do Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 222.35 Td (An enum to specify which kind of method is used for pose-based grasp selection.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 205.35 Td (POS_ROT_COMBINED: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 145.08 205.35 Td (choose a grasp close to hand that minimized a weighted sum of position and rotation) Tj ET Q
+q 0.000 g BT 31.19 191.17 Td (distances) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 174.17 Td (MIN_POS: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 82.31 174.17 Td (among a set of grasps that satisfy rotation distance threshold, choose the grasp with minimum position) Tj ET Q
+q 0.000 g BT 31.19 159.99 Td (distance) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 142.98 Td (MIN_ROT: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 82.30 142.98 Td (among a set of grasps that satisfy position distance threshold, choose the grasp with minimum rotation) Tj ET Q
+q 0.000 g BT 31.19 128.81 Td (distance) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 97.03 Td (VG_GraspType) Tj ET Q
+0.00 116.22 m 595.28 116.22 l S
+q 595.28 0 0 25.51 0.00 90.71 cm /I1 Do Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 80.62 Td (Animation grasp type enum.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 63.61 Td (UNKNOWN_GRASPTYPE: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 157.85 63.61 Td (Unknown grasp type) Tj ET Q
+BT /F3 10.00 Tf ET
+BT /F1 8.00 Tf ET
+q 0.000 g BT 31.19 25.95 Td (CONFIDENTIAL. Copyright 2014-2022 Gleechi AB. All rights reserved.) Tj ET Q
+q 0.000 g BT 511.16 25.95 Td (Page 3 of 22.) Tj ET Q
+
+endstream
+endobj
+9 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Group <</Type /Group /S /Transparency /CS /DeviceRGB>>
+/Contents 10 0 R>>
+endobj
+10 0 obj
+<</Length 6053>>
+stream
+2 J
+0.57 w
+BT /F3 10.00 Tf ET
+0.784 0.784 0.784 rg
+BT /F1 10.00 Tf ET
+q 0.000 g BT 31.19 768.02 Td (VirtualGrasp SDK \(v0.10.0\) API Documentation.) Tj ET 31.19 767.02 212.86 -0.50 re f Q
+q 0.000 g BT 512.95 768.02 Td (2022-02-25) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 746.76 Td (POWER: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 75.08 746.76 Td (Power grasp) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 729.76 Td (PINCH: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 68.41 729.76 Td (Pinch grasp) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 712.75 Td (FLAT: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 62.84 712.75 Td (Flat grasp \(like on a basketball\)) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 695.74 Td (PUSH: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 65.07 695.74 Td (Push grasp) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 678.73 Td (GMANUS: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 81.73 678.73 Td (used for sensor animation) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 661.72 Td (OPENING: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 83.41 661.72 Td (this is for robotic opening grasp in order to grasp inside a hole of the object) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 644.72 Td (CLOSING: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 82.86 644.72 Td (this is for robotic closing grasp for parallel gripper) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 627.71 Td (SUCTION_PIN: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 104.52 627.71 Td (this is for robotic suction pin gripper) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 595.93 Td (VG_HandSide) Tj ET Q
+0.00 615.12 m 595.28 615.12 l S
+q 595.28 0 0 25.51 0.00 589.61 cm /I1 Do Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 579.52 Td (We support two hands per avatar, left and right in this enum.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 562.51 Td (LEFT: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 62.30 562.51 Td (Left hand) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 545.50 Td (UNKNOWN_HANDSIDE: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 148.39 545.50 Td (Unknown hand side) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 528.50 Td (RIGHT: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 68.41 528.50 Td (Right hand) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 496.72 Td (VG_InteractionType) Tj ET Q
+0.00 515.91 m 595.28 515.91 l S
+q 595.28 0 0 25.51 0.00 490.39 cm /I1 Do Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 480.31 Td (An enum to describe a hand interaction type \(i.e. a mode on grasp visualization\).) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 463.30 Td (TRIGGER_GRASP: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 123.97 463.30 Td (Original, hand goes to object at grasp position) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 446.29 Td (PREVIEW_GRASP: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 124.53 446.29 Td (Grasp is always previewed once object is selected, trigger will allow pick up the object) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 429.28 Td (PREVIEW_ONLY: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 116.75 429.28 Td (like PREVIEW_GRASP, but trigger will not allow pick up the object) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 412.28 Td (JUMP_GRASP: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 106.19 412.28 Td (Object jumps to hand when grasp is triggered) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 395.27 Td (STICKY_HAND: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 108.41 395.27 Td (Object sticks to hand without grasp when grasp is triggered) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 378.26 Td (JUMP_PRIMARY_GRASP: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 157.86 378.26 Td (Using mechanism like JUMP_GRASP, but use a grasp that is labled as primary) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 346.48 Td (VG_JointType) Tj ET Q
+0.00 365.67 m 595.28 365.67 l S
+q 595.28 0 0 25.51 0.00 340.16 cm /I1 Do Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 330.07 Td (Different articulated joint types supported by VG.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 313.06 Td (REVOLUTE: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 91.74 313.06 Td (revolute joint constrained around an axis, such as wheel) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 296.06 Td (PRISMATIC: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 92.30 296.06 Td (prismatic joint constrained along an axis, such as drawer) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 279.05 Td (FIXED: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 66.74 279.05 Td (fixed, not-moveable joint) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 262.04 Td (FLOATING: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 88.41 262.04 Td (floating, unconstrained joint) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 245.03 Td (CONE: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 66.19 245.03 Td (3-DOF ball and socket joint modeled with cone joint limit) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 228.02 Td (UNKNOWN_JOINTTYPE: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 151.74 228.02 Td (Unknown joint type) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 196.24 Td (VG_PhysicalBy) Tj ET Q
+0.00 215.43 m 595.28 215.43 l S
+q 595.28 0 0 25.51 0.00 189.92 cm /I1 Do Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 31.19 179.83 Td (undocumented) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 148.05 Td (VG_QueryGraspMethod) Tj ET Q
+0.00 167.24 m 595.28 167.24 l S
+q 595.28 0 0 25.51 0.00 141.73 cm /I1 Do Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 131.65 Td (The query grasp method for GetGrasp\(\) function) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 114.64 Td (BY_INDEX: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 87.30 114.64 Td (get grasp by index) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 97.63 Td (BY_ID: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 66.74 97.63 Td (get grasp by ID) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 80.62 Td (BY_TCP: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 76.75 80.62 Td (get grasp by TCP) Tj ET Q
+BT /F3 12.00 Tf ET
+BT /F1 8.00 Tf ET
+q 0.000 g BT 31.19 25.95 Td (CONFIDENTIAL. Copyright 2014-2022 Gleechi AB. All rights reserved.) Tj ET Q
+q 0.000 g BT 511.16 25.95 Td (Page 4 of 22.) Tj ET Q
+
+endstream
+endobj
+11 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Group <</Type /Group /S /Transparency /CS /DeviceRGB>>
+/Contents 12 0 R>>
+endobj
+12 0 obj
+<</Length 7120>>
+stream
+2 J
+0.57 w
+BT /F3 12.00 Tf ET
+0.784 0.784 0.784 rg
+BT /F1 10.00 Tf ET
+q 0.000 g BT 31.19 768.02 Td (VirtualGrasp SDK \(v0.10.0\) API Documentation.) Tj ET 31.19 767.02 212.86 -0.50 re f Q
+q 0.000 g BT 512.95 768.02 Td (2022-02-25) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 746.16 Td (VG_QueryGraspMode) Tj ET Q
+0.00 765.35 m 595.28 765.35 l S
+q 595.28 0 0 25.51 0.00 739.84 cm /I1 Do Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 729.76 Td (Decide when query grasp if hand moves and how to move hand.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 712.75 Td (NO_MOVE: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 87.30 712.75 Td (will not move internal object and hand) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 695.74 Td (MOVE_HAND_SMOOTHLY: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 163.41 695.74 Td (will move object and hand moves smoothly with GRASP transition) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 678.73 Td (MOVE_HAND_DIRECTLY: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 156.74 678.73 Td (will move object and hand move directly to target grasp pose) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 646.95 Td (VG_QueryObjectTransformMode) Tj ET Q
+0.00 666.14 m 595.28 666.14 l S
+q 595.28 0 0 25.51 0.00 640.63 cm /I1 Do Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 630.54 Td (Decide when query object transform which objects to get.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 613.54 Td (ALL: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 56.73 613.54 Td (will get all registered objects including the empty object nodes) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 596.53 Td (ACTIVE_NON_PHYSICAL: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 157.86 596.53 Td (will get active non physical object transforms) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 564.75 Td (VG_ReturnCode) Tj ET Q
+0.00 583.94 m 595.28 583.94 l S
+q 595.28 0 0 25.51 0.00 558.43 cm /I1 Do Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 548.34 Td (ReturnCode for various VirtualGrasp functions.Most functions in this API provide such a return code.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 531.33 Td (SUCCESS: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 85.64 531.33 Td (Succeeded in processing function) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 514.32 Td (DLL_NOT_INITIALIZED: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 146.74 514.32 Td (Failed in processing function because library has not been initialized.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 497.32 Td (DLL_FUNCTION_FAILED: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 155.62 497.32 Td (Failed in processing function because library has not been initialized.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 480.31 Td (INVALID_AVATAR: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 124.51 480.31 Td (Failed in processing function because the provided avatar is invalid.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 463.30 Td (INVALID_LIMB: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 107.29 463.30 Td (Failed in processing function because the provided limb or object is invalid.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 446.29 Td (INVALID_GRASP: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 118.41 446.29 Td (Failed in processing function because the provided grasp is invalid.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 429.28 Td (INVALID_TARGET: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 123.96 429.28 Td (Failed in processing function because the provided target is invalid.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 412.28 Td (ARGUMENT_ERROR: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 136.73 412.28 Td (Failed in processing function because a provided argument is invalid.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 395.27 Td (UNSUPPORTED_FUNCTION: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 171.18 395.27 Td (Failed in processing function because it is unsupported.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 378.26 Td (OBJECT_NO_GRASPS: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 146.20 378.26 Td (Failed in processing function because there are no static grasps baked.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 361.25 Td (OBJECT_NO_BAKE: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 132.30 361.25 Td (Failed in processing function because a baking process failed / there is no bake at all.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 344.24 Td (LOAD_GRASP_DB_FAILED: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 168.41 344.24 Td (Failed to pass a grasp db file into the library and process it.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 327.24 Td (SAVE_GRASP_DB_FAILED: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 167.31 327.24 Td (Failed to export the internal grasp db to a file.) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 295.46 Td (VG_SelectObjectMethod) Tj ET Q
+0.00 314.65 m 595.28 314.65 l S
+q 595.28 0 0 25.51 0.00 289.13 cm /I1 Do Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 279.05 Td (Different object selection methods.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 262.04 Td (INTERNAL_SELECTION: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 150.63 262.04 Td (Object is selected internally in the library) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 245.03 Td (EXTERNAL_SELECTION: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 153.97 245.03 Td (Object is selected externally in the client engine such as Unity or Unreal) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 213.25 Td (VG_SensorType) Tj ET Q
+0.00 232.44 m 595.28 232.44 l S
+q 595.28 0 0 25.51 0.00 206.93 cm /I1 Do Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 196.84 Td (Different sensor \(or controller\) types that can be used by VirtualGrasp. Note only External Controller is supported.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 179.83 Td (NO_CONTROLLER: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 127.30 179.83 Td (no controller) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 162.83 Td (LEAP: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 63.97 162.83 Td (Internal Controller \(not supported\), Leap motion 3D camera) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 145.82 Td (RAZER_HYDRA: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 112.84 145.82 Td (Internal Controller \(not supported\), Razer Hydra controllers) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 128.81 Td (INTEL_REALSENSE: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 132.86 128.81 Td (Internal Controller \(not supported\), Intel Realsense 3D camera) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 111.80 Td (MANUS: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 73.95 111.80 Td (Internal Controller \(not supported\), Manus VR gloves) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 94.80 Td (KNUCKLES: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 92.84 94.80 Td (Internal Controller \(not supported\), Valve Knuckles controller) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 77.79 Td (VIVE: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 60.09 77.79 Td (Internal Controller \(not supported\), HTC Vive controllers, supported through OpenVR) Tj ET Q
+BT /F3 10.00 Tf ET
+BT /F1 8.00 Tf ET
+q 0.000 g BT 31.19 25.95 Td (CONFIDENTIAL. Copyright 2014-2022 Gleechi AB. All rights reserved.) Tj ET Q
+q 0.000 g BT 511.16 25.95 Td (Page 5 of 22.) Tj ET Q
+
+endstream
+endobj
+13 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Group <</Type /Group /S /Transparency /CS /DeviceRGB>>
+/Contents 14 0 R>>
+endobj
+14 0 obj
+<</Length 3747>>
+stream
+2 J
+0.57 w
+BT /F3 10.00 Tf ET
+0.784 0.784 0.784 rg
+BT /F1 10.00 Tf ET
+q 0.000 g BT 31.19 768.02 Td (VirtualGrasp SDK \(v0.10.0\) API Documentation.) Tj ET 31.19 767.02 212.86 -0.50 re f Q
+q 0.000 g BT 512.95 768.02 Td (2022-02-25) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 746.76 Td (OCULUS_TOUCH_OPENVR: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 168.41 746.76 Td (Internal Controller \(not supported\), Oculus Touch controllers, supported through OpenVR) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 729.76 Td (VIVE_TRACKER: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 114.52 729.76 Td (Internal Controller \(not supported\), A ViveTracker) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 712.75 Td (OCULUS_TOUCH_OVR: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 147.85 712.75 Td (Internal Controller \(not supported\), Oculus Touch controllers, through OculusVR.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 695.74 Td (EXTERNAL_CONTROLLER: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 166.18 695.74 Td (External Controller, customized controller) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 678.73 Td (BEBOP: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 72.86 678.73 Td (Internal Controller \(not supported\), Bebop VR gloves) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 646.95 Td (VG_SynthesisMethod) Tj ET Q
+0.00 666.14 m 595.28 666.14 l S
+q 595.28 0 0 25.51 0.00 640.63 cm /I1 Do Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 630.54 Td (Identifier for a grasp synthesis algorithm.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 613.54 Td (NONE: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 66.19 613.54 Td (No grasp synthesis method \(no grasping\)) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 596.53 Td (STATIC_GRASP: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 114.52 596.53 Td (Synthesize grasp using one of the grasps stored in grasp DB.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 579.52 Td (HYBRID: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 75.62 579.52 Td (When hand is far away from any grasps in DB, use DYNAMIC_GRASP, otherwise use STATIG_GRASP) Tj ET Q
+q 0.000 g BT 31.19 565.35 Td (synthesis method.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 548.34 Td (DYNAMIC_GRASP: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 125.07 548.34 Td (Synthesize grasp in runtime based on precomputed object shape information.) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 516.56 Td (VG_UrdfType) Tj ET Q
+0.00 535.75 m 595.28 535.75 l S
+q 595.28 0 0 25.51 0.00 510.24 cm /I1 Do Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 500.15 Td (Avatar's hand template type represented as URDF.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 483.14 Td (HUMANOID_HAND: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 126.72 483.14 Td (Humanoid hand type) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 466.13 Td (PARALLEL_GRIPPER: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 141.19 466.13 Td (Parallel gripper type) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 449.13 Td (SUCTION_PIN_GRIPPER: ) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 155.09 449.13 Td (Suction pin gripper type) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 417.35 Td (VG_VrButton) Tj ET Q
+0.00 436.54 m 595.28 436.54 l S
+q 595.28 0 0 25.51 0.00 411.02 cm /I1 Do Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 400.94 Td (Enum for setting which \(VR\) controller buttons.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 383.93 Td (TRIGGER: ) Tj ET Q
+BT /F2 10.00 Tf ET
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 366.92 Td (GRIP: ) Tj ET Q
+BT /F2 10.00 Tf ET
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 349.91 Td (GRIP_OR_TRIGGER: ) Tj ET Q
+BT /F2 10.00 Tf ET
+BT /F1 8.00 Tf ET
+q 0.000 g BT 31.19 25.95 Td (CONFIDENTIAL. Copyright 2014-2022 Gleechi AB. All rights reserved.) Tj ET Q
+q 0.000 g BT 511.16 25.95 Td (Page 6 of 22.) Tj ET Q
+
+endstream
+endobj
+15 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Group <</Type /Group /S /Transparency /CS /DeviceRGB>>
+/Contents 16 0 R>>
+endobj
+16 0 obj
+<</Length 4422>>
+stream
+2 J
+0.57 w
+BT /F2 10.00 Tf ET
+0.784 0.784 0.784 rg
+BT /F1 10.00 Tf ET
+q 0.000 g BT 31.19 768.02 Td (VirtualGrasp SDK \(v0.10.0\) API Documentation.) Tj ET 31.19 767.02 212.86 -0.50 re f Q
+q 0.000 g BT 512.95 768.02 Td (2022-02-25) Tj ET Q
+BT /F2 10.00 Tf ET
+BT /F3 16.00 Tf ET
+q 0.000 g BT 31.19 723.70 Td ([EVENTS]) Tj ET Q
+q 0.000 g BT 482.32 723.70 Td (\(Unity API\)) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 689.47 Td (OnObjectCollided) Tj ET Q
+0.00 708.66 m 595.28 708.66 l S
+q 595.28 0 0 25.51 0.00 683.15 cm /I1 Do Q
+BT /F2 8.00 Tf ET
+BT /F2 10.00 Tf ET
+BT /F2 8.00 Tf ET
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 673.06 Td (This event is invoked when a grasped object is colliding with another object. The VG_HandStatus it carries includes) Tj ET Q
+q 0.000 g BT 31.19 658.89 Td (more information about the interaction.) Tj ET Q
+q 0.000 g BT 31.19 641.88 Td (Tutorials:) Tj ET 31.19 640.88 41.12 -0.50 re f Q
+q 0.000 g BT 72.31 641.88 Td ( VG_ExternalControllerManager) Tj ET Q
+q 0.000 g BT 214.57 641.88 Td (, ) Tj ET Q
+q 0.000 g BT 220.13 641.88 Td (VG_HintVisualizer) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 610.10 Td (OnObjectDeselected) Tj ET Q
+0.00 629.29 m 595.28 629.29 l S
+q 595.28 0 0 25.51 0.00 603.78 cm /I1 Do Q
+BT /F2 8.00 Tf ET
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 593.69 Td (This event is invoked in the frame when a hand is starting to deselect an object. The VG_HandStatus it carries includes) Tj ET Q
+q 0.000 g BT 31.19 579.52 Td (more information about the interaction.) Tj ET Q
+q 0.000 g BT 31.19 562.51 Td (Tutorial:) Tj ET 31.19 561.51 36.12 -0.50 re f Q
+q 0.000 g BT 67.30 562.51 Td ( VG_Highlighter) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 530.73 Td (OnObjectFullyReleased) Tj ET Q
+0.00 549.92 m 595.28 549.92 l S
+q 595.28 0 0 25.51 0.00 524.41 cm /I1 Do Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 514.32 Td (This event is invoked in the frame when an object is fully release by all hands. The Transform it carries includes the) Tj ET Q
+q 0.000 g BT 31.19 500.15 Td (object that has just been released.  ) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 468.37 Td (OnObjectGrasped) Tj ET Q
+0.00 487.56 m 595.28 487.56 l S
+q 595.28 0 0 25.51 0.00 462.05 cm /I1 Do Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 451.96 Td (This event is invoked in the frame when a hand is starting to grasp an object. The VG_HandStatus it carries includes) Tj ET Q
+q 0.000 g BT 31.19 437.79 Td (more information about the interaction.  ) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 406.01 Td (OnObjectReleased) Tj ET Q
+0.00 425.20 m 595.28 425.20 l S
+q 595.28 0 0 25.51 0.00 399.69 cm /I1 Do Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 389.60 Td (This event is invoked in the frame when a hand is starting to release an object. The VG_HandStatus it carries includes) Tj ET Q
+q 0.000 g BT 31.19 375.43 Td (more information about the interaction.  ) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 343.64 Td (OnObjectSelected) Tj ET Q
+0.00 362.83 m 595.28 362.83 l S
+q 595.28 0 0 25.51 0.00 337.32 cm /I1 Do Q
+BT /F2 8.00 Tf ET
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 327.24 Td (This event is invoked in the frame when a hand is starting to select an object. The VG_HandStatus it carries includes) Tj ET Q
+q 0.000 g BT 31.19 313.06 Td (more information about the interaction.) Tj ET Q
+q 0.000 g BT 31.19 296.06 Td (Tutorial:) Tj ET 31.19 295.06 36.12 -0.50 re f Q
+q 0.000 g BT 67.30 296.06 Td ( VG_Highlighter) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 264.27 Td (OnPostUpdate) Tj ET Q
+0.00 283.46 m 595.28 283.46 l S
+q 595.28 0 0 25.51 0.00 257.95 cm /I1 Do Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 247.87 Td (This event is invoked in the fixed update loop after VG runs its update. Thus, all other scripts that should update after) Tj ET Q
+q 0.000 g BT 31.19 233.69 Td (the VG cycle should listen to this event.  ) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 201.91 Td (OnPreUpdate) Tj ET Q
+0.00 221.10 m 595.28 221.10 l S
+q 595.28 0 0 25.51 0.00 195.59 cm /I1 Do Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 185.50 Td (This event is invoked in the fixed update loop before VG runs its update. Thus, all other scripts that should update) Tj ET Q
+q 0.000 g BT 31.19 171.33 Td (before the VG cycle should listen to this event.  ) Tj ET Q
+BT /F1 8.00 Tf ET
+q 0.000 g BT 31.19 25.95 Td (CONFIDENTIAL. Copyright 2014-2022 Gleechi AB. All rights reserved.) Tj ET Q
+q 0.000 g BT 511.16 25.95 Td (Page 7 of 22.) Tj ET Q
+
+endstream
+endobj
+17 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [31.19 647.05 98.42 637.05] /Border [0 0 0] /Dest [9 0 R /XYZ 0 841.89 null]>>]
+/Group <</Type /Group /S /Transparency /CS /DeviceRGB>>
+/Contents 18 0 R>>
+endobj
+18 0 obj
+<</Length 6138>>
+stream
+2 J
+0.57 w
+BT /F2 10.00 Tf ET
+0.784 0.784 0.784 rg
+BT /F1 10.00 Tf ET
+q 0.000 g BT 31.19 768.02 Td (VirtualGrasp SDK \(v0.10.0\) API Documentation.) Tj ET 31.19 767.02 212.86 -0.50 re f Q
+q 0.000 g BT 512.95 768.02 Td (2022-02-25) Tj ET Q
+BT /F2 10.00 Tf ET
+BT /F3 16.00 Tf ET
+q 0.000 g BT 31.19 723.70 Td (OBJECT_SELECTION_API) Tj ET Q
+q 0.000 g BT 482.32 723.70 Td (\(Unity API\)) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 689.47 Td (ChangeObjectJoint) Tj ET Q
+0.00 708.66 m 595.28 708.66 l S
+q 595.28 0 0 25.51 0.00 683.15 cm /I1 Do Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 673.06 Td (Change an object's joint in runtime.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 656.06 Td (Transform selectedObject:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 157.88 656.06 Td ( The object to change the joint type for.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 0.000 1.000 rg BT 31.19 639.05 Td (VG_JointType) Tj ET 31.19 638.05 67.24 -0.50 re f Q
+q 0.000 g BT 98.42 639.05 Td ( new_jointType:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 174.00 639.05 Td ( The joint type to switch to.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 622.04 Td (Vector2 new_limit:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 119.54 622.04 Td ( The new limit of the new joint type.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 605.03 Td (float new_screwRate:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 133.44 605.03 Td ( The new screw rate \(>=0, in cm per degree\) if new_jointType is Revolute.) Tj ET Q
+q 0.000 g BT 31.19 588.02 Td (Remark:) Tj ET 31.19 587.02 37.78 -0.50 re f Q
+q 0.000 g BT 68.96 588.02 Td ( Note that the former joint can be recovered \(see RecoverObjectJoint\).) Tj ET Q
+q 0.000 g BT 31.19 571.02 Td (Remark:) Tj ET 31.19 570.02 37.78 -0.50 re f Q
+q 0.000 g BT 68.96 571.02 Td ( If new_screwRate is set to 0 then do not screw.) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 539.23 Td (ChangeObjectJoint) Tj ET Q
+0.00 558.43 m 595.28 558.43 l S
+q 595.28 0 0 25.51 0.00 532.91 cm /I1 Do Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 522.83 Td (Change an object's joint and all other articulation parameters in runtime.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 505.82 Td (Transform selectedObject:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 157.88 505.82 Td ( The object to change the joint for.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 488.81 Td (VG_Articulation articulation:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 166.76 488.81 Td ( An articulation describing the new articulation parameters.) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 457.03 Td (GetGraspingAvatars) Tj ET Q
+0.00 476.22 m 595.28 476.22 l S
+q 595.28 0 0 25.51 0.00 450.71 cm /I1 Do Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 440.62 Td (Return the avatar/hand pairs that are currently grasping a specified object.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 423.61 Td (Transform objectToCheck:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 158.42 423.61 Td ( The object to be checked if it is currently grasped.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 406.61 Td (VG_HandSide>> hands:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 144.55 406.61 Td ( An output list of avatar-handside-pairs describing which hands are currently grasping that) Tj ET Q
+q 0.000 g BT 31.19 392.43 Td (object.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 375.43 Td (returns ) Tj ET Q
+q 0.000 g BT 68.41 375.43 Td (int:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 83.97 375.43 Td ( Number of hands grasping the object.) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 343.64 Td (GetObjectJointState) Tj ET Q
+0.00 362.83 m 595.28 362.83 l S
+q 595.28 0 0 25.51 0.00 337.32 cm /I1 Do Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 327.24 Td (Returns the joint state \(current value\) of an articulated object.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 310.23 Td (Transform selectedObject:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 157.88 310.23 Td ( The object to get the current joint state value for.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 293.22 Td (returns ) Tj ET Q
+q 0.000 g BT 68.41 293.22 Td (float:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 92.85 293.22 Td ( [selectedObject]'s current articulation value.) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 261.44 Td (GetObjectJointType) Tj ET Q
+0.00 280.63 m 595.28 280.63 l S
+q 595.28 0 0 25.51 0.00 255.12 cm /I1 Do Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 245.03 Td (Return an object's original or current joint type.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 228.02 Td (Transform selectedObject:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 157.88 228.02 Td ( The object to get the joint type for.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 211.02 Td (bool original:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 94.52 211.02 Td ( If True, return the original joint type, otherwise return the current.) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 179.23 Td (GetSelectableObjects) Tj ET Q
+0.00 198.43 m 595.28 198.43 l S
+q 595.28 0 0 25.51 0.00 172.91 cm /I1 Do Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 162.83 Td (Return all interactable objects.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 145.82 Td (bool excludeHidden:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 129.53 145.82 Td ( If to exclude objects that have been hidden in the scene.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 128.81 Td (bool excludeUntagged:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 141.75 128.81 Td ( If to exclude objects that have been untagged in the scene.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 111.80 Td (returns ) Tj ET Q
+q 0.000 g BT 68.41 111.80 Td (IEnumerable<Transform>:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 192.89 111.80 Td ( All interactable objects in the scene.) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 80.02 Td (GetSelectableObjectsFromScene) Tj ET Q
+0.00 99.21 m 595.28 99.21 l S
+q 595.28 0 0 25.51 0.00 73.70 cm /I1 Do Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 63.61 Td (Return all interactable objects from the editor scene.) Tj ET Q
+BT /F3 10.00 Tf ET
+BT /F1 8.00 Tf ET
+q 0.000 g BT 31.19 25.95 Td (CONFIDENTIAL. Copyright 2014-2022 Gleechi AB. All rights reserved.) Tj ET Q
+q 0.000 g BT 511.16 25.95 Td (Page 8 of 22.) Tj ET Q
+
+endstream
+endobj
+19 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [31.19 638.54 97.32 628.54] /Border [0 0 0] /Dest [9 0 R /XYZ 0 841.89 null]>><</Type /Annot /Subtype /Link /Rect [31.19 391.93 97.32 381.93] /Border [0 0 0] /Dest [9 0 R /XYZ 0 841.89 null]>>]
+/Group <</Type /Group /S /Transparency /CS /DeviceRGB>>
+/Contents 20 0 R>>
+endobj
+20 0 obj
+<</Length 5893>>
+stream
+2 J
+0.57 w
+BT /F3 10.00 Tf ET
+0.784 0.784 0.784 rg
+BT /F1 10.00 Tf ET
+q 0.000 g BT 31.19 768.02 Td (VirtualGrasp SDK \(v0.10.0\) API Documentation.) Tj ET 31.19 767.02 212.86 -0.50 re f Q
+q 0.000 g BT 512.95 768.02 Td (2022-02-25) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 746.76 Td (bool excludeHidden:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 129.53 746.76 Td ( If to exclude objects that have been hidden in the scene.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 729.76 Td (bool excludeUntagged:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 141.75 729.76 Td ( If to exclude objects that have been untagged in the scene.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 712.75 Td (returns ) Tj ET Q
+q 0.000 g BT 68.41 712.75 Td (List<Transform>:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 150.65 712.75 Td ( All interactable objects in the editor scene.) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 680.97 Td (GetSensorPose) Tj ET Q
+0.00 700.16 m 595.28 700.16 l S
+q 595.28 0 0 25.51 0.00 674.65 cm /I1 Do Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 664.56 Td (Receive the sensor pose of a given avatar and hand.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 647.55 Td (int avatarID:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 88.97 647.55 Td ( The avatar to get the pose from.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 0.000 1.000 rg BT 31.19 630.54 Td (VG_HandSide) Tj ET 31.19 629.54 66.13 -0.50 re f Q
+q 0.000 g BT 97.31 630.54 Td ( handSide:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 148.43 630.54 Td ( The hand side to get the pose from.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 613.54 Td (out Vector3 p:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 98.41 613.54 Td ( The returned position.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 596.53 Td (out Quaternion q:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 115.07 596.53 Td ( The returned rotation.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 579.52 Td (bool absolute:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 99.52 579.52 Td ( Set True \(default\) to return the absolute pose, and False to return the relative pose.) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 547.74 Td (GetTriggerButton) Tj ET Q
+0.00 566.93 m 595.28 566.93 l S
+q 595.28 0 0 25.51 0.00 541.42 cm /I1 Do Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 531.33 Td (Return the currently selected TriggerButton.) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 499.55 Td (GetUnbakedObjects) Tj ET Q
+0.00 518.74 m 595.28 518.74 l S
+q 595.28 0 0 25.51 0.00 493.23 cm /I1 Do Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 483.14 Td (Return all unbaked objects.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 466.13 Td (returns ) Tj ET Q
+q 0.000 g BT 68.41 466.13 Td (List<Transform>:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 150.65 466.13 Td ( All unbaked objects in the scene.) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 434.35 Td (JumpGraspObject) Tj ET Q
+0.00 453.54 m 595.28 453.54 l S
+q 595.28 0 0 25.51 0.00 428.03 cm /I1 Do Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 417.95 Td (Externally select an object and jump grasp it \(object jump to hand\)) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 400.94 Td (int avatarID:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 88.97 400.94 Td ( instance avatar id \(>0\)) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 0.000 1.000 rg BT 31.19 383.93 Td (VG_HandSide) Tj ET 31.19 382.93 66.13 -0.50 re f Q
+q 0.000 g BT 97.31 383.93 Td ( handSide:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 148.43 383.93 Td ( The side of the hand) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 366.92 Td (Transform obj:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 101.74 366.92 Td ( The id of externally selected object to jump grasped by this hand) Tj ET Q
+q 0.000 g BT 31.19 349.91 Td (Remark:) Tj ET 31.19 348.91 37.78 -0.50 re f Q
+q 0.000 g BT 68.96 349.91 Td ( Note you do NOT need to use vgsSetSelectObjectMethod\(\) to set select object externally before call this) Tj ET Q
+q 0.000 g BT 31.19 335.74 Td (function) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 303.96 Td (RecoverObjectJoint) Tj ET Q
+0.00 323.15 m 595.28 323.15 l S
+q 595.28 0 0 25.51 0.00 297.64 cm /I1 Do Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 287.55 Td (Recover an object's original joint, after it has been changed by ChangeObjectJoint\(\).) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 270.54 Td (Transform selectedObject:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 157.88 270.54 Td ( The object to recover the joint for.) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 238.76 Td (ResetAllObjects) Tj ET Q
+0.00 257.95 m 595.28 257.95 l S
+q 595.28 0 0 25.51 0.00 232.44 cm /I1 Do Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 222.35 Td (Reset all objects' initial pose and initial zero pose.) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 190.57 Td (ResetObject) Tj ET Q
+0.00 209.76 m 595.28 209.76 l S
+q 595.28 0 0 25.51 0.00 184.25 cm /I1 Do Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 174.17 Td (Reset a specific object's initial pose and initial zero pose.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 157.16 Td (Transform transform:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 133.41 157.16 Td ( The object to reset.) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 125.38 Td (SelectObject) Tj ET Q
+0.00 144.57 m 595.28 144.57 l S
+q 595.28 0 0 25.51 0.00 119.06 cm /I1 Do Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 108.97 Td (If external object selection is used \(and not the internal one that the plugin provides, use this function to sync the) Tj ET Q
+q 0.000 g BT 31.19 94.80 Td (selected object from the scene to the plugin.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 77.79 Td (int avatarID:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 88.97 77.79 Td ( The ID of the avatar that the selected object should be set.) Tj ET Q
+BT /F3 10.00 Tf ET
+BT /F1 8.00 Tf ET
+q 0.000 g BT 31.19 25.95 Td (CONFIDENTIAL. Copyright 2014-2022 Gleechi AB. All rights reserved.) Tj ET Q
+q 0.000 g BT 511.16 25.95 Td (Page 9 of 22.) Tj ET Q
+
+endstream
+endobj
+21 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [31.19 754.76 97.32 744.76] /Border [0 0 0] /Dest [9 0 R /XYZ 0 841.89 null]>>]
+/Group <</Type /Group /S /Transparency /CS /DeviceRGB>>
+/Contents 22 0 R>>
+endobj
+22 0 obj
+<</Length 2594>>
+stream
+2 J
+0.57 w
+BT /F3 10.00 Tf ET
+0.784 0.784 0.784 rg
+BT /F1 10.00 Tf ET
+q 0.000 g BT 31.19 768.02 Td (VirtualGrasp SDK \(v0.10.0\) API Documentation.) Tj ET 31.19 767.02 212.86 -0.50 re f Q
+q 0.000 g BT 512.95 768.02 Td (2022-02-25) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 0.000 1.000 rg BT 31.19 746.76 Td (VG_HandSide) Tj ET 31.19 745.76 66.13 -0.50 re f Q
+q 0.000 g BT 97.31 746.76 Td ( handSide:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 148.43 746.76 Td ( The side of the hand that the selected object should be set.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 729.76 Td (Transform obj:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 101.74 729.76 Td ( The object that should be selected.) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 697.98 Td (SetDualHandsOnly) Tj ET Q
+0.00 717.17 m 595.28 717.17 l S
+q 595.28 0 0 25.51 0.00 691.65 cm /I1 Do Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 681.57 Td (Set if an object can only be manipulated by dual hands from a same avatar.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 664.56 Td (Transform selectedObject:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 157.88 664.56 Td ( The object to change the dual hand type for.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 647.55 Td (bool dualHandsOnly:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 131.75 647.55 Td ( If dual hand only.) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 615.77 Td (SetObjectSelectionWeight) Tj ET Q
+0.00 634.96 m 595.28 634.96 l S
+q 595.28 0 0 25.51 0.00 609.45 cm /I1 Do Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 599.36 Td (Specify the object selection weights for grasping interaction) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 582.35 Td (Transform obj:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 101.74 582.35 Td ( Which object to specify weight) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 565.35 Td (float weight:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 90.08 565.35 Td ( Should be >=0 value to specify the preferences to select this object. If 0 exclude this object in selection) Tj ET Q
+q 0.000 g BT 31.19 551.17 Td (process) Tj ET Q
+q 0.000 g BT 31.19 534.17 Td (Remark:) Tj ET 31.19 533.17 37.78 -0.50 re f Q
+q 0.000 g BT 68.96 534.17 Td ( Note by default this weight is 1 for all objects.) Tj ET Q
+q 0.000 g BT 31.19 517.16 Td (Remark:) Tj ET 31.19 516.16 37.78 -0.50 re f Q
+q 0.000 g BT 68.96 517.16 Td ( Use case is mainly to specify relative selection preferences for cluttered objects.) Tj ET Q
+BT /F1 8.00 Tf ET
+q 0.000 g BT 31.19 25.95 Td (CONFIDENTIAL. Copyright 2014-2022 Gleechi AB. All rights reserved.) Tj ET Q
+q 0.000 g BT 506.71 25.95 Td (Page 10 of 22.) Tj ET Q
+
+endstream
+endobj
+23 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [31.19 533.66 97.32 523.66] /Border [0 0 0] /Dest [9 0 R /XYZ 0 841.89 null]>>]
+/Group <</Type /Group /S /Transparency /CS /DeviceRGB>>
+/Contents 24 0 R>>
+endobj
+24 0 obj
+<</Length 5123>>
+stream
+2 J
+0.57 w
+BT /F2 10.00 Tf ET
+0.784 0.784 0.784 rg
+BT /F1 10.00 Tf ET
+q 0.000 g BT 31.19 768.02 Td (VirtualGrasp SDK \(v0.10.0\) API Documentation.) Tj ET 31.19 767.02 212.86 -0.50 re f Q
+q 0.000 g BT 512.95 768.02 Td (2022-02-25) Tj ET Q
+BT /F2 10.00 Tf ET
+BT /F3 16.00 Tf ET
+q 0.000 g BT 31.19 723.70 Td (VIRTUALGRASP_CONTROLLER_FUNCTIONS) Tj ET Q
+q 0.000 g BT 482.32 723.70 Td (\(Unity API\)) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 689.47 Td (Clear) Tj ET Q
+0.00 708.66 m 595.28 708.66 l S
+q 595.28 0 0 25.51 0.00 683.15 cm /I1 Do Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 673.06 Td (Reset the plugin.) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 641.28 Td (GetDebugPath) Tj ET Q
+0.00 660.47 m 595.28 660.47 l S
+q 595.28 0 0 25.51 0.00 634.96 cm /I1 Do Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 624.87 Td (Return the path where VG stores debug files.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 607.87 Td (returns ) Tj ET Q
+q 0.000 g BT 68.41 607.87 Td (string:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 99.52 607.87 Td ( The path \(platform dependent\).) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 576.09 Td (GetHand) Tj ET Q
+0.00 595.28 m 595.28 595.28 l S
+q 595.28 0 0 25.51 0.00 569.76 cm /I1 Do Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 559.68 Td (Receive a specific hand and its status.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 542.67 Td (int avatarID:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 88.97 542.67 Td ( The avatar to get the hand status for.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 0.000 1.000 rg BT 31.19 525.66 Td (VG_HandSide) Tj ET 31.19 524.66 66.13 -0.50 re f Q
+q 0.000 g BT 97.31 525.66 Td ( side:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 123.43 525.66 Td ( The hand side to get the avatar from.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 508.65 Td (returns ) Tj ET Q
+q 0.000 g BT 68.41 508.65 Td (VG_HandStatus:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 147.31 508.65 Td ( Enumerator over VG_HandStatus.) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 476.87 Td (GetHands) Tj ET Q
+0.00 496.06 m 595.28 496.06 l S
+q 595.28 0 0 25.51 0.00 470.55 cm /I1 Do Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 460.46 Td (Receive an enumerator of all registered hands and their status.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 443.46 Td (returns ) Tj ET Q
+q 0.000 g BT 68.41 443.46 Td (List<VG_HandStatus>:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 176.77 443.46 Td ( Enumerator over VG_HandStatus.) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 411.68 Td (Initialize) Tj ET Q
+0.00 430.87 m 595.28 430.87 l S
+q 595.28 0 0 25.51 0.00 405.35 cm /I1 Do Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 395.27 Td (Initialize the plugin.) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 363.49 Td (IsEnabled) Tj ET Q
+0.00 382.68 m 595.28 382.68 l S
+q 595.28 0 0 25.51 0.00 357.17 cm /I1 Do Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 347.08 Td (Check if the plugin has been initialized and is ready to use.) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 315.30 Td (IsolatedUpdate) Tj ET Q
+0.00 334.49 m 595.28 334.49 l S
+q 595.28 0 0 25.51 0.00 308.98 cm /I1 Do Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 298.89 Td (The Update\(\) method has been divided into three parts: IsolatedUpdateDataIn\(\), IsolatedUpdate\(\) and) Tj ET Q
+q 0.000 g BT 31.19 284.72 Td (IsolatedUpdateDataOut\(\) for application of the Burst compiler. IsolatedUpdate\(\) runs the main update loop in VG.) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 252.94 Td (IsolatedUpdateDataIn) Tj ET Q
+0.00 272.13 m 595.28 272.13 l S
+q 595.28 0 0 25.51 0.00 246.61 cm /I1 Do Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 236.53 Td (The FixedUpdate\(\) method has been divided into three parts: IsolatedUpdateDataIn\(\), IsolatedUpdate\(\) and) Tj ET Q
+q 0.000 g BT 31.19 222.35 Td (IsolatedUpdateDataOut\(\) for application of the Burst compiler. IsolatedUpdateDataIn\(\) isolates data communication from) Tj ET Q
+q 0.000 g BT 31.19 208.18 Td (Unity to VG.) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 176.40 Td (IsolatedUpdateDataOut) Tj ET Q
+0.00 195.59 m 595.28 195.59 l S
+q 595.28 0 0 25.51 0.00 170.08 cm /I1 Do Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 159.99 Td (The Update\(\) method has been divided into three parts: IsolatedUpdateDataIn\(\), IsolatedUpdate\(\) and) Tj ET Q
+q 0.000 g BT 31.19 145.82 Td (IsolatedUpdateDataOut\(\) for application of the Burst compiler. IsolatedUpdateDataOut\(\) isolates data communication) Tj ET Q
+q 0.000 g BT 31.19 131.65 Td (from VG to Unity.) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 99.86 Td (RegisterAvatarAtRuntime) Tj ET Q
+0.00 119.06 m 595.28 119.06 l S
+q 595.28 0 0 25.51 0.00 93.54 cm /I1 Do Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 83.46 Td (Register a new avatar during runtime.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 66.45 Td (SkinnedMeshRenderer avatar:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 175.11 66.45 Td ( The skinned mesh renderer of the model that should be registered to VG.) Tj ET Q
+BT /F3 10.00 Tf ET
+BT /F1 8.00 Tf ET
+q 0.000 g BT 31.19 25.95 Td (CONFIDENTIAL. Copyright 2014-2022 Gleechi AB. All rights reserved.) Tj ET Q
+q 0.000 g BT 506.71 25.95 Td (Page 11 of 22.) Tj ET Q
+
+endstream
+endobj
+25 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [31.19 754.76 105.65 744.76] /Border [0 0 0] /Dest [5 0 R /XYZ 0 841.89 null]>>]
+/Group <</Type /Group /S /Transparency /CS /DeviceRGB>>
+/Contents 26 0 R>>
+endobj
+26 0 obj
+<</Length 1405>>
+stream
+2 J
+0.57 w
+BT /F3 10.00 Tf ET
+0.784 0.784 0.784 rg
+BT /F1 10.00 Tf ET
+q 0.000 g BT 31.19 768.02 Td (VirtualGrasp SDK \(v0.10.0\) API Documentation.) Tj ET 31.19 767.02 212.86 -0.50 re f Q
+q 0.000 g BT 512.95 768.02 Td (2022-02-25) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 0.000 1.000 rg BT 31.19 746.76 Td (VG_AvatarType) Tj ET 31.19 745.76 74.47 -0.50 re f Q
+q 0.000 g BT 105.65 746.76 Td ( type:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 132.32 746.76 Td ( The avatar type this avatar should be.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 729.76 Td (out int id:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 76.73 729.76 Td ( The new avatar ID will be assigned to this value after registration; -1 if it failed.) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 697.98 Td (Release) Tj ET Q
+0.00 717.17 m 595.28 717.17 l S
+q 595.28 0 0 25.51 0.00 691.65 cm /I1 Do Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 681.57 Td (Release the plugin.) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 649.79 Td (SaveState) Tj ET Q
+0.00 668.98 m 595.28 668.98 l S
+q 595.28 0 0 25.51 0.00 643.46 cm /I1 Do Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 633.38 Td (Save the object hierarchy debug state. This is done automatically when closing VirtualGrasp.) Tj ET Q
+BT /F1 8.00 Tf ET
+q 0.000 g BT 31.19 25.95 Td (CONFIDENTIAL. Copyright 2014-2022 Gleechi AB. All rights reserved.) Tj ET Q
+q 0.000 g BT 506.71 25.95 Td (Page 12 of 22.) Tj ET Q
+
+endstream
+endobj
+27 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [510.24 705.83 561.26 688.82] /Border [0 0 0] /A <</S /URI /URI (https://www.youtube.com/watch?v=Z1j6BgosFVA)>>>><</Type /Annot /Subtype /Link /Rect [31.19 647.05 97.32 637.05] /Border [0 0 0] /Dest [9 0 R /XYZ 0 841.89 null]>><</Type /Annot /Subtype /Link /Rect [31.19 630.04 111.20 620.04] /Border [0 0 0] /Dest [5 0 R /XYZ 0 841.89 null]>><</Type /Annot /Subtype /Link /Rect [31.19 479.80 97.32 469.80] /Border [0 0 0] /Dest [9 0 R /XYZ 0 841.89 null]>><</Type /Annot /Subtype /Link /Rect [31.19 377.76 135.11 367.76] /Border [0 0 0] /Dest [11 0 R /XYZ 0 841.89 null]>><</Type /Annot /Subtype /Link /Rect [31.19 360.75 144.55 350.75] /Border [0 0 0] /Dest [9 0 R /XYZ 0 841.89 null]>><</Type /Annot /Subtype /Link /Rect [31.19 230.35 97.32 220.35] /Border [0 0 0] /Dest [9 0 R /XYZ 0 841.89 null]>>]
+/Group <</Type /Group /S /Transparency /CS /DeviceRGB>>
+/Contents 28 0 R>>
+endobj
+28 0 obj
+<</Length 6307>>
+stream
+2 J
+0.57 w
+BT /F2 10.00 Tf ET
+0.784 0.784 0.784 rg
+BT /F1 10.00 Tf ET
+q 0.000 g BT 31.19 768.02 Td (VirtualGrasp SDK \(v0.10.0\) API Documentation.) Tj ET 31.19 767.02 212.86 -0.50 re f Q
+q 0.000 g BT 512.95 768.02 Td (2022-02-25) Tj ET Q
+BT /F2 10.00 Tf ET
+BT /F3 16.00 Tf ET
+q 0.000 g BT 31.19 723.70 Td (GRASP_EDITOR_API) Tj ET Q
+q 0.000 g BT 482.32 723.70 Td (\(Unity API\)) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 689.47 Td (EditGrasp) Tj ET Q
+0.00 708.66 m 595.28 708.66 l S
+q 595.28 0 0 25.51 0.00 683.15 cm /I1 Do Q
+BT /F2 8.00 Tf ET
+q 51.02 0 0 17.01 510.24 688.82 cm /I2 Do Q
+BT 524.41 694.49 Td (movie) Tj ET
+BT /F2 10.00 Tf ET
+BT /F2 8.00 Tf ET
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 673.06 Td (Call grasp editor functionality on a currently selected object and grasp.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 656.06 Td (int avatarID:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 88.97 656.06 Td ( The avatar to call grasp editor functionality on.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 0.000 1.000 rg BT 31.19 639.05 Td (VG_HandSide) Tj ET 31.19 638.05 66.13 -0.50 re f Q
+q 0.000 g BT 97.31 639.05 Td ( handSide:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 148.43 639.05 Td ( The hand side to call grasp editor functionality on.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 0.000 1.000 rg BT 31.19 622.04 Td (VG_EditorAction) Tj ET 31.19 621.04 80.01 -0.50 re f Q
+q 0.000 g BT 111.19 622.04 Td ( action:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 146.75 622.04 Td ( The grasp editor function / action to call.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 605.03 Td (Transform obj:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 101.74 605.03 Td ( The object to call the action on \(if not provided, the object in the hand\).) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 588.02 Td (int grasp:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 76.75 588.02 Td ( The grasp ID to call the action on \(if not provided, the current grasp of the hand\).) Tj ET Q
+q 0.000 g BT 31.19 571.02 Td (Tutorial:) Tj ET 31.19 570.02 36.12 -0.50 re f Q
+q 0.000 g BT 67.30 571.02 Td ( VG_GraspStudio) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 539.23 Td (GetGrasp) Tj ET Q
+0.00 558.43 m 595.28 558.43 l S
+q 595.28 0 0 25.51 0.00 532.91 cm /I1 Do Q
+BT /F2 8.00 Tf ET
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 522.83 Td (Receive a grasp in the grasp DB by index.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 505.82 Td (Transform selectedObject:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 157.88 505.82 Td ( The object to receive a grasp for.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 488.81 Td (int avatarID:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 88.97 488.81 Td ( The avatar to receive a grasp for.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 0.000 1.000 rg BT 31.19 471.80 Td (VG_HandSide) Tj ET 31.19 470.80 66.13 -0.50 re f Q
+q 0.000 g BT 97.31 471.80 Td ( handSide:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 148.43 471.80 Td ( The hand side to receive a grasp for.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 454.80 Td (int graspIndex:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 102.86 454.80 Td ( The index of grasp to receive.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 437.79 Td (out Vector3 p:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 98.41 437.79 Td ( The received wrist position of the grasp.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 420.78 Td (out Quaternion q:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 115.07 420.78 Td ( The received wrist orientation of the grasp.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 403.77 Td (out VG_GraspType type:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 148.43 403.77 Td ( The received VG_GraspType of the grasp.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 386.76 Td (out VG_GraspLabel label:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 153.44 386.76 Td ( The received VG_GraspLabel of the grasp.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 0.000 1.000 rg BT 31.19 369.76 Td (VG_QueryGraspMode) Tj ET 31.19 368.76 103.92 -0.50 re f Q
+q 0.000 g BT 135.10 369.76 Td ( queryGraspMode:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 223.45 369.76 Td ( Can be used to define if and how the grasp should be applied also.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 0.000 1.000 rg BT 31.19 352.75 Td (VG_QueryGraspMethod) Tj ET 31.19 351.75 113.36 -0.50 re f Q
+q 0.000 g BT 144.54 352.75 Td ( queryGraspMethod:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 242.33 352.75 Td ( Can be used to define how the graspIndex should be interpreted.) Tj ET Q
+q 0.000 g BT 31.19 335.74 Td (Tutorial:) Tj ET 31.19 334.74 36.12 -0.50 re f Q
+q 0.000 g BT 67.30 335.74 Td ( VG_GraspStudio) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 303.96 Td (GetNumGrasps) Tj ET Q
+0.00 323.15 m 595.28 323.15 l S
+q 595.28 0 0 25.51 0.00 297.64 cm /I1 Do Q
+BT /F2 8.00 Tf ET
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 287.55 Td (Receive the number of grasps for a specific object.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 270.54 Td (Transform selectedObject:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 157.88 270.54 Td ( The object to get the number of available grasps for.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 253.54 Td (int avatarID:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 88.97 253.54 Td ( If a valid avatarID together with handSide, receive only the available grasps for this hand \(otherwise all) Tj ET Q
+q 0.000 g BT 31.19 239.36 Td (available grasps\).) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 0.000 1.000 rg BT 31.19 222.35 Td (VG_HandSide) Tj ET 31.19 221.35 66.13 -0.50 re f Q
+q 0.000 g BT 97.31 222.35 Td ( handSide:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 148.43 222.35 Td ( If a valid handSide together with avatarID, receive only the available grasps for this hand) Tj ET Q
+q 0.000 g BT 31.19 208.18 Td (\(otherwise all available grasps\).) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 191.17 Td (returns ) Tj ET Q
+q 0.000 g BT 68.41 191.17 Td (int:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 83.97 191.17 Td ( The number of grasps for the selected object \(either all or for the specified hand\).) Tj ET Q
+q 0.000 g BT 31.19 174.17 Td (Tutorial:) Tj ET 31.19 173.17 36.12 -0.50 re f Q
+q 0.000 g BT 67.30 174.17 Td ( VG_HintVisualizer) Tj ET Q
+BT /F1 8.00 Tf ET
+q 0.000 g BT 31.19 25.95 Td (CONFIDENTIAL. Copyright 2014-2022 Gleechi AB. All rights reserved.) Tj ET Q
+q 0.000 g BT 506.71 25.95 Td (Page 13 of 22.) Tj ET Q
+
+endstream
+endobj
+29 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [31.19 647.05 97.32 637.05] /Border [0 0 0] /Dest [9 0 R /XYZ 0 841.89 null]>><</Type /Annot /Subtype /Link /Rect [31.19 564.84 97.32 554.84] /Border [0 0 0] /Dest [9 0 R /XYZ 0 841.89 null]>><</Type /Annot /Subtype /Link /Rect [31.19 547.83 99.53 537.83] /Border [0 0 0] /Dest [5 0 R /XYZ 0 841.89 null]>><</Type /Annot /Subtype /Link /Rect [31.19 332.40 97.32 322.40] /Border [0 0 0] /Dest [9 0 R /XYZ 0 841.89 null]>><</Type /Annot /Subtype /Link /Rect [31.19 315.39 99.53 305.39] /Border [0 0 0] /Dest [5 0 R /XYZ 0 841.89 null]>><</Type /Annot /Subtype /Link /Rect [31.19 165.16 97.32 155.16] /Border [0 0 0] /Dest [9 0 R /XYZ 0 841.89 null]>><</Type /Annot /Subtype /Link /Rect [31.19 148.15 99.53 138.15] /Border [0 0 0] /Dest [5 0 R /XYZ 0 841.89 null]>>]
+/Group <</Type /Group /S /Transparency /CS /DeviceRGB>>
+/Contents 30 0 R>>
+endobj
+30 0 obj
+<</Length 6454>>
+stream
+2 J
+0.57 w
+BT /F2 10.00 Tf ET
+0.784 0.784 0.784 rg
+BT /F1 10.00 Tf ET
+q 0.000 g BT 31.19 768.02 Td (VirtualGrasp SDK \(v0.10.0\) API Documentation.) Tj ET 31.19 767.02 212.86 -0.50 re f Q
+q 0.000 g BT 512.95 768.02 Td (2022-02-25) Tj ET Q
+BT /F2 10.00 Tf ET
+BT /F3 16.00 Tf ET
+q 0.000 g BT 31.19 723.70 Td (GRASP_SELECTION_API) Tj ET Q
+q 0.000 g BT 482.32 723.70 Td (\(Unity API\)) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 689.47 Td (ForceReleaseObject) Tj ET Q
+0.00 708.66 m 595.28 708.66 l S
+q 595.28 0 0 25.51 0.00 683.15 cm /I1 Do Q
+BT /F2 8.00 Tf ET
+q 51.02 0 0 17.01 510.24 688.82 cm /I2 Do Q
+BT 521.58 694.49 Td (untested) Tj ET
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 673.06 Td (Force the release of a grasp.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 656.06 Td (int avatarID:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 88.97 656.06 Td ( The avatar to release a grasp for.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 0.000 1.000 rg BT 31.19 639.05 Td (VG_HandSide) Tj ET 31.19 638.05 66.13 -0.50 re f Q
+q 0.000 g BT 97.31 639.05 Td ( side:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 123.43 639.05 Td ( The hand which to release the grasp for.) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 607.27 Td (GetBone) Tj ET Q
+0.00 626.46 m 595.28 626.46 l S
+q 595.28 0 0 25.51 0.00 600.95 cm /I1 Do Q
+BT /F2 8.00 Tf ET
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 590.86 Td (Return the pose \(i.e. position and orientation\) of a specific bone.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 573.85 Td (int avatarID:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 88.97 573.85 Td ( The avatar to get the bone pose from.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 0.000 1.000 rg BT 31.19 556.84 Td (VG_HandSide) Tj ET 31.19 555.84 66.13 -0.50 re f Q
+q 0.000 g BT 97.31 556.84 Td ( handSide:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 148.43 556.84 Td ( The hand side to get the bone pose from.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 0.000 1.000 rg BT 31.19 539.83 Td (VG_BoneType) Tj ET 31.19 538.83 68.35 -0.50 re f Q
+q 0.000 g BT 99.53 539.83 Td ( boneType:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 152.87 539.83 Td ( The BoneType to get.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 522.83 Td (out Transform t:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 108.41 522.83 Td ( The returned pose of the bone.) Tj ET Q
+q 0.000 g BT 31.19 505.82 Td (Tutorial:) Tj ET 31.19 504.82 36.12 -0.50 re f Q
+q 0.000 g BT 67.30 505.82 Td ( VG_HandVisualizer) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 474.04 Td (GetBone) Tj ET Q
+0.00 493.23 m 595.28 493.23 l S
+q 595.28 0 0 25.51 0.00 467.72 cm /I1 Do Q
+BT /F2 8.00 Tf ET
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 457.63 Td (Return the Transform that corresponds to a provided instance ID.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 440.62 Td (int transformID:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 106.18 440.62 Td ( The instance ID.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 423.61 Td (returns ) Tj ET Q
+q 0.000 g BT 68.41 423.61 Td (Transform:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 121.19 423.61 Td ( The Transform that corresponds to the transformID.) Tj ET Q
+q 0.000 g BT 31.19 406.61 Td (Tutorial:) Tj ET 31.19 405.61 36.12 -0.50 re f Q
+q 0.000 g BT 67.30 406.61 Td ( VG_HandVisualizer) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 374.83 Td (GetBone) Tj ET Q
+0.00 394.02 m 595.28 394.02 l S
+q 595.28 0 0 25.51 0.00 368.50 cm /I1 Do Q
+BT /F2 8.00 Tf ET
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 358.42 Td (Return the pose \(i.e. position and orientation\) of a specific bone.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 341.41 Td (int avatarID:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 88.97 341.41 Td ( The avatar to get the bone pose from.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 0.000 1.000 rg BT 31.19 324.40 Td (VG_HandSide) Tj ET 31.19 323.40 66.13 -0.50 re f Q
+q 0.000 g BT 97.31 324.40 Td ( handSide:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 148.43 324.40 Td ( The hand side to get the bone pose from.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 0.000 1.000 rg BT 31.19 307.39 Td (VG_BoneType) Tj ET 31.19 306.39 68.35 -0.50 re f Q
+q 0.000 g BT 99.53 307.39 Td ( boneType:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 152.87 307.39 Td ( The BoneType to get.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 290.39 Td (out int instanceID:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 118.41 290.39 Td ( The returned ID of the bone transform.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 273.38 Td (out Vector3 p:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 98.41 273.38 Td ( The returned position of the bone.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 256.37 Td (out Quaternion q:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 115.07 256.37 Td ( The returned rotation of the bone.) Tj ET Q
+q 0.000 g BT 31.19 239.36 Td (Tutorial:) Tj ET 31.19 238.36 36.12 -0.50 re f Q
+q 0.000 g BT 67.30 239.36 Td ( VG_HandVisualizer) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 207.58 Td (GetBone) Tj ET Q
+0.00 226.77 m 595.28 226.77 l S
+q 595.28 0 0 25.51 0.00 201.26 cm /I1 Do Q
+BT /F2 8.00 Tf ET
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 191.17 Td (Return the pose matrix of a specific bone.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 174.17 Td (int avatarID:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 88.97 174.17 Td ( The avatar to get the bone pose from.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 0.000 1.000 rg BT 31.19 157.16 Td (VG_HandSide) Tj ET 31.19 156.16 66.13 -0.50 re f Q
+q 0.000 g BT 97.31 157.16 Td ( handSide:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 148.43 157.16 Td ( The hand side to get the bone pose from.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 0.000 1.000 rg BT 31.19 140.15 Td (VG_BoneType) Tj ET 31.19 139.15 68.35 -0.50 re f Q
+q 0.000 g BT 99.53 140.15 Td ( boneType:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 152.87 140.15 Td ( The BoneType to get.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 123.14 Td (out int instanceID:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 118.41 123.14 Td ( The returned ID of the bone transform.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 106.13 Td (out Matrix4x4 m:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 110.64 106.13 Td ( The returned pose matrix of the bone.) Tj ET Q
+q 0.000 g BT 31.19 89.13 Td (Tutorial:) Tj ET 31.19 88.13 36.12 -0.50 re f Q
+q 0.000 g BT 67.30 89.13 Td ( VG_HandVisualizer) Tj ET Q
+BT /F3 12.00 Tf ET
+BT /F1 8.00 Tf ET
+q 0.000 g BT 31.19 25.95 Td (CONFIDENTIAL. Copyright 2014-2022 Gleechi AB. All rights reserved.) Tj ET Q
+q 0.000 g BT 506.71 25.95 Td (Page 14 of 22.) Tj ET Q
+
+endstream
+endobj
+31 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [31.19 703.74 97.32 693.74] /Border [0 0 0] /Dest [9 0 R /XYZ 0 841.89 null]>><</Type /Annot /Subtype /Link /Rect [31.19 536.50 97.32 526.50] /Border [0 0 0] /Dest [9 0 R /XYZ 0 841.89 null]>><</Type /Annot /Subtype /Link /Rect [31.19 352.24 97.32 342.24] /Border [0 0 0] /Dest [9 0 R /XYZ 0 841.89 null]>><</Type /Annot /Subtype /Link /Rect [68.41 202.01 174.54 192.01] /Border [0 0 0] /Dest [13 0 R /XYZ 0 841.89 null]>><</Type /Annot /Subtype /Link /Rect [31.19 102.80 97.32 92.80] /Border [0 0 0] /Dest [9 0 R /XYZ 0 841.89 null]>><</Type /Annot /Subtype /Link /Rect [31.19 85.79 103.44 75.79] /Border [0 0 0] /Dest [7 0 R /XYZ 0 841.89 null]>>]
+/Group <</Type /Group /S /Transparency /CS /DeviceRGB>>
+/Contents 32 0 R>>
+endobj
+32 0 obj
+<</Length 7182>>
+stream
+2 J
+0.57 w
+BT /F3 12.00 Tf ET
+0.784 0.784 0.784 rg
+BT /F1 10.00 Tf ET
+q 0.000 g BT 31.19 768.02 Td (VirtualGrasp SDK \(v0.10.0\) API Documentation.) Tj ET 31.19 767.02 212.86 -0.50 re f Q
+q 0.000 g BT 512.95 768.02 Td (2022-02-25) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 746.16 Td (GetFingerBone) Tj ET Q
+0.00 765.35 m 595.28 765.35 l S
+q 595.28 0 0 25.51 0.00 739.84 cm /I1 Do Q
+BT /F2 8.00 Tf ET
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 729.76 Td (Return the pose of a specific finger bone as a matrix.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 712.75 Td (int avatarID:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 88.97 712.75 Td ( The avatar to get the bone pose from.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 0.000 1.000 rg BT 31.19 695.74 Td (VG_HandSide) Tj ET 31.19 694.74 66.13 -0.50 re f Q
+q 0.000 g BT 97.31 695.74 Td ( handSide:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 148.43 695.74 Td ( The hand side to get the bone pose from.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 678.73 Td (int fingerID:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 87.30 678.73 Td ( The finger to get the bone pose from \(from 0 as thumb to 4 as pinky\).) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 661.72 Td (int boneID:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 83.41 661.72 Td ( The bone index \(from 0 as proximal to N as distal\) to get the bone pose from. Use -1 for fingertip.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 644.72 Td (out int instanceID:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 118.41 644.72 Td ( The returned ID of the bone transform.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 627.71 Td (out Matrix4x4 m:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 110.64 627.71 Td ( The returned pose of the bone.) Tj ET Q
+q 0.000 g BT 31.19 610.70 Td (Tutorial:) Tj ET 31.19 609.70 36.12 -0.50 re f Q
+q 0.000 g BT 67.30 610.70 Td ( VG_HandVisualizer) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 578.92 Td (GetFingerBone) Tj ET Q
+0.00 598.11 m 595.28 598.11 l S
+q 595.28 0 0 25.51 0.00 572.60 cm /I1 Do Q
+BT /F2 8.00 Tf ET
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 562.51 Td (Return the pose \(i.e. position and orientation\) of a specific finger bone.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 545.50 Td (int avatarID:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 88.97 545.50 Td ( The avatar to get the bone pose from.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 0.000 1.000 rg BT 31.19 528.50 Td (VG_HandSide) Tj ET 31.19 527.50 66.13 -0.50 re f Q
+q 0.000 g BT 97.31 528.50 Td ( handSide:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 148.43 528.50 Td ( The hand side to get the bone pose from.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 511.49 Td (int fingerID:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 87.30 511.49 Td ( The finger to get the bone pose from \(from 0 as thumb to 4 as pinky\).) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 494.48 Td (int boneID:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 83.41 494.48 Td ( The bone index \(from 0 as proximal to N as distal\) to get the bone pose from. Use -1 for fingertip.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 477.47 Td (out int instanceID:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 118.41 477.47 Td ( The returned ID of the bone transform.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 460.46 Td (out Vector3 p:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 98.41 460.46 Td ( The returned position of the bone.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 443.46 Td (out Quaternion q:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 115.07 443.46 Td ( The returned rotation of the bone.) Tj ET Q
+q 0.000 g BT 31.19 426.45 Td (Tutorial:) Tj ET 31.19 425.45 36.12 -0.50 re f Q
+q 0.000 g BT 67.30 426.45 Td ( VG_HandVisualizer) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 394.67 Td (GetFingerBone) Tj ET Q
+0.00 413.86 m 595.28 413.86 l S
+q 595.28 0 0 25.51 0.00 388.35 cm /I1 Do Q
+BT /F2 8.00 Tf ET
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 378.26 Td (Reflect the pose of a specific bone on a Transform.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 361.25 Td (int avatarID:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 88.97 361.25 Td ( The avatar to get the bone pose from.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 0.000 1.000 rg BT 31.19 344.24 Td (VG_HandSide) Tj ET 31.19 343.24 66.13 -0.50 re f Q
+q 0.000 g BT 97.31 344.24 Td ( handSide:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 148.43 344.24 Td ( The hand side to get the bone pose from.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 327.24 Td (int fingerID:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 87.30 327.24 Td ( The finger to get the bone pose from \(from 0 as thumb to 4 as pinky\).) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 310.23 Td (int boneID:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 83.41 310.23 Td ( The bone index \(from 0 as proximal to N as distal\) to get the bone pose from. Use -1 for fingertip.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 293.22 Td (out Transform t:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 108.41 293.22 Td ( The returned pose of the bone.) Tj ET Q
+q 0.000 g BT 31.19 276.21 Td (Tutorial:) Tj ET 31.19 275.21 36.12 -0.50 re f Q
+q 0.000 g BT 67.30 276.21 Td ( VG_HandVisualizer) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 244.43 Td (GetSynthesisMethodForObject) Tj ET Q
+0.00 263.62 m 595.28 263.62 l S
+q 595.28 0 0 25.51 0.00 238.11 cm /I1 Do Q
+BT /F2 8.00 Tf ET
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 228.02 Td (Receive the current VG_SynthesisMethod of an interactable object.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 211.02 Td (Transform selectedObject:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 157.88 211.02 Td ( The object to query the VG_SynthesisMethod for.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 194.01 Td (returns ) Tj ET Q
+q 0.000 0.000 1.000 rg BT 68.41 194.01 Td (VG_SynthesisMethod:) Tj ET 68.41 193.01 106.13 -0.50 re f Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 174.54 194.01 Td ( The current VG_SynthesisMethod or VG_SynthesisMethod. NONE if invalid.) Tj ET Q
+q 0.000 g BT 31.19 177.00 Td (Tutorial:) Tj ET 31.19 176.00 36.12 -0.50 re f Q
+q 0.000 g BT 67.30 177.00 Td ( VG_GraspStudio) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 145.22 Td (MakeGesture) Tj ET Q
+0.00 164.41 m 595.28 164.41 l S
+q 595.28 0 0 25.51 0.00 138.90 cm /I1 Do Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 128.81 Td (Make a gesture with a hand.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 111.80 Td (int avatarID:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 88.97 111.80 Td ( The avatar to make gesture for.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 0.000 1.000 rg BT 31.19 94.80 Td (VG_HandSide) Tj ET 31.19 93.80 66.13 -0.50 re f Q
+q 0.000 g BT 97.31 94.80 Td ( side:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 123.43 94.80 Td ( The hand which to make gesture for.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 0.000 1.000 rg BT 31.19 77.79 Td (VG_GraspType) Tj ET 31.19 76.79 72.25 -0.50 re f Q
+q 0.000 g BT 103.43 77.79 Td ( gesture:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 145.66 77.79 Td ( The gesture to make with the [side] hand of avatar [avatarID].) Tj ET Q
+BT /F3 12.00 Tf ET
+BT /F1 8.00 Tf ET
+q 0.000 g BT 31.19 25.95 Td (CONFIDENTIAL. Copyright 2014-2022 Gleechi AB. All rights reserved.) Tj ET Q
+q 0.000 g BT 506.71 25.95 Td (Page 15 of 22.) Tj ET Q
+
+endstream
+endobj
+33 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [31.19 703.74 97.32 693.74] /Border [0 0 0] /Dest [9 0 R /XYZ 0 841.89 null]>><</Type /Annot /Subtype /Link /Rect [31.19 621.54 97.32 611.54] /Border [0 0 0] /Dest [9 0 R /XYZ 0 841.89 null]>><</Type /Annot /Subtype /Link /Rect [31.19 508.15 125.66 498.15] /Border [0 0 0] /Dest [9 0 R /XYZ 0 841.89 null]>><</Type /Annot /Subtype /Link /Rect [31.19 411.77 133.99 401.77] /Border [0 0 0] /Dest [13 0 R /XYZ 0 841.89 null]>><</Type /Annot /Subtype /Link /Rect [31.19 298.39 125.66 288.39] /Border [0 0 0] /Dest [9 0 R /XYZ 0 841.89 null]>><</Type /Annot /Subtype /Link /Rect [31.19 185.00 97.32 175.00] /Border [0 0 0] /Dest [9 0 R /XYZ 0 841.89 null]>><</Type /Annot /Subtype /Link /Rect [31.19 167.99 125.66 157.99] /Border [0 0 0] /Dest [9 0 R /XYZ 0 841.89 null]>>]
+/Group <</Type /Group /S /Transparency /CS /DeviceRGB>>
+/Contents 34 0 R>>
+endobj
+34 0 obj
+<</Length 6867>>
+stream
+2 J
+0.57 w
+BT /F3 12.00 Tf ET
+0.784 0.784 0.784 rg
+BT /F1 10.00 Tf ET
+q 0.000 g BT 31.19 768.02 Td (VirtualGrasp SDK \(v0.10.0\) API Documentation.) Tj ET 31.19 767.02 212.86 -0.50 re f Q
+q 0.000 g BT 512.95 768.02 Td (2022-02-25) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 746.16 Td (ReleaseGesture) Tj ET Q
+0.00 765.35 m 595.28 765.35 l S
+q 595.28 0 0 25.51 0.00 739.84 cm /I1 Do Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 729.76 Td (Release a gesture on a hand) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 712.75 Td (int avatarID:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 88.97 712.75 Td ( The avatar to release a grasp for.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 0.000 1.000 rg BT 31.19 695.74 Td (VG_HandSide) Tj ET 31.19 694.74 66.13 -0.50 re f Q
+q 0.000 g BT 97.31 695.74 Td ( side:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 123.43 695.74 Td ( The hand which to release the grasp for.) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 663.96 Td (SetBlockRelease) Tj ET Q
+0.00 683.15 m 595.28 683.15 l S
+q 595.28 0 0 25.51 0.00 657.64 cm /I1 Do Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 647.55 Td (Specify if on this hand should block release or not in runtime.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 630.54 Td (int avatarID:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 88.97 630.54 Td ( The avatar to release a grasp for.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 0.000 1.000 rg BT 31.19 613.54 Td (VG_HandSide) Tj ET 31.19 612.54 66.13 -0.50 re f Q
+q 0.000 g BT 97.31 613.54 Td ( side:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 123.43 613.54 Td ( The hand which to release the grasp for.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 596.53 Td (bool block:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 84.52 596.53 Td ( If block release signal or not on this hand) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 564.75 Td (SetGlobalInteractionType) Tj ET Q
+0.00 583.94 m 595.28 583.94 l S
+q 595.28 0 0 25.51 0.00 558.43 cm /I1 Do Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 548.34 Td (Set the global interaction type method. The interaction type defines how the hand and the object should get together) Tj ET Q
+q 0.000 g BT 31.19 534.17 Td (during a grasp.) Tj ET Q
+q 0.000 g BT 31.19 517.16 Td (Remark:) Tj ET 31.19 516.16 37.78 -0.50 re f Q
+q 0.000 g BT 68.96 517.16 Td ( This will overwrite the specific grasp interaction type \(see SetInteractionTypeForObject\) for all objects.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 0.000 1.000 rg BT 31.19 500.15 Td (VG_InteractionType) Tj ET 31.19 499.15 94.47 -0.50 re f Q
+q 0.000 g BT 125.65 500.15 Td ( type:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 152.32 500.15 Td ( The method to switch to for all objects.) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 468.37 Td (SetGlobalSynthesisMethod) Tj ET Q
+0.00 487.56 m 595.28 487.56 l S
+q 595.28 0 0 25.51 0.00 462.05 cm /I1 Do Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 451.96 Td (Set the global grasp synthesis method. The synthesis method defines the algorithm with which grasps are generated in) Tj ET Q
+q 0.000 g BT 31.19 437.79 Td (runtime.) Tj ET Q
+q 0.000 g BT 31.19 420.78 Td (Remark:) Tj ET 31.19 419.78 37.78 -0.50 re f Q
+q 0.000 g BT 68.96 420.78 Td ( This will overwrite the specific grasp synthesis method \(see SetSynthesisMethodForObject\) for all objects.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 0.000 1.000 rg BT 31.19 403.77 Td (VG_SynthesisMethod) Tj ET 31.19 402.77 102.80 -0.50 re f Q
+q 0.000 g BT 133.98 403.77 Td ( synthesisMethod:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 221.77 403.77 Td ( The method to switch to for all objects.) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 371.99 Td (SetInteractionTypeForObject) Tj ET Q
+0.00 391.18 m 595.28 391.18 l S
+q 595.28 0 0 25.51 0.00 365.67 cm /I1 Do Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 355.58 Td (Set the interaction type for a selected object. The interaction type defines how the hand and the object should get) Tj ET Q
+q 0.000 g BT 31.19 341.41 Td (together during a grasp.) Tj ET Q
+q 0.000 g BT 31.19 324.40 Td (Remark:) Tj ET 31.19 323.40 37.78 -0.50 re f Q
+q 0.000 g BT 68.96 324.40 Td ( This will overwrite the global interaction type \(see SetGlobalInteractionType\) for that object.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 307.39 Td (Transform selectedObject:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 157.88 307.39 Td ( The object to modify the interaction type for.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 0.000 1.000 rg BT 31.19 290.39 Td (VG_InteractionType) Tj ET 31.19 289.39 94.47 -0.50 re f Q
+q 0.000 g BT 125.65 290.39 Td ( interactionType:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 206.22 290.39 Td ( The interaction type to switch to for the object.) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 258.60 Td (SetInteractionTypeForSelectedObject) Tj ET Q
+0.00 277.80 m 595.28 277.80 l S
+q 595.28 0 0 25.51 0.00 252.28 cm /I1 Do Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 242.20 Td (Set the interaction type for a selected object. The interaction type defines how the hand and the object should get) Tj ET Q
+q 0.000 g BT 31.19 228.02 Td (together during a grasp.) Tj ET Q
+q 0.000 g BT 31.19 211.02 Td (Remark:) Tj ET 31.19 210.02 37.78 -0.50 re f Q
+q 0.000 g BT 68.96 211.02 Td ( This will overwrite the global interaction type \(see SetGlobalInteractionType\) for that object.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 194.01 Td (int avatarID:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 88.97 194.01 Td ( The avatar which is selecting an object.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 0.000 1.000 rg BT 31.19 177.00 Td (VG_HandSide) Tj ET 31.19 176.00 66.13 -0.50 re f Q
+q 0.000 g BT 97.31 177.00 Td ( side:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 123.43 177.00 Td ( The hand which is selecting an object.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 0.000 1.000 rg BT 31.19 159.99 Td (VG_InteractionType) Tj ET 31.19 158.99 94.47 -0.50 re f Q
+q 0.000 g BT 125.65 159.99 Td ( interactionType:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 206.22 159.99 Td ( The interaction type to switch to for the object that is selected by the [side] hand) Tj ET Q
+q 0.000 g BT 31.19 145.82 Td (of avatar [avatarID].) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 114.04 Td (SetSynthesisMethodForObject) Tj ET Q
+0.00 133.23 m 595.28 133.23 l S
+q 595.28 0 0 25.51 0.00 107.72 cm /I1 Do Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 97.63 Td (Set the grasp synthesis method for a selected object. The synthesis method defines the algorithm with which grasps are) Tj ET Q
+q 0.000 g BT 31.19 83.46 Td (generated.) Tj ET Q
+q 0.000 g BT 31.19 66.45 Td (Remark:) Tj ET 31.19 65.45 37.78 -0.50 re f Q
+q 0.000 g BT 68.96 66.45 Td ( This will overwrite the global grasp synthesis method \(see SetGlobalSynthesisMethod\) for that object.) Tj ET Q
+BT /F3 10.00 Tf ET
+BT /F1 8.00 Tf ET
+q 0.000 g BT 31.19 25.95 Td (CONFIDENTIAL. Copyright 2014-2022 Gleechi AB. All rights reserved.) Tj ET Q
+q 0.000 g BT 506.71 25.95 Td (Page 16 of 22.) Tj ET Q
+
+endstream
+endobj
+35 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [31.19 737.76 133.99 727.76] /Border [0 0 0] /Dest [13 0 R /XYZ 0 841.89 null]>><</Type /Annot /Subtype /Link /Rect [31.19 624.37 97.32 614.37] /Border [0 0 0] /Dest [9 0 R /XYZ 0 841.89 null]>><</Type /Annot /Subtype /Link /Rect [31.19 607.36 133.99 597.36] /Border [0 0 0] /Dest [13 0 R /XYZ 0 841.89 null]>>]
+/Group <</Type /Group /S /Transparency /CS /DeviceRGB>>
+/Contents 36 0 R>>
+endobj
+36 0 obj
+<</Length 2348>>
+stream
+2 J
+0.57 w
+BT /F3 10.00 Tf ET
+0.784 0.784 0.784 rg
+BT /F1 10.00 Tf ET
+q 0.000 g BT 31.19 768.02 Td (VirtualGrasp SDK \(v0.10.0\) API Documentation.) Tj ET 31.19 767.02 212.86 -0.50 re f Q
+q 0.000 g BT 512.95 768.02 Td (2022-02-25) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 746.76 Td (Transform selectedObject:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 157.88 746.76 Td ( The object to modify the synthesis method for.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 0.000 1.000 rg BT 31.19 729.76 Td (VG_SynthesisMethod) Tj ET 31.19 728.76 102.80 -0.50 re f Q
+q 0.000 g BT 133.98 729.76 Td ( synthesisMethod:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 221.77 729.76 Td ( The synthesis method to switch to for the selected object.) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 697.98 Td (SetSynthesisMethodForSelectedObject) Tj ET Q
+0.00 717.17 m 595.28 717.17 l S
+q 595.28 0 0 25.51 0.00 691.65 cm /I1 Do Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 681.57 Td (Set the grasp synthesis method for a selected object. The synthesis method defines the algorithm with which grasps are) Tj ET Q
+q 0.000 g BT 31.19 667.39 Td (generated in runtime.) Tj ET Q
+q 0.000 g BT 31.19 650.39 Td (Remark:) Tj ET 31.19 649.39 37.78 -0.50 re f Q
+q 0.000 g BT 68.96 650.39 Td ( This will overwrite the global grasp synthesis method \(see SetGlobalSynthesisMethod\) for that object.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 633.38 Td (int avatarID:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 88.97 633.38 Td ( The avatar which is selecting an object.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 0.000 1.000 rg BT 31.19 616.37 Td (VG_HandSide) Tj ET 31.19 615.37 66.13 -0.50 re f Q
+q 0.000 g BT 97.31 616.37 Td ( side:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 123.43 616.37 Td ( The hand which is selecting an object.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 0.000 1.000 rg BT 31.19 599.36 Td (VG_SynthesisMethod) Tj ET 31.19 598.36 102.80 -0.50 re f Q
+q 0.000 g BT 133.98 599.36 Td ( synthesisMethod:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 221.77 599.36 Td ( The synthesis method to switch to for the object that is selected by the [side]) Tj ET Q
+q 0.000 g BT 31.19 585.19 Td (hand of avatar [avatarID].) Tj ET Q
+BT /F1 8.00 Tf ET
+q 0.000 g BT 31.19 25.95 Td (CONFIDENTIAL. Copyright 2014-2022 Gleechi AB. All rights reserved.) Tj ET Q
+q 0.000 g BT 506.71 25.95 Td (Page 17 of 22.) Tj ET Q
+
+endstream
+endobj
+37 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Group <</Type /Group /S /Transparency /CS /DeviceRGB>>
+/Contents 38 0 R>>
+endobj
+38 0 obj
+<</Length 1838>>
+stream
+2 J
+0.57 w
+BT /F2 10.00 Tf ET
+0.784 0.784 0.784 rg
+BT /F1 10.00 Tf ET
+q 0.000 g BT 31.19 768.02 Td (VirtualGrasp SDK \(v0.10.0\) API Documentation.) Tj ET 31.19 767.02 212.86 -0.50 re f Q
+q 0.000 g BT 512.95 768.02 Td (2022-02-25) Tj ET Q
+BT /F2 10.00 Tf ET
+BT /F3 16.00 Tf ET
+q 0.000 g BT 31.19 723.70 Td (NETWORK_INTERFACE_API) Tj ET Q
+q 0.000 g BT 482.32 723.70 Td (\(Unity API\)) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 689.47 Td (GetBroadcastSignal) Tj ET Q
+0.00 708.66 m 595.28 708.66 l S
+q 595.28 0 0 25.51 0.00 683.15 cm /I1 Do Q
+BT /F2 8.00 Tf ET
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 673.06 Td (Receive \(from VG\) a multiplayer broadcast message as a binary byte array.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 656.06 Td (returns ) Tj ET Q
+q 0.000 g BT 68.41 656.06 Td (byte[]:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 98.96 656.06 Td ( The message received by VG.) Tj ET Q
+q 0.000 g BT 31.19 639.05 Td (Tutorial:) Tj ET 31.19 638.05 36.12 -0.50 re f Q
+q 0.000 g BT 67.30 639.05 Td ( VG_NetworkManager) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 607.27 Td (SetBroadcastSignal) Tj ET Q
+0.00 626.46 m 595.28 626.46 l S
+q 595.28 0 0 25.51 0.00 600.95 cm /I1 Do Q
+BT /F2 8.00 Tf ET
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 590.86 Td (Set \(to VG\) a multiplayer broadcast message as a binary byte array.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 573.85 Td (byte[] message:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 107.31 573.85 Td ( The message \(raw bytes\) to be sent and processed by VG.) Tj ET Q
+q 0.000 g BT 31.19 556.84 Td (Tutorial:) Tj ET 31.19 555.84 36.12 -0.50 re f Q
+q 0.000 g BT 67.30 556.84 Td ( VG_NetworkManager) Tj ET Q
+BT /F1 8.00 Tf ET
+q 0.000 g BT 31.19 25.95 Td (CONFIDENTIAL. Copyright 2014-2022 Gleechi AB. All rights reserved.) Tj ET Q
+q 0.000 g BT 506.71 25.95 Td (Page 18 of 22.) Tj ET Q
+
+endstream
+endobj
+39 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [31.19 647.05 97.32 637.05] /Border [0 0 0] /Dest [9 0 R /XYZ 0 841.89 null]>><</Type /Annot /Subtype /Link /Rect [31.19 533.66 97.32 523.66] /Border [0 0 0] /Dest [9 0 R /XYZ 0 841.89 null]>><</Type /Annot /Subtype /Link /Rect [31.19 434.45 97.32 424.45] /Border [0 0 0] /Dest [9 0 R /XYZ 0 841.89 null]>><</Type /Annot /Subtype /Link /Rect [31.19 250.20 97.32 240.20] /Border [0 0 0] /Dest [9 0 R /XYZ 0 841.89 null]>>]
+/Group <</Type /Group /S /Transparency /CS /DeviceRGB>>
+/Contents 40 0 R>>
+endobj
+40 0 obj
+<</Length 6551>>
+stream
+2 J
+0.57 w
+BT /F2 10.00 Tf ET
+0.784 0.784 0.784 rg
+BT /F1 10.00 Tf ET
+q 0.000 g BT 31.19 768.02 Td (VirtualGrasp SDK \(v0.10.0\) API Documentation.) Tj ET 31.19 767.02 212.86 -0.50 re f Q
+q 0.000 g BT 512.95 768.02 Td (2022-02-25) Tj ET Q
+BT /F2 10.00 Tf ET
+BT /F3 16.00 Tf ET
+q 0.000 g BT 31.19 723.70 Td (SENSOR_INTERFACE_API) Tj ET Q
+q 0.000 g BT 482.32 723.70 Td (\(Unity API\)) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 689.47 Td (GetGrabStrength) Tj ET Q
+0.00 708.66 m 595.28 708.66 l S
+q 595.28 0 0 25.51 0.00 683.15 cm /I1 Do Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 673.06 Td (Returns the current grab strength of a hand. The grab strength is 0 for a fully open hand, 1 for a fully closed hand.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 656.06 Td (int avatarID:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 88.97 656.06 Td ( The avatar to receive the grab strength for.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 0.000 1.000 rg BT 31.19 639.05 Td (VG_HandSide) Tj ET 31.19 638.05 66.13 -0.50 re f Q
+q 0.000 g BT 97.31 639.05 Td ( handSide:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 148.43 639.05 Td ( The hand side to receive the grab strength for.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 622.04 Td (returns ) Tj ET Q
+q 0.000 g BT 68.41 622.04 Td (float:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 92.85 622.04 Td ( The current grab strength of the [side] hand.) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 590.26 Td (GetGrabVelocity) Tj ET Q
+0.00 609.45 m 595.28 609.45 l S
+q 595.28 0 0 25.51 0.00 583.94 cm /I1 Do Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 573.85 Td (Returns the current grab velocity of a hand. The current velocity of the grab strength \(see GetGrabStrength\), so negative) Tj ET Q
+q 0.000 g BT 31.19 559.68 Td (when the hand is opening, and positive when the hand is closing.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 542.67 Td (int avatarID:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 88.97 542.67 Td ( The avatar to receive the grab velocity for.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 0.000 1.000 rg BT 31.19 525.66 Td (VG_HandSide) Tj ET 31.19 524.66 66.13 -0.50 re f Q
+q 0.000 g BT 97.31 525.66 Td ( handSide:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 148.43 525.66 Td ( The hand side to receive the grab velocity for.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 508.65 Td (returns ) Tj ET Q
+q 0.000 g BT 68.41 508.65 Td (float:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 92.85 508.65 Td ( The current grab velocity of the [side] hand.) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 476.87 Td (GetPushCircle) Tj ET Q
+0.00 496.06 m 595.28 496.06 l S
+q 595.28 0 0 25.51 0.00 470.55 cm /I1 Do Q
+BT /F2 8.00 Tf ET
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 460.46 Td (Get the push cirle for this hand side of an avatar as a visual hint for object selection for push without physics.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 443.46 Td (int avatarID:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 88.97 443.46 Td ( The avatar to get the push circle for.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 0.000 1.000 rg BT 31.19 426.45 Td (VG_HandSide) Tj ET 31.19 425.45 66.13 -0.50 re f Q
+q 0.000 g BT 97.31 426.45 Td ( handSide:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 148.43 426.45 Td ( The hand to get the push circle for.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 409.44 Td (out Vector3 p:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 98.41 409.44 Td ( The push circle's position.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 392.43 Td (out Quaternion r:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 112.86 392.43 Td ( The push circle's rotation \(zaxis is normal\).) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 375.43 Td (out float radius:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 106.74 375.43 Td ( Radius of the push circle,) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 358.42 Td (out bool inContact:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 122.84 358.42 Td ( True if contact \(i.e. pushing\), False otherwise.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 341.41 Td (returns ) Tj ET Q
+q 0.000 g BT 68.41 341.41 Td (Transform:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 121.19 341.41 Td ( The selected object, NULL if none.) Tj ET Q
+q 0.000 g BT 31.19 324.40 Td (Tutorial:) Tj ET 31.19 323.40 36.12 -0.50 re f Q
+q 0.000 g BT 67.30 324.40 Td ( VG_HintVisualizer) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 292.62 Td (IsMissingSensorData) Tj ET Q
+0.00 311.81 m 595.28 311.81 l S
+q 595.28 0 0 25.51 0.00 286.30 cm /I1 Do Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 276.21 Td (Check if a hand has invalid sensor data.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 259.20 Td (int avatarID:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 88.97 259.20 Td ( The avatar to check for.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 0.000 1.000 rg BT 31.19 242.20 Td (VG_HandSide) Tj ET 31.19 241.20 66.13 -0.50 re f Q
+q 0.000 g BT 97.31 242.20 Td ( handSide:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 148.43 242.20 Td ( The hand side to check for.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 225.19 Td (returns ) Tj ET Q
+q 0.000 g BT 68.41 225.19 Td (bool:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 92.85 225.19 Td ( True if sensor data is invalid, False otherwise.) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 193.41 Td (SetAvatarActive) Tj ET Q
+0.00 212.60 m 595.28 212.60 l S
+q 595.28 0 0 25.51 0.00 187.09 cm /I1 Do Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 177.00 Td (Set the active state of the avatar sensor\(s\) and mesh.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 159.99 Td (int avatarID:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 88.97 159.99 Td ( The instance avatar id) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 142.98 Td (bool enableSensors:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 129.54 142.98 Td ( If the sensor\(s\) that control this hand should be active or not.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 125.98 Td (bool enableMesh:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 115.64 125.98 Td ( If the mesh of this hand should be visible or not.) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 94.20 Td (SetCalibrationMode) Tj ET Q
+0.00 113.39 m 595.28 113.39 l S
+q 595.28 0 0 25.51 0.00 87.87 cm /I1 Do Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 77.79 Td (Enable or disable wrist calibration mode \(WCM\). During enabled WCM, different ranges of motion of the wrist or grab) Tj ET Q
+q 0.000 g BT 31.19 63.61 Td (strength will be calibrated.) Tj ET Q
+BT /F1 8.00 Tf ET
+q 0.000 g BT 31.19 25.95 Td (CONFIDENTIAL. Copyright 2014-2022 Gleechi AB. All rights reserved.) Tj ET Q
+q 0.000 g BT 506.71 25.95 Td (Page 19 of 22.) Tj ET Q
+
+endstream
+endobj
+41 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [31.19 638.54 97.32 628.54] /Border [0 0 0] /Dest [9 0 R /XYZ 0 841.89 null]>><</Type /Annot /Subtype /Link /Rect [31.19 425.95 97.32 415.95] /Border [0 0 0] /Dest [9 0 R /XYZ 0 841.89 null]>><</Type /Annot /Subtype /Link /Rect [31.19 261.54 108.43 251.54] /Border [0 0 0] /Dest [11 0 R /XYZ 0 841.89 null]>>]
+/Group <</Type /Group /S /Transparency /CS /DeviceRGB>>
+/Contents 42 0 R>>
+endobj
+42 0 obj
+<</Length 5650>>
+stream
+2 J
+0.57 w
+BT /F2 10.00 Tf ET
+0.784 0.784 0.784 rg
+BT /F1 10.00 Tf ET
+q 0.000 g BT 31.19 768.02 Td (VirtualGrasp SDK \(v0.10.0\) API Documentation.) Tj ET 31.19 767.02 212.86 -0.50 re f Q
+q 0.000 g BT 512.95 768.02 Td (2022-02-25) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 746.76 Td (Remark:) Tj ET 31.19 745.76 37.78 -0.50 re f Q
+q 0.000 g BT 68.96 746.76 Td ( untested) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 729.76 Td (int avatarID:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 88.97 729.76 Td ( The avatar for which to enable/disable WCM.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 712.75 Td (bool enabled:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 96.19 712.75 Td ( True for enabling WCM, False for disabling it.) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 680.97 Td (SetExternalGrabStrength) Tj ET Q
+0.00 700.16 m 595.28 700.16 l S
+q 595.28 0 0 25.51 0.00 674.65 cm /I1 Do Q
+BT /F2 8.00 Tf ET
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 664.56 Td (Send an external controller grab signal to the plugin \(for EXTERNAL_CONTROLLER sensors\).) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 647.55 Td (int avatarID:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 88.97 647.55 Td ( The avatar to set external sensor pose for.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 0.000 1.000 rg BT 31.19 630.54 Td (VG_HandSide) Tj ET 31.19 629.54 66.13 -0.50 re f Q
+q 0.000 g BT 97.31 630.54 Td ( handSide:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 148.43 630.54 Td ( The hand side to set external sensor pose for.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 613.54 Td (float strength:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 98.40 613.54 Td ( The grab strength signal to set.) Tj ET Q
+q 0.000 g BT 31.19 596.53 Td (Tutorial:) Tj ET 31.19 595.53 36.12 -0.50 re f Q
+q 0.000 g BT 67.30 596.53 Td ( VG_ExternalControllerManager) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 564.75 Td (SetFingerCalibrationMode) Tj ET Q
+0.00 583.94 m 595.28 583.94 l S
+q 595.28 0 0 25.51 0.00 558.43 cm /I1 Do Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 548.34 Td (Enable or disable finger calibration mode \(FCM\). During enabled FCM, the hand opening range will be calibrated. After) Tj ET Q
+q 0.000 g BT 31.19 534.17 Td (disabling it, grasp and release signals will work in this range.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 517.16 Td (int avatarID:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 88.97 517.16 Td ( The avatar for which to enable/disable FCM.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 500.15 Td (bool enabled:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 96.19 500.15 Td ( True for enabling FCM, False for disabling it.) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 468.37 Td (SetSensorActive) Tj ET Q
+0.00 487.56 m 595.28 487.56 l S
+q 595.28 0 0 25.51 0.00 462.05 cm /I1 Do Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 451.96 Td (Set the active state of the sensor\(s\) that control the specified hand of an instance avatar) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 434.95 Td (int avatarID:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 88.97 434.95 Td ( The instance avatar id) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 0.000 1.000 rg BT 31.19 417.95 Td (VG_HandSide) Tj ET 31.19 416.95 66.13 -0.50 re f Q
+q 0.000 g BT 97.31 417.95 Td ( handSide:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 148.43 417.95 Td ( The side of the hand \(remark: UNKNOWN will not have any effect\)) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 400.94 Td (bool active:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 86.75 400.94 Td ( If the sensor\(s\) that control this hand should be active or not) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 383.93 Td (Vector3 resetPos:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 116.22 383.93 Td ( If a hand is activated, its position will be reset to here \(default \(0,0,0\)\).) Tj ET Q
+q 0.000 g BT 31.19 366.92 Td (Remark:) Tj ET 31.19 365.92 37.78 -0.50 re f Q
+q 0.000 g BT 68.96 366.92 Td ( By default sensors are all active, and this function can be used in runtime to change this.) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 335.14 Td (SetSensorOffset) Tj ET Q
+0.00 354.33 m 595.28 354.33 l S
+q 595.28 0 0 25.51 0.00 328.82 cm /I1 Do Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 318.73 Td (Change the sensor offset in runtime. The sensor offset is the offset between the pose that the current sensor is) Tj ET Q
+q 0.000 g BT 31.19 304.56 Td (measuring and where the virtual hand is appearing in the scene.) Tj ET Q
+q 0.000 g BT 31.19 287.55 Td (Remark:) Tj ET 31.19 286.55 37.78 -0.50 re f Q
+q 0.000 g BT 68.96 287.55 Td ( Also treating left hand \(LHS\) and right hand \(RHS\) is considered, so the offset is applied symmetrically.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 270.54 Td (int avatarID:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 88.97 270.54 Td ( The avatar to set the offset for.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 0.000 1.000 rg BT 31.19 253.54 Td (VG_SensorType) Tj ET 31.19 252.54 77.25 -0.50 re f Q
+q 0.000 g BT 108.43 253.54 Td ( sensor:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 147.34 253.54 Td ( The sensor type to change the offset for.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 236.53 Td (Vector3? position:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 118.97 236.53 Td ( The offset position. Set to null if position should not be modified.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 219.52 Td (Vector3? rotation:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 117.30 219.52 Td ( The offset rotation. Set to null if rotation should not be modified.) Tj ET Q
+BT /F1 8.00 Tf ET
+q 0.000 g BT 31.19 25.95 Td (CONFIDENTIAL. Copyright 2014-2022 Gleechi AB. All rights reserved.) Tj ET Q
+q 0.000 g BT 506.71 25.95 Td (Page 20 of 22.) Tj ET Q
+
+endstream
+endobj
+43 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [31.19 431.61 97.32 421.61] /Border [0 0 0] /Dest [9 0 R /XYZ 0 841.89 null]>><</Type /Annot /Subtype /Link /Rect [510.24 374.17 561.26 357.17] /Border [0 0 0] /A <</S /URI /URI (https://www.youtube.com/watch?v=o5F5tUb8RQM)>>>><</Type /Annot /Subtype /Link /Rect [510.24 291.97 561.26 274.96] /Border [0 0 0] /A <</S /URI /URI (https://www.youtube.com/watch?v=o5F5tUb8RQM)>>>><</Type /Annot /Subtype /Link /Rect [510.24 192.76 561.26 175.75] /Border [0 0 0] /A <</S /URI /URI (https://www.youtube.com/watch?v=o5F5tUb8RQM)>>>><</Type /Annot /Subtype /Link /Rect [510.24 127.56 561.26 110.55] /Border [0 0 0] /A <</S /URI /URI (https://www.youtube.com/watch?v=o5F5tUb8RQM)>>>>]
+/Group <</Type /Group /S /Transparency /CS /DeviceRGB>>
+/Contents 44 0 R>>
+endobj
+44 0 obj
+<</Length 6384>>
+stream
+2 J
+0.57 w
+BT /F2 10.00 Tf ET
+0.784 0.784 0.784 rg
+BT /F1 10.00 Tf ET
+q 0.000 g BT 31.19 768.02 Td (VirtualGrasp SDK \(v0.10.0\) API Documentation.) Tj ET 31.19 767.02 212.86 -0.50 re f Q
+q 0.000 g BT 512.95 768.02 Td (2022-02-25) Tj ET Q
+BT /F2 10.00 Tf ET
+BT /F3 16.00 Tf ET
+q 0.000 g BT 31.19 723.70 Td (RECORDING_INTERFACE_API) Tj ET Q
+q 0.000 g BT 482.32 723.70 Td (\(Unity API\)) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 689.47 Td (GetReplayStartWristPose) Tj ET Q
+0.00 708.66 m 595.28 708.66 l S
+q 595.28 0 0 25.51 0.00 683.15 cm /I1 Do Q
+BT /F2 8.00 Tf ET
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 673.06 Td (Get the starting wrist poses for full replay of the whole interaction sequence.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 656.06 Td (int avatarID:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 88.97 656.06 Td ( The ID of the avatar to play the recording on \(note: it has to be an avatar enabled for replay\).) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 639.05 Td (Transform selectedObject:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 157.88 639.05 Td ( If provided, the entire sensor recording will transformed in to object's frame. If not, in global) Tj ET Q
+q 0.000 g BT 31.19 624.87 Td (frame.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 607.87 Td (out Vector3 p_left:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 118.97 607.87 Td ( The position of the left wrist.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 590.86 Td (out Quaternion q_left:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 135.63 590.86 Td ( The orientation of the left wrist.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 573.85 Td (out Vector3 p_right:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 126.19 573.85 Td ( The position of the right wrist.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 556.84 Td (out Quaternion q_right:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 142.85 556.84 Td ( The orientation of the right wrist.) Tj ET Q
+q 0.000 g BT 31.19 539.83 Td (Remark:) Tj ET 31.19 538.83 37.78 -0.50 re f Q
+q 0.000 g BT 68.96 539.83 Td ( LoadRecording need to be called before this to load recorded sensor data.) Tj ET Q
+q 0.000 g BT 31.19 522.83 Td (Remark:) Tj ET 31.19 521.83 37.78 -0.50 re f Q
+q 0.000 g BT 68.96 522.83 Td ( SetProcessByRecordedFrame need to be called before this to set this avatar to be enabled for replay.) Tj ET Q
+q 0.000 g BT 31.19 505.82 Td (Tutorial:) Tj ET 31.19 504.82 36.12 -0.50 re f Q
+q 0.000 g BT 67.30 505.82 Td ( VG_Recorder) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 474.04 Td (IsReplaying) Tj ET Q
+0.00 493.23 m 595.28 493.23 l S
+q 595.28 0 0 25.51 0.00 467.72 cm /I1 Do Q
+BT /F2 8.00 Tf ET
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 457.63 Td (Check if a hand is currently replaying a recorded sensor data.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 440.62 Td (int avatarID:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 88.97 440.62 Td ( The avatar to check.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 0.000 1.000 rg BT 31.19 423.61 Td (VG_HandSide) Tj ET 31.19 422.61 66.13 -0.50 re f Q
+q 0.000 g BT 97.31 423.61 Td ( handSide:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 148.43 423.61 Td ( The hand to check.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 406.61 Td (returns ) Tj ET Q
+q 0.000 g BT 68.41 406.61 Td (bool:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 92.85 406.61 Td ( True if replaying, False otherwise.) Tj ET Q
+q 0.000 g BT 31.19 389.60 Td (Tutorial:) Tj ET 31.19 388.60 36.12 -0.50 re f Q
+q 0.000 g BT 67.30 389.60 Td ( VG_Recorder) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 357.82 Td (LoadRecording) Tj ET Q
+0.00 377.01 m 595.28 377.01 l S
+q 595.28 0 0 25.51 0.00 351.50 cm /I1 Do Q
+BT /F2 8.00 Tf ET
+q 51.02 0 0 17.01 510.24 357.17 cm /I2 Do Q
+BT 524.41 362.83 Td (movie) Tj ET
+BT /F2 10.00 Tf ET
+BT /F2 8.00 Tf ET
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 341.41 Td (Load recorded sensor data from a file, but do not start replay) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 324.40 Td (string filename:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 105.64 324.40 Td ( The filename to load the recording from.) Tj ET Q
+q 0.000 g BT 31.19 307.39 Td (Tutorial:) Tj ET 31.19 306.39 36.12 -0.50 re f Q
+q 0.000 g BT 67.30 307.39 Td ( VG_Recorder) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 275.61 Td (SetProcessByRecordedFrame) Tj ET Q
+0.00 294.80 m 595.28 294.80 l S
+q 595.28 0 0 25.51 0.00 269.29 cm /I1 Do Q
+BT /F2 8.00 Tf ET
+q 51.02 0 0 17.01 510.24 274.96 cm /I2 Do Q
+BT 524.41 280.63 Td (movie) Tj ET
+BT /F2 10.00 Tf ET
+BT /F2 8.00 Tf ET
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 259.20 Td (Enable or disable a specific avatar to replay a recording.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 242.20 Td (int avatarID:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 88.97 242.20 Td ( The avatar to set to replay mode.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 225.19 Td (bool setToRecording:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 134.52 225.19 Td ( True = enable; False = disable) Tj ET Q
+q 0.000 g BT 31.19 208.18 Td (Tutorial:) Tj ET 31.19 207.18 36.12 -0.50 re f Q
+q 0.000 g BT 67.30 208.18 Td ( VG_Recorder) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 176.40 Td (StartRecording) Tj ET Q
+0.00 195.59 m 595.28 195.59 l S
+q 595.28 0 0 25.51 0.00 170.08 cm /I1 Do Q
+BT /F2 8.00 Tf ET
+q 51.02 0 0 17.01 510.24 175.75 cm /I2 Do Q
+BT 524.41 181.42 Td (movie) Tj ET
+BT /F2 10.00 Tf ET
+BT /F2 8.00 Tf ET
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 159.99 Td (Start recording sensor data.) Tj ET Q
+q 0.000 g BT 31.19 142.98 Td (Tutorial:) Tj ET 31.19 141.98 36.12 -0.50 re f Q
+q 0.000 g BT 67.30 142.98 Td ( VG_Recorder) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 111.20 Td (StartReplay) Tj ET Q
+0.00 130.39 m 595.28 130.39 l S
+q 595.28 0 0 25.51 0.00 104.88 cm /I1 Do Q
+BT /F2 8.00 Tf ET
+q 51.02 0 0 17.01 510.24 110.55 cm /I2 Do Q
+BT 524.41 116.22 Td (movie) Tj ET
+BT /F2 10.00 Tf ET
+BT /F2 8.00 Tf ET
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 94.80 Td (Start full replay of the whole interaction sequence on an avatar.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 77.79 Td (int avatarID:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 88.97 77.79 Td ( The ID of the avatar to play the recording on \(note: it has to be an avatar enabled for replay\).) Tj ET Q
+BT /F3 10.00 Tf ET
+BT /F1 8.00 Tf ET
+q 0.000 g BT 31.19 25.95 Td (CONFIDENTIAL. Copyright 2014-2022 Gleechi AB. All rights reserved.) Tj ET Q
+q 0.000 g BT 506.71 25.95 Td (Page 21 of 22.) Tj ET Q
+
+endstream
+endobj
+45 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [510.24 700.16 561.26 683.15] /Border [0 0 0] /A <</S /URI /URI (https://www.youtube.com/watch?v=o5F5tUb8RQM)>>>><</Type /Annot /Subtype /Link /Rect [31.19 624.37 97.32 614.37] /Border [0 0 0] /Dest [9 0 R /XYZ 0 841.89 null]>><</Type /Annot /Subtype /Link /Rect [510.24 566.93 561.26 549.92] /Border [0 0 0] /A <</S /URI /URI (https://www.youtube.com/watch?v=o5F5tUb8RQM)>>>>]
+/Group <</Type /Group /S /Transparency /CS /DeviceRGB>>
+/Contents 46 0 R>>
+endobj
+46 0 obj
+<</Length 3533>>
+stream
+2 J
+0.57 w
+BT /F3 10.00 Tf ET
+0.784 0.784 0.784 rg
+BT /F1 10.00 Tf ET
+q 0.000 g BT 31.19 768.02 Td (VirtualGrasp SDK \(v0.10.0\) API Documentation.) Tj ET 31.19 767.02 212.86 -0.50 re f Q
+q 0.000 g BT 512.95 768.02 Td (2022-02-25) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 746.76 Td (Transform selectedObject:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 157.88 746.76 Td ( If provided, the entire sensor recording will be replayed in this object's frame. If not, in) Tj ET Q
+q 0.000 g BT 31.19 732.59 Td (global frame.) Tj ET Q
+q 0.000 g BT 31.19 715.58 Td (Tutorial:) Tj ET 31.19 714.58 36.12 -0.50 re f Q
+q 0.000 g BT 67.30 715.58 Td ( VG_Recorder) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 683.80 Td (StartReplayOnObject) Tj ET Q
+0.00 702.99 m 595.28 702.99 l S
+q 595.28 0 0 25.51 0.00 677.48 cm /I1 Do Q
+BT /F2 8.00 Tf ET
+q 51.02 0 0 17.01 510.24 683.15 cm /I2 Do Q
+BT 524.41 688.82 Td (movie) Tj ET
+BT /F2 10.00 Tf ET
+BT /F2 8.00 Tf ET
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 667.39 Td (Start replaying a specific interaction segment on one object.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 650.39 Td (Transform obj:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 101.74 650.39 Td ( The object to play the interaction on.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 633.38 Td (int avatarID:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 88.97 633.38 Td ( The avatar to play the interaction with.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 0.000 1.000 rg BT 31.19 616.37 Td (VG_HandSide) Tj ET 31.19 615.37 66.13 -0.50 re f Q
+q 0.000 g BT 97.31 616.37 Td ( handSide:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 148.43 616.37 Td ( The hand to play the interaction with.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 599.36 Td (int interactionId:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 109.52 599.36 Td ( The ID of the interaction segment to be played on this object.) Tj ET Q
+q 0.000 g BT 31.19 582.35 Td (Tutorial:) Tj ET 31.19 581.35 36.12 -0.50 re f Q
+q 0.000 g BT 67.30 582.35 Td ( VG_Recorder) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 550.57 Td (StopRecording) Tj ET Q
+0.00 569.76 m 595.28 569.76 l S
+q 595.28 0 0 25.51 0.00 544.25 cm /I1 Do Q
+BT /F2 8.00 Tf ET
+q 51.02 0 0 17.01 510.24 549.92 cm /I2 Do Q
+BT 524.41 555.59 Td (movie) Tj ET
+BT /F2 10.00 Tf ET
+BT /F2 8.00 Tf ET
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 534.17 Td (Stop recording sensor data and store the whole sequence to a file) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 517.16 Td (string filename:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 105.64 517.16 Td ( The filename to save the recording to.) Tj ET Q
+q 0.000 g BT 31.19 500.15 Td (Tutorial:) Tj ET 31.19 499.15 36.12 -0.50 re f Q
+q 0.000 g BT 67.30 500.15 Td ( VG_Recorder) Tj ET Q
+BT /F3 12.00 Tf ET
+q 0.000 g BT 31.19 468.37 Td (StopReplay) Tj ET Q
+0.00 487.56 m 595.28 487.56 l S
+q 595.28 0 0 25.51 0.00 462.05 cm /I1 Do Q
+BT /F2 8.00 Tf ET
+BT /F2 10.00 Tf ET
+q 0.000 g BT 31.19 451.96 Td (Stop replay of the recorded interaction sequence on an avatar.) Tj ET Q
+BT /F3 10.00 Tf ET
+q 0.000 g BT 31.19 434.95 Td (int avatarID:) Tj ET Q
+BT /F2 10.00 Tf ET
+q 0.000 g BT 88.97 434.95 Td ( The ID of the avatar to play the recording on \(note: it has to be an avatar enabled for replay\).) Tj ET Q
+q 0.000 g BT 31.19 417.95 Td (Tutorial:) Tj ET 31.19 416.95 36.12 -0.50 re f Q
+q 0.000 g BT 67.30 417.95 Td ( VG_Recorder) Tj ET Q
+BT /F1 8.00 Tf ET
+q 0.000 g BT 31.19 25.95 Td (CONFIDENTIAL. Copyright 2014-2022 Gleechi AB. All rights reserved.) Tj ET Q
+q 0.000 g BT 506.71 25.95 Td (Page 22 of 22.) Tj ET Q
+
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R 21 0 R 23 0 R 25 0 R 27 0 R 29 0 R 31 0 R 33 0 R 35 0 R 37 0 R 39 0 R 41 0 R 43 0 R 45 0 R ]
+/Count 22
+/MediaBox [0 0 595.28 841.89]
+>>
+endobj
+47 0 obj
+<</Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+48 0 obj
+<</Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+49 0 obj
+<</Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+50 0 obj
+<</Type /XObject
+/Subtype /Image
+/Width 100
+/Height 75
+/ColorSpace /DeviceRGB
+/BitsPerComponent 8
+/Filter /FlateDecode
+/DecodeParms <</Predictor 15 /Colors 3 /BitsPerComponent 8 /Columns 100>>
+/SMask 51 0 R
+/Length 183>>
+stream
+xúÌ–A !¿¿„¸;X≥X†/B2£†Èöôè3ˇÌÄóòòòòòòòòòòòòòòòòòòòòòòòòòòòòòòòòòòòòòòòòòòòòòòòòòòòòòòòòòòòòòòòòòòòòòòòòòlbóg
+endstream
+endobj
+51 0 obj
+<</Type /XObject
+/Subtype /Image
+/Width 100
+/Height 75
+/ColorSpace /DeviceGray
+/BitsPerComponent 8
+/Filter /FlateDecode
+/DecodeParms <</Predictor 15 /Colors 1 /BitsPerComponent 8 /Columns 100>>
+/Length 56>>
+stream
+xúÌÕA   0d’?Éú«V`Ÿ±ØâD"ëH$âD"ëH$âD"ëH$âD"˘ôXò ˙
+endstream
+endobj
+52 0 obj
+<</Type /XObject
+/Subtype /Image
+/Width 120
+/Height 40
+/ColorSpace /DeviceRGB
+/BitsPerComponent 8
+/Filter /FlateDecode
+/DecodeParms <</Predictor 15 /Colors 3 /BitsPerComponent 8 /Columns 120>>
+/SMask 53 0 R
+/Length 463>>
+stream
+xúc¸ˇˇ?‡˘$Kbîç@ ôwúeå¯˙ŸD*πg¯©¸xdÒÙì	Ê4pœp2'qIaË«}¶¥tœ0≤Eß1±Ù£^∫∏g8π‚3h"Ë˝∞«òéÓŒ@æ‰,2%†t—›=√(îûÉ≥}Ø”`Ä‹3úÅR˘É.DdÉzê†)˙Nªﬁ@ªdÿï Kê}ªUw†3¸(Eﬂl—hgs†^sî¢GKg: ∆kçÌÜX˛˝MŒÙ ,ˇˇˇh7å¿2Z@”å4ù¿h@”	 +√—2ö`4E”	å4ù¿hÛéN`¥√B'0Zt–	å4ù¿hM' è>Z >–ŒÊ¿z¬À—Òh:Ëú··<—Åv…∞∂ì^3¿g¡GKjZƒ∫éŸBÎîa	¶æÉ0F◊u–	†,	€ó)0ÄN~¿i˙8}ë„ﬁ>∫ªgxÁüêπXñÌÓN„•£{Ü'pùıM˚BÙ]©<tqœn≥ø`
+‚€Z±3ÖõñÓÜ¿}ŒW\R6¡é$NFjªhÿèπﬂÒ+ –∞-ëÉÓÜ¿k˛bî ’Ô∞Ò
+endstream
+endobj
+53 0 obj
+<</Type /XObject
+/Subtype /Image
+/Width 120
+/Height 40
+/ColorSpace /DeviceGray
+/BitsPerComponent 8
+/Filter /FlateDecode
+/DecodeParms <</Predictor 15 /Colors 1 /BitsPerComponent 8 /Columns 120>>
+/Length 438>>
+stream
+xúcd@"û÷
+Ï‘??<∏∞w˚d!F$¶é#’ÌD≤}◊¥ùˇ±XÏ—£MC[!‡|ÓQtã˘gD–‹Zòù˜≈b’ÕÍt±óÅ·tc$ã5ˆK–…^Üá‡´¢üΩ@õ≠ûA-Ê?IØpÜÄSˆ¿xf2f–◊^≥ˆB∞èù˜–◊^ÜÜóÄ>fúHo{ò&€}∞ûÓ30Xû`a» {rO0äº§e˘å|aÒ{xÏY¨¬^#ÉÅ±ÿÄE~`,÷cãÖX®ﬂŒ!
+à≤åΩøY~åó?∞ºìãﬂ±<ã/±\0ã/∞ÏMãè≤lê‘ı˙#√&ﬂ∞xv√¥Å∞x®Õu÷àÓˆÓÙ µ2sè0VJU+“ÆûôFgãõÎ ÌÍ|CS∫⁄ª´ë⁄Öë=LœZ˘¶ı[ò≈
+ËgÛM«Ápã$6ö—…ﬁ]Qoê,f`Ô»£GsÛWg„_ãt˚\hnÔŒ¸õ0&r∂»ıÂ•°≠Ø7L∏Ü‡°ñÏñzBTo˙˘·›•NˇE n]b?
+endstream
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 47 0 R
+/F2 48 0 R
+/F3 49 0 R
+>>
+/XObject <<
+/I1 50 0 R
+/I2 52 0 R
+>>
+>>
+endobj
+54 0 obj
+<<
+/Producer (PyFPDF 1.7.2 http://pyfpdf.googlecode.com/)
+/CreationDate (D:20220225165514)
+>>
+endobj
+55 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 56
+0000000000 65535 f 
+0000120825 00000 n 
+0000123494 00000 n 
+0000000009 00000 n 
+0000001197 00000 n 
+0000003331 00000 n 
+0000003465 00000 n 
+0000008938 00000 n 
+0000009072 00000 n 
+0000015435 00000 n 
+0000015570 00000 n 
+0000021674 00000 n 
+0000021810 00000 n 
+0000028981 00000 n 
+0000029117 00000 n 
+0000032915 00000 n 
+0000033051 00000 n 
+0000037524 00000 n 
+0000037785 00000 n 
+0000043974 00000 n 
+0000044349 00000 n 
+0000050293 00000 n 
+0000050554 00000 n 
+0000053199 00000 n 
+0000053460 00000 n 
+0000058634 00000 n 
+0000058896 00000 n 
+0000060352 00000 n 
+0000061336 00000 n 
+0000067694 00000 n 
+0000068639 00000 n 
+0000075144 00000 n 
+0000075975 00000 n 
+0000083208 00000 n 
+0000084158 00000 n 
+0000091076 00000 n 
+0000091569 00000 n 
+0000093968 00000 n 
+0000094104 00000 n 
+0000095993 00000 n 
+0000096596 00000 n 
+0000103198 00000 n 
+0000103689 00000 n 
+0000109390 00000 n 
+0000110247 00000 n 
+0000116682 00000 n 
+0000117241 00000 n 
+0000121057 00000 n 
+0000121162 00000 n 
+0000121259 00000 n 
+0000121361 00000 n 
+0000121799 00000 n 
+0000122096 00000 n 
+0000122814 00000 n 
+0000123643 00000 n 
+0000123753 00000 n 
+trailer
+<<
+/Size 56
+/Root 55 0 R
+/Info 54 0 R
+>>
+startxref
+123857
+%%EOF

@@ -1,0 +1,52 @@
+0 hidden joints: ()
+
+Object hierarchy:
+
+LIMB vg_world/2147483647 has no parent and 15 children
+ Joint: vg_world/2147483647 FIXED, axis [0, 0, 0], push_axis [0, 0, 0], pivot [0, 0, 0], limit [0, 0], screw_rate 0, dofs , twist 0 (deg)
+
+	LIMB cylinder/-139486 has parent vg_world/2147483647-FIXED and 0 children
+	 Joint: cylinder/-139486 REVOLUTE, axis [-0, 0, -1], push_axis [-0, 0, -1], pivot [0.978661, -7.8, -1.16665e-07], limit [0, 1.5708], screw_rate 0, dofs 1.571, twist 0 (deg)
+
+	LIMB firstaid/-132058 has parent vg_world/2147483647-FIXED and 0 children
+	 Joint: firstaid/-132058 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [0.1442, 3.38, 0.0545998], limit [0, 0], screw_rate 0, dofs -15.956 -31.336 51.780 3.142 0.000 3.142, twist 0 (deg)
+
+	LIMB cannedfood/-132066 has parent vg_world/2147483647-FIXED and 0 children
+	 Joint: cannedfood/-132066 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [0.0316, 0, 0], limit [0, 0], screw_rate 0, dofs -26.200 -26.635 29.700 -3.142 -0.563 -3.142, twist 0 (deg)
+
+	LIMB tape/-132074 has parent vg_world/2147483647-FIXED and 0 children
+	 Joint: tape/-132074 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [0, 0, 0], limit [0, 0], screw_rate 0, dofs 35.879 -30.454 49.200 -3.142 0.000 -3.142, twist 0 (deg)
+
+	LIMB cannedfood/-132130 has parent vg_world/2147483647-FIXED and 0 children
+	 Joint: cannedfood/-132130 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [0.0316, 0, 0], limit [0, 0], screw_rate 0, dofs -33.100 -26.635 48.100 -3.142 -0.563 -3.142, twist 0 (deg)
+
+	LIMB battery/-132138 has parent vg_world/2147483647-FIXED and 0 children
+	 Joint: battery/-132138 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [0, 0.1149, 6.84857e-09], limit [0, 0], screw_rate 0, dofs 38.096 -28.774 34.602 3.104 -1.540 3.103, twist 0 (deg)
+
+	LIMB waterbottle/-132146 has parent vg_world/2147483647-FIXED and 0 children
+	 Joint: waterbottle/-132146 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [0, -4.44475, 0], limit [0, 0], screw_rate 0, dofs 49.187 -18.180 21.270 3.135 0.003 3.132, twist 0 (deg)
+
+	LIMB flashlight/-132154 has parent vg_world/2147483647-FIXED and 0 children
+	 Joint: flashlight/-132154 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [0.02325, 10.3757, 1.86265e-09], limit [0, 0], screw_rate 0, dofs 6.515 -30.103 49.615 -1.424 -0.489 0.172, twist 0 (deg)
+
+	LIMB battery/-132162 has parent vg_world/2147483647-FIXED and 0 children
+	 Joint: battery/-132162 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [0, 0.1149, 6.84857e-09], limit [0, 0], screw_rate 0, dofs 38.300 -28.775 27.999 3.140 -1.540 3.140, twist 0 (deg)
+
+	LIMB pills/-132190 has parent vg_world/2147483647-FIXED and 0 children
+	 Joint: pills/-132190 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [0, 0.3031, 0], limit [0, 0], screw_rate 0, dofs 26.900 -28.732 41.100 0.001 -1.452 0.001, twist 0 (deg)
+
+	LIMB battery/-132198 has parent vg_world/2147483647-FIXED and 0 children
+	 Joint: battery/-132198 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [0, 0.1149, 6.84857e-09], limit [0, 0], screw_rate 0, dofs 37.897 -28.775 40.000 3.113 -1.540 3.113, twist 0 (deg)
+
+	LIMB battery/-132206 has parent vg_world/2147483647-FIXED and 0 children
+	 Joint: battery/-132206 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [0, 0.1149, 6.84857e-09], limit [0, 0], screw_rate 0, dofs 38.510 -28.775 22.670 -3.141 -1.540 -3.141, twist 0 (deg)
+
+	LIMB cannedfood/-132214 has parent vg_world/2147483647-FIXED and 0 children
+	 Joint: cannedfood/-132214 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [0.0316, 0, 0], limit [0, 0], screw_rate 0, dofs -34.200 -26.635 34.700 -3.142 -0.563 -3.142, twist 0 (deg)
+
+	LIMB pills/-132270 has parent vg_world/2147483647-FIXED and 0 children
+	 Joint: pills/-132270 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [0, 0.3031, 0], limit [0, 0], screw_rate 0, dofs 24.983 -28.732 25.546 0.001 -1.452 0.001, twist 0 (deg)
+
+	LIMB walkie/-132278 has parent vg_world/2147483647-FIXED and 0 children
+	 Joint: walkie/-132278 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [0, 2.3686, -0.9155], limit [0, 0], screw_rate 0, dofs 61.003 -30.413 33.060 1.642 0.053 -2.337, twist 0 (deg)
+
