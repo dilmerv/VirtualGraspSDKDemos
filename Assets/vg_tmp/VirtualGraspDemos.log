@@ -1,0 +1,51 @@
+Initialized VirtualGrasp SDK 0.10.1 (core 0.7.1).[VirtualGrasp] Register rig and mesh for Rhand.001 with 49 bones.
+Initializing avatar #1 as instance of template #0[VG] [2022-03-20 15:51:05.355] [Scene] [info] Registered avatar mesh with 49 bones, 8334 vertices and 14992 triangles.
+[VirtualGrasp] Register 32 skinned meshes for avatar Rhand.001, ID:  1[VG] [2022-03-20 15:51:05.437] [HandMetaData] [info] Saved debug avatar file Assets/vg_tmp/humanoid_hand_1269503502.bin
+[VirtualGrasp] Initializing sensors: EXTERNAL_CONTROLLER/NO_CONTROLLERLoading graspdb C:/Users/dilme/Code/VirtualGraspSDKDemos/Assets/StreamingAssets\VG_Grasps\grasps.db[VG] [2022-03-20 15:51:05.466] [VirtualGrasp-selection] [info] Saved debug mesh file: assets/vg_tmp/cylinder_677297386.obj.
+[VG] [2022-03-20 15:51:05.470] [VirtualGrasp-selection] [info] Saved debug mesh file: assets/vg_tmp/cylinder_677297386.obj.
+[VG] [2022-03-20 15:51:05.473] [VirtualGrasp-selection] [info] Saved debug mesh file: assets/vg_tmp/cylinder_677297386.obj.
+[VG] [2022-03-20 15:51:05.475] [VirtualGrasp-selection] [info] Saved debug mesh file: assets/vg_tmp/cylinder_677297386.obj.
+[VG] [2022-03-20 15:51:05.478] [VirtualGrasp-selection] [info] Saved debug mesh file: assets/vg_tmp/cylinder_677297386.obj.
+[VG] [2022-03-20 15:51:05.486] [VirtualGrasp-selection] [info] Saved debug mesh file: assets/vg_tmp/firstaid_2606189051.obj.
+[VG] [2022-03-20 15:51:05.498] [VirtualGrasp-selection] [info] Saved debug mesh file: assets/vg_tmp/cannedfood_3487517182.obj.
+[VG] [2022-03-20 15:51:05.508] [VirtualGrasp-selection] [info] Saved debug mesh file: assets/vg_tmp/cannedfood_3487517182.obj.
+[VG] [2022-03-20 15:51:05.511] [VirtualGrasp-selection] [info] Saved debug mesh file: assets/vg_tmp/cylinder_3861050288.obj.
+[VG] [2022-03-20 15:51:05.520] [VirtualGrasp-selection] [info] Saved debug mesh file: assets/vg_tmp/tape_2109703936.obj.
+[VG] [2022-03-20 15:51:05.523] [VirtualGrasp-selection] [info] Saved debug mesh file: assets/vg_tmp/cylinder_4194283348.obj.
+[VG] [2022-03-20 15:51:05.525] [VirtualGrasp-selection] [info] Saved debug mesh file: assets/vg_tmp/cylinder_677297386.obj.
+[VG] [2022-03-20 15:51:05.537] [VirtualGrasp-selection] [info] Saved debug mesh file: assets/vg_tmp/cannedfood_3487517182.obj.
+[VG] [2022-03-20 15:51:05.547] [VirtualGrasp-selection] [info] Saved debug mesh file: assets/vg_tmp/cannedfood_3487517182.obj.
+[VG] [2022-03-20 15:51:05.561] [VirtualGrasp-selection] [info] Saved debug mesh file: assets/vg_tmp/battery_1632010339.obj.
+[VG] [2022-03-20 15:51:05.572] [VirtualGrasp-selection] [info] Saved debug mesh file: assets/vg_tmp/cannedfood_3487517182.obj.
+[VG] [2022-03-20 15:51:05.575] [VirtualGrasp-selection] [info] Saved debug mesh file: assets/vg_tmp/cylinder_1889076218.obj.
+[VG] [2022-03-20 15:51:05.594] [VirtualGrasp-selection] [info] Saved debug mesh file: assets/vg_tmp/waterbottle_3901159506.obj.
+[VG] [2022-03-20 15:51:05.605] [VirtualGrasp-selection] [info] Saved debug mesh file: assets/vg_tmp/cannedfood_3487517182.obj.
+[VG] [2022-03-20 15:51:05.617] [VirtualGrasp-selection] [info] Saved debug mesh file: assets/vg_tmp/cannedfood_3487517182.obj.
+[VG] [2022-03-20 15:51:05.619] [VirtualGrasp-selection] [info] Saved debug mesh file: assets/vg_tmp/cylinder_3861050288.obj.
+[VG] [2022-03-20 15:51:05.640] [VirtualGrasp-selection] [info] Saved debug mesh file: assets/vg_tmp/flashlight_2257427956.obj.
+[VG] [2022-03-20 15:51:05.655] [VirtualGrasp-selection] [info] Saved debug mesh file: assets/vg_tmp/battery_1632010339.obj.
+[VG] [2022-03-20 15:51:05.666] [VirtualGrasp-selection] [info] Saved debug mesh file: assets/vg_tmp/cannedfood_3487517182.obj.
+[VG] [2022-03-20 15:51:05.675] [VirtualGrasp-selection] [info] Saved debug mesh file: assets/vg_tmp/pills_1232395120.obj.
+[VG] [2022-03-20 15:51:05.686] [VirtualGrasp-selection] [info] Saved debug mesh file: assets/vg_tmp/battery_1632010339.obj.
+[VG] [2022-03-20 15:51:05.697] [VirtualGrasp-selection] [info] Saved debug mesh file: assets/vg_tmp/battery_1632010339.obj.
+[VG] [2022-03-20 15:51:05.700] [VirtualGrasp-selection] [info] Saved debug mesh file: assets/vg_tmp/cylinder_1889076218.obj.
+[VG] [2022-03-20 15:51:05.710] [VirtualGrasp-selection] [info] Saved debug mesh file: assets/vg_tmp/cannedfood_3487517182.obj.
+[VG] [2022-03-20 15:51:05.721] [VirtualGrasp-selection] [info] Saved debug mesh file: assets/vg_tmp/cannedfood_3487517182.obj.
+[VG] [2022-03-20 15:51:05.731] [VirtualGrasp-selection] [info] Saved debug mesh file: assets/vg_tmp/cannedfood_3487517182.obj.
+[VG] [2022-03-20 15:51:05.752] [VirtualGrasp-selection] [info] Saved debug mesh file: assets/vg_tmp/flashlight_2257427956.obj.
+[VG] [2022-03-20 15:51:05.761] [VirtualGrasp-selection] [info] Saved debug mesh file: assets/vg_tmp/pills_1232395120.obj.
+[VG] [2022-03-20 15:51:05.772] [VirtualGrasp-selection] [info] Saved debug mesh file: assets/vg_tmp/cannedfood_3487517182.obj.
+[VG] [2022-03-20 15:51:05.816] [VirtualGrasp-selection] [info] Saved debug mesh file: assets/vg_tmp/walkie_968160876.obj.
+[VG] [2022-03-20 15:51:05.827] [VirtualGrasp-selection] [info] Saved debug mesh file: assets/vg_tmp/cannedfood_3487517182.obj.
+[VG] [2022-03-20 15:51:05.830] [VirtualGrasp-selection] [info] Saved debug mesh file: assets/vg_tmp/cylinder_4194283348.obj.
+[VG] [2022-03-20 15:51:05.841] [VirtualGrasp-selection] [info] Saved debug mesh file: assets/vg_tmp/oxygen_2647579521.obj.
+[VG] [2022-03-20 15:51:05.849] [VirtualGrasp-selection] [info] Saved debug mesh file: assets/vg_tmp/medicine_668758900.obj.
+[VG] [2022-03-20 15:51:05.857] [VirtualGrasp-selection] [info] Saved debug mesh file: assets/vg_tmp/hammer_2880690903.obj.
+[VG] [2022-03-20 15:51:05.870] [VirtualGrasp-selection] [info] Saved debug mesh file: assets/vg_tmp/multitool_3310009594.obj.
+[VG] [2022-03-20 15:51:05.876] [SelectableScene] [warning] Object oxygen/56064 is not baked, so switch to sticky hand from TRIGGER_GRASP
+[VG] [2022-03-20 15:51:05.876] [SelectableScene] [warning] Object medicine/56072 is not baked, so switch to sticky hand from TRIGGER_GRASP
+[VG] [2022-03-20 15:51:05.876] [SelectableScene] [warning] Object hammer/56088 is not baked, so switch to sticky hand from TRIGGER_GRASP
+[VG] [2022-03-20 15:51:05.876] [SelectableScene] [warning] Object multitool/56106 is not baked, so switch to sticky hand from TRIGGER_GRASP
+[VG] [2022-03-20 15:52:01.622] [GraspSelector] [info] Save grasp database C:/Users/dilme/Code/VirtualGraspSDKDemos/Assets/StreamingAssets\VG_Grasps\grasps.db.
+[VG] [2022-03-20 15:52:01.628] [SelectableScene] [info] Successfully saved scene setup to Assets/vg_tmp/VirtualGraspDemos.scn!
+[VG] [2022-03-20 15:52:01.629] [SelectableScene] [info] Successfully saved object rig to Assets/vg_tmp/VirtualGraspDemos.scn.objrig!
