@@ -10,8 +10,11 @@ public class ArticulationStats : MonoBehaviour
     {
         VG_Controller.OnObjectGrasped.AddListener((handStatus) =>
         {
-            var overlayStats = handStatus.m_selectedObject.GetComponent<TextMeshPro>();
-            overlayStats.text = $"Grab Strength:\n{handStatus.m_grabStrength}";
+            var overlayStats = handStatus.m_selectedObject.GetComponentInChildren<TextMeshPro>();
+            if (overlayStats != null)
+            {
+                overlayStats.text = $"Grab Strength:\n{handStatus.m_grabStrength}";
+            }
         });
     }
 }
