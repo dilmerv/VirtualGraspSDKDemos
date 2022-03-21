@@ -1,172 +1,184 @@
-14 hidden joints: (-40882, -45846, -46700, -46966, 55682, 55802, 55608, 55808, 55556, 55888, 56038, 55482, 55386, 55708)
+14 hidden joints: (37060, 36876, 36474, 36374, 36648, 36912, 36796, 36300, 36348, 36196, 36314, 36776, 36618, 36536)
 
 Object hierarchy:
 
-LIMB vg_world/2147483647 has no parent and 6 children
+LIMB vg_world/2147483647 has no parent and 2 children
  Joint: vg_world/2147483647 FIXED, axis [0, 0, 0], push_axis [0, 0, 0], pivot [0, 0, 0], limit [0, 0], screw_rate 0, dofs , twist 0 (deg)
 
-	LIMB unknown/55682 has parent vg_world/2147483647-FIXED and 12 children
-	 Joint: unknown/55682 FIXED, axis [-0, 1, 0], push_axis [-0, 1, 0], pivot [0, 0, 0], limit [0, 0], screw_rate 0, dofs , twist 0 (deg)
+	LIMB unknown/36776 has parent vg_world/2147483647-FIXED and 33 children
+	 Joint: unknown/36776 FIXED, axis [-0, 1, 0], push_axis [-0, 1, 0], pivot [0, 0, 0], limit [0, 0], screw_rate 0, dofs , twist 0 (deg)
 
-		LIMB lever_direction/-46966 has parent unknown/55682-FIXED vg_world/2147483647-FIXED and 1 child
-		 Joint: lever_direction/-46966 FIXED, axis [-0, 1, 0], push_axis [-0, 1, 0], pivot [0, 0, 0], limit [0, 0], screw_rate 0, dofs , twist 0 (deg)
+		LIMB stool/37128 has parent unknown/36776-FIXED vg_world/2147483647-FIXED and 0 children
+		 Joint: stool/37128 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [-0, 0, 0], limit [0, 0], screw_rate 0, dofs 7.400 -67.000 -14.000 -0.000 0.000 -0.000, twist 0 (deg)
 
-			LIMB cylinder/-46984 has parent lever_direction/-46966-FIXED unknown/55682-FIXED vg_world/2147483647-FIXED and 0 children
-			 Joint: cylinder/-46984 PRISMATIC, axis [-0, -1, -4.76837e-07], push_axis [0, -1, -4.76837e-07], pivot [-0, 0, 0], limit [0, 1], screw_rate 0, dofs 0.000, twist 0 (deg)
+		LIMB stool/37012 has parent unknown/36776-FIXED vg_world/2147483647-FIXED and 0 children
+		 Joint: stool/37012 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [-0, 0, 0], limit [0, 0], screw_rate 0, dofs 258.532 -66.999 -14.000 -0.000 0.000 -0.000, twist 0 (deg)
 
-		LIMB lever_direction/-46700 has parent unknown/55682-FIXED vg_world/2147483647-FIXED and 1 child
-		 Joint: lever_direction/-46700 FIXED, axis [-0, 1, 0], push_axis [-0, 1, 0], pivot [0, 0, 0], limit [0, 0], screw_rate 0, dofs , twist 0 (deg)
+		LIMB stool/36138 has parent unknown/36776-FIXED vg_world/2147483647-FIXED and 0 children
+		 Joint: stool/36138 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [-0, 0, 0], limit [0, 0], screw_rate 0, dofs 143.432 -66.999 -14.000 0.000 0.000 0.000, twist 0 (deg)
 
-			LIMB cylinder/-46682 has parent lever_direction/-46700-FIXED unknown/55682-FIXED vg_world/2147483647-FIXED and 0 children
-			 Joint: cylinder/-46682 PRISMATIC, axis [-0, -1, -4.76837e-07], push_axis [0, -1, -4.76837e-07], pivot [-0, 0, 0], limit [0, 1], screw_rate 0, dofs -0.000, twist 0 (deg)
+		LIMB stool/36130 has parent unknown/36776-FIXED vg_world/2147483647-FIXED and 0 children
+		 Joint: stool/36130 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [-0, 0, 0], limit [0, 0], screw_rate 0, dofs -115.668 -66.999 -14.000 0.000 0.000 0.000, twist 0 (deg)
 
-		LIMB lever_direction/-45846 has parent unknown/55682-FIXED vg_world/2147483647-FIXED and 1 child
-		 Joint: lever_direction/-45846 FIXED, axis [-0, 1, 0], push_axis [-0, 1, 0], pivot [0, 0, 0], limit [0, 0], screw_rate 0, dofs , twist 0 (deg)
+		LIMB firstaid/36150 has parent unknown/36776-FIXED vg_world/2147483647-FIXED and 0 children
+		 Joint: firstaid/36150 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [0.1442, 3.38, 0.0545998], limit [0, 0], screw_rate 0, dofs -14.068 -31.336 31.708 3.142 0.000 3.142, twist 0 (deg)
 
-			LIMB cylinder/-45864 has parent lever_direction/-45846-FIXED unknown/55682-FIXED vg_world/2147483647-FIXED and 0 children
-			 Joint: cylinder/-45864 PRISMATIC, axis [-0, -1, -4.76837e-07], push_axis [0, -1, -4.76837e-07], pivot [-0, 0, 0], limit [0, 1], screw_rate 0, dofs 0.000, twist 0 (deg)
+		LIMB cannedfood/36184 has parent unknown/36776-FIXED vg_world/2147483647-FIXED and 0 children
+		 Joint: cannedfood/36184 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [0.0316, 0, 0], limit [0, 0], screw_rate 0, dofs 6.219 -26.626 62.274 3.136 -0.000 3.137, twist 0 (deg)
 
-		LIMB lever_direction/-40882 has parent unknown/55682-FIXED vg_world/2147483647-FIXED and 1 child
-		 Joint: lever_direction/-40882 FIXED, axis [-0, 1, 0], push_axis [-0, 1, 0], pivot [0, 0, 0], limit [0, 0], screw_rate 0, dofs , twist 0 (deg)
+		LIMB cannedfood/36226 has parent unknown/36776-FIXED vg_world/2147483647-FIXED and 0 children
+		 Joint: cannedfood/36226 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [0.0316, 0, 0], limit [0, 0], screw_rate 0, dofs -27.968 -26.635 38.008 -3.142 0.212 3.142, twist 0 (deg)
 
-			LIMB cylinder/-40858 has parent lever_direction/-40882-FIXED unknown/55682-FIXED vg_world/2147483647-FIXED and 0 children
-			 Joint: cylinder/-40858 PRISMATIC, axis [-0, -1, -4.76837e-07], push_axis [0, -1, -4.76837e-07], pivot [-0, 0, 0], limit [0, 1], screw_rate 0, dofs 0.000, twist 0 (deg)
+		LIMB tape/36266 has parent unknown/36776-FIXED vg_world/2147483647-FIXED and 0 children
+		 Joint: tape/36266 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [0, 0, 0], limit [0, 0], screw_rate 0, dofs 44.832 -30.454 52.908 -3.142 0.000 -3.142, twist 0 (deg)
 
-		LIMB lever_prismatic_bounce_index_push/55608 has parent unknown/55682-FIXED vg_world/2147483647-FIXED and 1 child
-		 Joint: lever_prismatic_bounce_index_push/55608 FIXED, axis [-0, 1, 0], push_axis [-0, 1, 0], pivot [0, 0, 0], limit [0, 0], screw_rate 0, dofs , twist 0 (deg)
+		LIMB cannedfood/36420 has parent unknown/36776-FIXED vg_world/2147483647-FIXED and 0 children
+		 Joint: cannedfood/36420 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [0.0316, 0, 0], limit [0, 0], screw_rate 0, dofs -33.100 -26.635 48.100 -3.141 -0.563 -3.142, twist 0 (deg)
 
-			LIMB cylinder/55300 has parent lever_prismatic_bounce_index_push/55608-FIXED unknown/55682-FIXED vg_world/2147483647-FIXED and 0 children
-			 Joint: cylinder/55300 PRISMATIC, axis [-0, -1, -3.57628e-07], push_axis [0, -1, -3.57628e-07], pivot [0, 0, 0], limit [0, 1], screw_rate 0, dofs 0.000, twist 0 (deg)
+		LIMB cannedfood/36428 has parent unknown/36776-FIXED vg_world/2147483647-FIXED and 0 children
+		 Joint: cannedfood/36428 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [0.0316, 0, 0], limit [0, 0], screw_rate 0, dofs -1.468 -26.628 62.283 3.138 -0.003 3.134, twist 0 (deg)
 
-		LIMB lever_revolute_bounce_one_hand/55808 has parent unknown/55682-FIXED vg_world/2147483647-FIXED and 1 child
-		 Joint: lever_revolute_bounce_one_hand/55808 FIXED, axis [-0, 1, 0], push_axis [-0, 1, 0], pivot [0, 0, 0], limit [0, 0], screw_rate 0, dofs , twist 0 (deg)
+		LIMB battery/36456 has parent unknown/36776-FIXED vg_world/2147483647-FIXED and 0 children
+		 Joint: battery/36456 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [0, 0.1149, 6.84857e-09], limit [0, 0], screw_rate 0, dofs 37.859 -30.025 36.798 -0.208 -0.028 -1.576, twist 0 (deg)
 
-			LIMB cylinder/55404 has parent lever_revolute_bounce_one_hand/55808-FIXED unknown/55682-FIXED vg_world/2147483647-FIXED and 0 children
-			 Joint: cylinder/55404 REVOLUTE, axis [-0, 1, -3.57628e-07], push_axis [-0, 1, -3.57628e-07], pivot [-0, 0, -0], limit [-6.28319, 6.28319], screw_rate 0, dofs 0.000, twist 0 (deg)
+		LIMB cannedfood/36516 has parent unknown/36776-FIXED vg_world/2147483647-FIXED and 0 children
+		 Joint: cannedfood/36516 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [0.0316, 0, 0], limit [0, 0], screw_rate 0, dofs 6.072 -6.708 61.954 3.113 -0.010 3.132, twist 0 (deg)
 
-		LIMB lever_prismatic_bounce_bounce/55556 has parent unknown/55682-FIXED vg_world/2147483647-FIXED and 1 child
-		 Joint: lever_prismatic_bounce_bounce/55556 FIXED, axis [-0, 1, 0], push_axis [-0, 1, 0], pivot [0, 0, 0], limit [0, 0], screw_rate 0, dofs , twist 0 (deg)
+		LIMB waterbottle/36586 has parent unknown/36776-FIXED vg_world/2147483647-FIXED and 0 children
+		 Joint: waterbottle/36586 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [0, -4.44475, 0], limit [0, 0], screw_rate 0, dofs 49.438 -18.177 32.189 3.133 0.001 -3.133, twist 0 (deg)
 
-			LIMB cylinder/55442 has parent lever_prismatic_bounce_bounce/55556-FIXED unknown/55682-FIXED vg_world/2147483647-FIXED and 0 children
-			 Joint: cylinder/55442 PRISMATIC, axis [1, 0, -1.19209e-07], push_axis [1, 0, -1.19209e-07], pivot [-0, -2.88, 0], limit [0, 12], screw_rate 0, dofs 0.000, twist 0 (deg)
+		LIMB cannedfood/36594 has parent unknown/36776-FIXED vg_world/2147483647-FIXED and 0 children
+		 Joint: cannedfood/36594 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [0.0316, 0, 0], limit [0, 0], screw_rate 0, dofs 17.599 -16.701 62.187 3.125 0.007 -3.122, twist 0 (deg)
 
-		LIMB lever_prismatic_bounce_grasp_push/56038 has parent unknown/55682-FIXED vg_world/2147483647-FIXED and 1 child
-		 Joint: lever_prismatic_bounce_grasp_push/56038 FIXED, axis [-0, 1, 0], push_axis [-0, 1, 0], pivot [0, 0, 0], limit [0, 0], screw_rate 0, dofs , twist 0 (deg)
+		LIMB cannedfood/36606 has parent unknown/36776-FIXED vg_world/2147483647-FIXED and 0 children
+		 Joint: cannedfood/36606 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [0.0316, 0, 0], limit [0, 0], screw_rate 0, dofs 2.648 -16.728 62.203 3.132 -0.009 -3.136, twist 0 (deg)
 
-			LIMB cylinder/55454 has parent lever_prismatic_bounce_grasp_push/56038-FIXED unknown/55682-FIXED vg_world/2147483647-FIXED and 0 children
-			 Joint: cylinder/55454 PRISMATIC, axis [-0, -1, -3.57628e-07], push_axis [0, -1, -3.57628e-07], pivot [0, 0, 0], limit [0, 1], screw_rate 0, dofs 0.000, twist 0 (deg)
+		LIMB flashlight/36698 has parent unknown/36776-FIXED vg_world/2147483647-FIXED and 0 children
+		 Joint: flashlight/36698 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [0.02325, 10.3757, 1.86265e-09], limit [0, 0], screw_rate 0, dofs 5.970 -29.887 49.467 -1.402 -0.645 0.205, twist 0 (deg)
 
-		LIMB lever_revolute_bounce_forward/55708 has parent unknown/55682-FIXED vg_world/2147483647-FIXED and 1 child
-		 Joint: lever_revolute_bounce_forward/55708 FIXED, axis [-0, 1, 0], push_axis [-0, 1, 0], pivot [0, 0, 0], limit [0, 0], screw_rate 0, dofs , twist 0 (deg)
+		LIMB battery/36710 has parent unknown/36776-FIXED vg_world/2147483647-FIXED and 0 children
+		 Joint: battery/36710 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [0, 0.1149, 6.84857e-09], limit [0, 0], screw_rate 0, dofs 38.299 -28.775 27.999 3.132 -1.540 3.133, twist 0 (deg)
 
-			LIMB cylinder/55634 has parent lever_revolute_bounce_forward/55708-FIXED unknown/55682-FIXED vg_world/2147483647-FIXED and 0 children
-			 Joint: cylinder/55634 REVOLUTE, axis [-0, 0, -1], push_axis [-0, 0, -1], pivot [-0, -7.84, 0], limit [0, 1.5708], screw_rate 0, dofs 0.000, twist 0 (deg)
+		LIMB cannedfood/36748 has parent unknown/36776-FIXED vg_world/2147483647-FIXED and 0 children
+		 Joint: cannedfood/36748 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [0.0316, 0, 0], limit [0, 0], screw_rate 0, dofs 10.338 -16.684 62.177 3.119 -0.004 -3.140, twist 0 (deg)
 
-		LIMB lever_revolute_bounce_two_hands/55482 has parent unknown/55682-FIXED vg_world/2147483647-FIXED and 1 child
-		 Joint: lever_revolute_bounce_two_hands/55482 FIXED, axis [-0, 1, 0], push_axis [-0, 1, 0], pivot [0, 0, 0], limit [0, 0], screw_rate 0, dofs , twist 0 (deg)
+		LIMB pills/36820 has parent unknown/36776-FIXED vg_world/2147483647-FIXED and 0 children
+		 Joint: pills/36820 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [0, 0.3031, 0], limit [0, 0], screw_rate 0, dofs 26.900 -28.731 41.100 0.000 -0.641 0.000, twist 0 (deg)
 
-			LIMB cylinder/55696 has parent lever_revolute_bounce_two_hands/55482-FIXED unknown/55682-FIXED vg_world/2147483647-FIXED and 0 children
-			 Joint: cylinder/55696 REVOLUTE, axis [-0, 1, -3.57628e-07], push_axis [-0, 1, -3.57628e-07], pivot [-0, 0, -0], limit [-6.28319, 6.28319], screw_rate 0, dofs 0.000, twist 0 (deg)
+		LIMB battery/36832 has parent unknown/36776-FIXED vg_world/2147483647-FIXED and 0 children
+		 Joint: battery/36832 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [0, 0.1149, 6.84857e-09], limit [0, 0], screw_rate 0, dofs 37.896 -28.775 40.053 3.116 -1.537 3.098, twist 0 (deg)
 
-		LIMB lever_revolute_bounce_left_right/55888 has parent unknown/55682-FIXED vg_world/2147483647-FIXED and 1 child
-		 Joint: lever_revolute_bounce_left_right/55888 FIXED, axis [-0, 1, 0], push_axis [-0, 1, 0], pivot [0, 0, 0], limit [0, 0], screw_rate 0, dofs , twist 0 (deg)
+		LIMB battery/36844 has parent unknown/36776-FIXED vg_world/2147483647-FIXED and 0 children
+		 Joint: battery/36844 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [0, 0.1149, 6.84857e-09], limit [0, 0], screw_rate 0, dofs 38.510 -28.775 22.670 -3.141 -1.540 -3.141, twist 0 (deg)
 
-			LIMB cylinder/55872 has parent lever_revolute_bounce_left_right/55888-FIXED unknown/55682-FIXED vg_world/2147483647-FIXED and 0 children
-			 Joint: cylinder/55872 REVOLUTE, axis [1, 0, -1.19209e-07], push_axis [1, 0, -1.19209e-07], pivot [-0, -7.84, 0], limit [-1.5708, 1.5708], screw_rate 0, dofs 0.000, twist 0 (deg)
+		LIMB cannedfood/36938 has parent unknown/36776-FIXED vg_world/2147483647-FIXED and 0 children
+		 Joint: cannedfood/36938 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [0.0316, 0, 0], limit [0, 0], screw_rate 0, dofs 9.159 3.234 61.643 3.112 0.012 -3.137, twist 0 (deg)
 
-		LIMB lever_prismatic_bounce_snaps/55386 has parent unknown/55682-FIXED vg_world/2147483647-FIXED and 1 child
-		 Joint: lever_prismatic_bounce_snaps/55386 FIXED, axis [-0, 1, 0], push_axis [-0, 1, 0], pivot [0, 0, 0], limit [0, 0], screw_rate 0, dofs , twist 0 (deg)
+		LIMB cannedfood/36958 has parent unknown/36776-FIXED vg_world/2147483647-FIXED and 0 children
+		 Joint: cannedfood/36958 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [0.0316, 0, 0], limit [0, 0], screw_rate 0, dofs -34.200 -26.635 34.700 -3.141 -0.563 -3.142, twist 0 (deg)
 
-			LIMB cylinder/56042 has parent lever_prismatic_bounce_snaps/55386-FIXED unknown/55682-FIXED vg_world/2147483647-FIXED and 0 children
-			 Joint: cylinder/56042 PRISMATIC, axis [1, 0, -1.19209e-07], push_axis [1, 0, -1.19209e-07], pivot [-0, -2.88, 0], limit [0, 12], screw_rate 0, dofs 0.000, twist 0 (deg)
+		LIMB cannedfood/36962 has parent unknown/36776-FIXED vg_world/2147483647-FIXED and 0 children
+		 Joint: cannedfood/36962 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [0.0316, 0, 0], limit [0, 0], screw_rate 0, dofs 20.777 -26.634 62.309 3.140 0.003 -3.131, twist 0 (deg)
 
-	LIMB unknown/55802 has parent vg_world/2147483647-FIXED and 25 children
-	 Joint: unknown/55802 FIXED, axis [-0, 1, 0], push_axis [-0, 1, 0], pivot [0, 0, 0], limit [0, 0], screw_rate 0, dofs , twist 0 (deg)
+		LIMB flashlight/36984 has parent unknown/36776-FIXED vg_world/2147483647-FIXED and 0 children
+		 Joint: flashlight/36984 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [0.02325, 10.3757, 1.86265e-09], limit [0, 0], screw_rate 0, dofs 16.363 -10.579 36.365 3.142 0.000 0.001, twist 0 (deg)
 
-		LIMB firstaid/55344 has parent unknown/55802-FIXED vg_world/2147483647-FIXED and 0 children
-		 Joint: firstaid/55344 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [0.1442, 3.38, 0.0545998], limit [0, 0], screw_rate 0, dofs -14.068 -31.336 31.708 3.142 0.000 3.142, twist 0 (deg)
+		LIMB pills/37004 has parent unknown/36776-FIXED vg_world/2147483647-FIXED and 0 children
+		 Joint: pills/37004 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [0, 0.3031, 0], limit [0, 0], screw_rate 0, dofs 24.983 -28.732 25.546 0.001 -1.452 0.001, twist 0 (deg)
 
-		LIMB cannedfood/55374 has parent unknown/55802-FIXED vg_world/2147483647-FIXED and 0 children
-		 Joint: cannedfood/55374 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [0.0316, 0, 0], limit [0, 0], screw_rate 0, dofs 6.219 -26.626 62.274 3.136 -0.000 3.137, twist 0 (deg)
+		LIMB cannedfood/37016 has parent unknown/36776-FIXED vg_world/2147483647-FIXED and 0 children
+		 Joint: cannedfood/37016 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [0.0316, 0, 0], limit [0, 0], screw_rate 0, dofs 13.638 -26.625 62.299 3.140 0.000 -3.140, twist 0 (deg)
 
-		LIMB cannedfood/55398 has parent unknown/55802-FIXED vg_world/2147483647-FIXED and 0 children
-		 Joint: cannedfood/55398 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [0.0316, 0, 0], limit [0, 0], screw_rate 0, dofs -27.968 -26.635 38.008 -3.142 0.212 3.142, twist 0 (deg)
+		LIMB walkie/37036 has parent unknown/36776-FIXED vg_world/2147483647-FIXED and 0 children
+		 Joint: walkie/37036 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [0, 2.3686, -0.9155], limit [0, 0], screw_rate 0, dofs 55.484 -30.414 17.094 1.656 -0.024 2.939, twist 0 (deg)
 
-		LIMB tape/55424 has parent unknown/55802-FIXED vg_world/2147483647-FIXED and 0 children
-		 Joint: tape/55424 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [0, 0, 0], limit [0, 0], screw_rate 0, dofs 44.832 -30.454 52.908 -3.142 -0.000 3.142, twist 0 (deg)
+		LIMB cannedfood/37048 has parent unknown/36776-FIXED vg_world/2147483647-FIXED and 0 children
+		 Joint: cannedfood/37048 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [0.0316, 0, 0], limit [0, 0], screw_rate 0, dofs 14.050 -6.686 61.877 3.118 0.000 3.135, twist 0 (deg)
 
-		LIMB cannedfood/55520 has parent unknown/55802-FIXED vg_world/2147483647-FIXED and 0 children
-		 Joint: cannedfood/55520 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [0.0316, 0, 0], limit [0, 0], screw_rate 0, dofs -33.100 -26.635 48.100 -3.142 -0.563 -3.142, twist 0 (deg)
+		LIMB oxygen/37090 has parent unknown/36776-FIXED vg_world/2147483647-FIXED and 0 children
+		 Joint: oxygen/37090 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [0, 11.7933, 0], limit [0, 0], screw_rate 0, dofs 0.000 0.000 0.000 0.000 0.000 0.000, twist 0 (deg)
 
-		LIMB cannedfood/55524 has parent unknown/55802-FIXED vg_world/2147483647-FIXED and 0 children
-		 Joint: cannedfood/55524 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [0.0316, 0, 0], limit [0, 0], screw_rate 0, dofs -1.468 -26.628 62.283 3.138 -0.003 3.134, twist 0 (deg)
+		LIMB medicine/37098 has parent unknown/36776-FIXED vg_world/2147483647-FIXED and 0 children
+		 Joint: medicine/37098 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [0, 6.74415, 0], limit [0, 0], screw_rate 0, dofs -103.470 -31.507 23.999 0.004 0.012 0.058, twist 0 (deg)
 
-		LIMB battery/55552 has parent unknown/55802-FIXED vg_world/2147483647-FIXED and 0 children
-		 Joint: battery/55552 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [0, 0.1149, 6.84857e-09], limit [0, 0], screw_rate 0, dofs 37.955 -30.007 33.701 -2.126 0.014 -1.595, twist 0 (deg)
+		LIMB hammer/37114 has parent unknown/36776-FIXED vg_world/2147483647-FIXED and 0 children
+		 Joint: hammer/37114 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [-0.866, 10.2851, -1.19209e-07], limit [0, 0], screw_rate 0, dofs -79.603 -30.795 23.949 0.110 0.004 1.281, twist 0 (deg)
 
-		LIMB cannedfood/55588 has parent unknown/55802-FIXED vg_world/2147483647-FIXED and 0 children
-		 Joint: cannedfood/55588 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [0.0316, 0, 0], limit [0, 0], screw_rate 0, dofs 6.072 -6.708 61.954 3.113 -0.010 3.132, twist 0 (deg)
+		LIMB multitool/37136 has parent unknown/36776-FIXED vg_world/2147483647-FIXED and 0 children
+		 Joint: multitool/37136 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [2.98023e-08, -5.0991, -0.4626], limit [0, 0], screw_rate 0, dofs -130.661 -16.536 21.052 0.011 -0.000 0.004, twist 0 (deg)
 
-		LIMB waterbottle/55654 has parent unknown/55802-FIXED vg_world/2147483647-FIXED and 0 children
-		 Joint: waterbottle/55654 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [0, -4.44475, 0], limit [0, 0], screw_rate 0, dofs 49.438 -18.177 32.189 3.133 0.001 -3.133, twist 0 (deg)
+	LIMB unknown/36618 has parent vg_world/2147483647-FIXED and 12 children
+	 Joint: unknown/36618 FIXED, axis [-0, 1, 0], push_axis [-0, 1, 0], pivot [0, 0, 0], limit [0, 0], screw_rate 0, dofs , twist 0 (deg)
 
-		LIMB cannedfood/55658 has parent unknown/55802-FIXED vg_world/2147483647-FIXED and 0 children
-		 Joint: cannedfood/55658 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [0.0316, 0, 0], limit [0, 0], screw_rate 0, dofs 17.599 -16.701 62.187 3.125 0.007 -3.122, twist 0 (deg)
+		LIMB lever_prismatic_bounce_index_push/36536 has parent unknown/36618-FIXED vg_world/2147483647-FIXED and 1 child
+		 Joint: lever_prismatic_bounce_index_push/36536 FIXED, axis [-0, 1, 0], push_axis [-0, 1, 0], pivot [0, 0, 0], limit [0, 0], screw_rate 0, dofs , twist 0 (deg)
 
-		LIMB cannedfood/55670 has parent unknown/55802-FIXED vg_world/2147483647-FIXED and 0 children
-		 Joint: cannedfood/55670 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [0.0316, 0, 0], limit [0, 0], screw_rate 0, dofs 2.648 -16.728 62.203 3.132 -0.009 -3.136, twist 0 (deg)
+			LIMB cylinder/36094 has parent lever_prismatic_bounce_index_push/36536-FIXED unknown/36618-FIXED vg_world/2147483647-FIXED and 0 children
+			 Joint: cylinder/36094 PRISMATIC, axis [-0, -1, -3.57628e-07], push_axis [0, -1, -3.57628e-07], pivot [0, 0, 0], limit [0, 1], screw_rate 0, dofs -0.000, twist 0 (deg)
 
-		LIMB flashlight/55746 has parent unknown/55802-FIXED vg_world/2147483647-FIXED and 0 children
-		 Joint: flashlight/55746 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [0.02325, 10.3757, 1.86265e-09], limit [0, 0], screw_rate 0, dofs 5.960 -29.885 49.470 -1.400 -0.651 0.207, twist 0 (deg)
+		LIMB lever_direction/36314 has parent unknown/36618-FIXED vg_world/2147483647-FIXED and 1 child
+		 Joint: lever_direction/36314 FIXED, axis [-0, 1, 0], push_axis [-0, 1, 0], pivot [0, 0, 0], limit [0, 0], screw_rate 0, dofs , twist 0 (deg)
 
-		LIMB battery/55764 has parent unknown/55802-FIXED vg_world/2147483647-FIXED and 0 children
-		 Joint: battery/55764 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [0, 0.1149, 6.84857e-09], limit [0, 0], screw_rate 0, dofs 38.300 -28.775 27.999 3.140 -1.540 3.140, twist 0 (deg)
+			LIMB cylinder/36204 has parent lever_direction/36314-FIXED unknown/36618-FIXED vg_world/2147483647-FIXED and 0 children
+			 Joint: cylinder/36204 PRISMATIC, axis [-0, -1, -4.76837e-07], push_axis [0, -1, -4.76837e-07], pivot [-0, 0, 0], limit [0, 1], screw_rate 0, dofs -0.000, twist 0 (deg)
 
-		LIMB cannedfood/55782 has parent unknown/55802-FIXED vg_world/2147483647-FIXED and 0 children
-		 Joint: cannedfood/55782 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [0.0316, 0, 0], limit [0, 0], screw_rate 0, dofs 10.338 -16.684 62.177 3.119 -0.004 -3.140, twist 0 (deg)
+		LIMB lever_direction/36300 has parent unknown/36618-FIXED vg_world/2147483647-FIXED and 1 child
+		 Joint: lever_direction/36300 FIXED, axis [-0, 1, 0], push_axis [-0, 1, 0], pivot [0, 0, 0], limit [0, 0], screw_rate 0, dofs , twist 0 (deg)
 
-		LIMB pills/55832 has parent unknown/55802-FIXED vg_world/2147483647-FIXED and 0 children
-		 Joint: pills/55832 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [0, 0.3031, 0], limit [0, 0], screw_rate 0, dofs 26.900 -28.732 41.100 0.000 -0.641 0.000, twist 0 (deg)
+			LIMB cylinder/36232 has parent lever_direction/36300-FIXED unknown/36618-FIXED vg_world/2147483647-FIXED and 0 children
+			 Joint: cylinder/36232 PRISMATIC, axis [-0, -1, -4.76837e-07], push_axis [0, -1, -4.76837e-07], pivot [-0, 0, 0], limit [0, 1], screw_rate 0, dofs -0.000, twist 0 (deg)
 
-		LIMB battery/55844 has parent unknown/55802-FIXED vg_world/2147483647-FIXED and 0 children
-		 Joint: battery/55844 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [0, 0.1149, 6.84857e-09], limit [0, 0], screw_rate 0, dofs 37.897 -28.775 40.000 3.113 -1.540 3.113, twist 0 (deg)
+		LIMB lever_revolute_bounce_one_hand/36796 has parent unknown/36618-FIXED vg_world/2147483647-FIXED and 1 child
+		 Joint: lever_revolute_bounce_one_hand/36796 FIXED, axis [-0, 1, 0], push_axis [-0, 1, 0], pivot [0, 0, 0], limit [0, 0], screw_rate 0, dofs , twist 0 (deg)
 
-		LIMB battery/55856 has parent unknown/55802-FIXED vg_world/2147483647-FIXED and 0 children
-		 Joint: battery/55856 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [0, 0.1149, 6.84857e-09], limit [0, 0], screw_rate 0, dofs 38.510 -28.775 22.670 -3.141 -1.540 -3.141, twist 0 (deg)
+			LIMB cylinder/36246 has parent lever_revolute_bounce_one_hand/36796-FIXED unknown/36618-FIXED vg_world/2147483647-FIXED and 0 children
+			 Joint: cylinder/36246 REVOLUTE, axis [-0, 1, -3.57628e-07], push_axis [-0, 1, -3.57628e-07], pivot [-0, 0, -0], limit [-6.28319, 6.28319], screw_rate 0, dofs 0.000, twist 0 (deg)
 
-		LIMB cannedfood/55932 has parent unknown/55802-FIXED vg_world/2147483647-FIXED and 0 children
-		 Joint: cannedfood/55932 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [0.0316, 0, 0], limit [0, 0], screw_rate 0, dofs 9.159 3.234 61.643 3.112 0.012 -3.137, twist 0 (deg)
+		LIMB lever_prismatic_bounce_bounce/36474 has parent unknown/36618-FIXED vg_world/2147483647-FIXED and 1 child
+		 Joint: lever_prismatic_bounce_bounce/36474 FIXED, axis [-0, 1, 0], push_axis [-0, 1, 0], pivot [0, 0, 0], limit [0, 0], screw_rate 0, dofs , twist 0 (deg)
 
-		LIMB cannedfood/55952 has parent unknown/55802-FIXED vg_world/2147483647-FIXED and 0 children
-		 Joint: cannedfood/55952 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [0.0316, 0, 0], limit [0, 0], screw_rate 0, dofs -34.200 -26.635 34.700 -3.142 -0.563 -3.142, twist 0 (deg)
+			LIMB cylinder/36318 has parent lever_prismatic_bounce_bounce/36474-FIXED unknown/36618-FIXED vg_world/2147483647-FIXED and 0 children
+			 Joint: cylinder/36318 PRISMATIC, axis [1, 0, -1.19209e-07], push_axis [1, 0, -1.19209e-07], pivot [-0, -2.88, 0], limit [0, 12], screw_rate 0, dofs 0.000, twist 0 (deg)
 
-		LIMB cannedfood/55956 has parent unknown/55802-FIXED vg_world/2147483647-FIXED and 0 children
-		 Joint: cannedfood/55956 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [0.0316, 0, 0], limit [0, 0], screw_rate 0, dofs 20.777 -26.634 62.309 3.140 0.003 -3.131, twist 0 (deg)
+		LIMB lever_prismatic_bounce_grasp_push/37060 has parent unknown/36618-FIXED vg_world/2147483647-FIXED and 1 child
+		 Joint: lever_prismatic_bounce_grasp_push/37060 FIXED, axis [-0, 1, 0], push_axis [-0, 1, 0], pivot [0, 0, 0], limit [0, 0], screw_rate 0, dofs , twist 0 (deg)
 
-		LIMB flashlight/55978 has parent unknown/55802-FIXED vg_world/2147483647-FIXED and 0 children
-		 Joint: flashlight/55978 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [0.02325, 10.3757, 1.86265e-09], limit [0, 0], screw_rate 0, dofs 16.356 -10.580 36.359 3.141 0.000 0.001, twist 0 (deg)
+			LIMB cylinder/36336 has parent lever_prismatic_bounce_grasp_push/37060-FIXED unknown/36618-FIXED vg_world/2147483647-FIXED and 0 children
+			 Joint: cylinder/36336 PRISMATIC, axis [-0, -1, -3.57628e-07], push_axis [0, -1, -3.57628e-07], pivot [0, 0, 0], limit [0, 1], screw_rate 0, dofs -0.000, twist 0 (deg)
 
-		LIMB pills/55998 has parent unknown/55802-FIXED vg_world/2147483647-FIXED and 0 children
-		 Joint: pills/55998 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [0, 0.3031, 0], limit [0, 0], screw_rate 0, dofs 24.983 -28.732 25.546 0.001 -1.452 0.001, twist 0 (deg)
+		LIMB lever_direction/36348 has parent unknown/36618-FIXED vg_world/2147483647-FIXED and 1 child
+		 Joint: lever_direction/36348 FIXED, axis [-0, 1, 0], push_axis [-0, 1, 0], pivot [0, 0, 0], limit [0, 0], screw_rate 0, dofs , twist 0 (deg)
 
-		LIMB cannedfood/56002 has parent unknown/55802-FIXED vg_world/2147483647-FIXED and 0 children
-		 Joint: cannedfood/56002 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [0.0316, 0, 0], limit [0, 0], screw_rate 0, dofs 13.638 -26.625 62.299 3.140 0.000 -3.140, twist 0 (deg)
+			LIMB cylinder/36460 has parent lever_direction/36348-FIXED unknown/36618-FIXED vg_world/2147483647-FIXED and 0 children
+			 Joint: cylinder/36460 PRISMATIC, axis [-0, -1, -4.76837e-07], push_axis [0, -1, -4.76837e-07], pivot [-0, 0, 0], limit [0, 1], screw_rate 0, dofs -0.000, twist 0 (deg)
 
-		LIMB walkie/56022 has parent unknown/55802-FIXED vg_world/2147483647-FIXED and 0 children
-		 Joint: walkie/56022 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [0, 2.3686, -0.9155], limit [0, 0], screw_rate 0, dofs 55.493 -30.413 17.092 1.654 -0.031 2.938, twist 0 (deg)
+		LIMB lever_revolute_bounce_forward/36648 has parent unknown/36618-FIXED vg_world/2147483647-FIXED and 1 child
+		 Joint: lever_revolute_bounce_forward/36648 FIXED, axis [-0, 1, 0], push_axis [-0, 1, 0], pivot [0, 0, 0], limit [0, 0], screw_rate 0, dofs , twist 0 (deg)
 
-		LIMB cannedfood/56026 has parent unknown/55802-FIXED vg_world/2147483647-FIXED and 0 children
-		 Joint: cannedfood/56026 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [0.0316, 0, 0], limit [0, 0], screw_rate 0, dofs 14.050 -6.686 61.877 3.118 0.000 3.135, twist 0 (deg)
+			LIMB cylinder/36566 has parent lever_revolute_bounce_forward/36648-FIXED unknown/36618-FIXED vg_world/2147483647-FIXED and 0 children
+			 Joint: cylinder/36566 REVOLUTE, axis [-0, 0, -1], push_axis [-0, 0, -1], pivot [-0, -7.84, 0], limit [0, 1.5708], screw_rate 0, dofs 0.000, twist 0 (deg)
 
-	LIMB oxygen/56064 has parent vg_world/2147483647-FIXED and 0 children
-	 Joint: oxygen/56064 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [0, 11.7932, 4.76837e-07], limit [0, 0], screw_rate 0, dofs 0.000 0.000 0.000 0.000 0.000 0.000, twist 0 (deg)
+		LIMB lever_revolute_bounce_two_hands/36374 has parent unknown/36618-FIXED vg_world/2147483647-FIXED and 1 child
+		 Joint: lever_revolute_bounce_two_hands/36374 FIXED, axis [-0, 1, 0], push_axis [-0, 1, 0], pivot [0, 0, 0], limit [0, 0], screw_rate 0, dofs , twist 0 (deg)
 
-	LIMB medicine/56072 has parent vg_world/2147483647-FIXED and 0 children
-	 Joint: medicine/56072 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [-1.13687e-13, 6.74417, 9.53674e-07], limit [0, 0], screw_rate 0, dofs -103.461 -31.625 23.987 -0.001 -0.007 0.001, twist 0 (deg)
+			LIMB cylinder/36632 has parent lever_revolute_bounce_two_hands/36374-FIXED unknown/36618-FIXED vg_world/2147483647-FIXED and 0 children
+			 Joint: cylinder/36632 REVOLUTE, axis [-0, 1, -3.57628e-07], push_axis [-0, 1, -3.57628e-07], pivot [-0, 0, -0], limit [-6.28319, 6.28319], screw_rate 0, dofs 0.000, twist 0 (deg)
 
-	LIMB hammer/56088 has parent vg_world/2147483647-FIXED and 0 children
-	 Joint: hammer/56088 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [-0.865999, 10.2852, 2.44379e-06], limit [0, 0], screw_rate 0, dofs -78.942 -30.642 25.523 1.558 -0.041 1.284, twist 0 (deg)
+		LIMB lever_direction/36912 has parent unknown/36618-FIXED vg_world/2147483647-FIXED and 1 child
+		 Joint: lever_direction/36912 FIXED, axis [-0, 1, 0], push_axis [-0, 1, 0], pivot [0, 0, 0], limit [0, 0], screw_rate 0, dofs , twist 0 (deg)
 
-	LIMB multitool/56106 has parent vg_world/2147483647-FIXED and 0 children
-	 Joint: multitool/56106 FLOATING, axis [-0, 0, 1], push_axis [-0, 0, 1], pivot [-1.49012e-06, -5.0991, -0.462575], limit [0, 0], screw_rate 0, dofs -130.661 -16.536 21.052 0.011 -0.000 0.004, twist 0 (deg)
+			LIMB cylinder/36782 has parent lever_direction/36912-FIXED unknown/36618-FIXED vg_world/2147483647-FIXED and 0 children
+			 Joint: cylinder/36782 PRISMATIC, axis [-0, -1, -4.76837e-07], push_axis [0, -1, -4.76837e-07], pivot [-0, 0, 0], limit [0, 1], screw_rate 0, dofs -0.000, twist 0 (deg)
+
+		LIMB lever_revolute_bounce_left_right/36876 has parent unknown/36618-FIXED vg_world/2147483647-FIXED and 1 child
+		 Joint: lever_revolute_bounce_left_right/36876 FIXED, axis [-0, 1, 0], push_axis [-0, 1, 0], pivot [0, 0, 0], limit [0, 0], screw_rate 0, dofs , twist 0 (deg)
+
+			LIMB cylinder/36860 has parent lever_revolute_bounce_left_right/36876-FIXED unknown/36618-FIXED vg_world/2147483647-FIXED and 0 children
+			 Joint: cylinder/36860 REVOLUTE, axis [1, 0, -1.19209e-07], push_axis [1, 0, -1.19209e-07], pivot [-0, -7.84, 0], limit [-1.5708, 1.5708], screw_rate 0, dofs 0.000, twist 0 (deg)
+
+		LIMB lever_prismatic_bounce_snaps/36196 has parent unknown/36618-FIXED vg_world/2147483647-FIXED and 1 child
+		 Joint: lever_prismatic_bounce_snaps/36196 FIXED, axis [-0, 1, 0], push_axis [-0, 1, 0], pivot [0, 0, 0], limit [0, 0], screw_rate 0, dofs , twist 0 (deg)
+
+			LIMB cylinder/37064 has parent lever_prismatic_bounce_snaps/36196-FIXED unknown/36618-FIXED vg_world/2147483647-FIXED and 0 children
+			 Joint: cylinder/37064 PRISMATIC, axis [1, 0, -1.19209e-07], push_axis [1, 0, -1.19209e-07], pivot [-0, -2.88, 0], limit [0, 12], screw_rate 0, dofs 0.000, twist 0 (deg)
 

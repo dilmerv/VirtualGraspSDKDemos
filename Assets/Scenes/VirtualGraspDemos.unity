@@ -350,15 +350,15 @@ MonoBehaviour:
       m_isPhysical: 0
       m_avatarID: 0
     m_sensor: 16
-    m_external: MouseHand
-    m_fingerControlType: 3
+    m_external: QuestHand
+    m_fingerControlType: 1
     m_control:
       m_position: 1
       m_rotation: 1
       m_fingers: 1
       m_grasp: 1
       m_haptics: 1
-    m_origin: {fileID: 0}
+    m_origin: {fileID: 1154114543}
     m_offset:
       position: {x: 0, y: 0, z: 0}
       rotation: {x: 0, y: 0, z: 0}
@@ -417,7 +417,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2039298423}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -587,7 +587,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 49219605}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: -0.05829, z: 0.0079}
+  m_LocalPosition: {x: 0, y: -0.050999995, z: 0.0079}
   m_LocalScale: {x: 0.04, y: 0.0123123005, z: 0.04}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2164,6 +2164,7 @@ GameObject:
   - component: {fileID: 266134170}
   - component: {fileID: 266134169}
   - component: {fileID: 266134168}
+  - component: {fileID: 266134173}
   m_Layer: 0
   m_Name: Cylinder
   m_TagString: Untagged
@@ -2179,7 +2180,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 266134166}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: -0.05829, z: 0.0079}
+  m_LocalPosition: {x: 0, y: -0.05044, z: 0.0079}
   m_LocalScale: {x: 0.04, y: 0.0123123005, z: 0.04}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2201,26 +2202,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onButtonOff:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   onButtonOn:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 266134173}
+        m_TargetAssemblyTypeName: TeleportRig, Assembly-CSharp
+        m_MethodName: Teleport
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2253,9 +2242,7 @@ MonoBehaviour:
     m_snaps: 0
   m_screwRate: 0
   m_dualHandsOnly: 0
-  m_discreteStates:
-  - 0
-  - 0.01
+  m_discreteStates: []
   m_anchor: {fileID: 926621669}
   m_pushDirection: {fileID: 926621669}
 --- !u!64 &266134170
@@ -2322,6 +2309,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 266134166}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &266134173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 266134166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f791ee1784b3f74198d980d4819c87d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 506952423}
+  rigComponents:
+  - {fileID: 1154114541}
+  - {fileID: 496554619}
 --- !u!1001 &270237356
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2473,6 +2476,7 @@ GameObject:
   - component: {fileID: 290032397}
   - component: {fileID: 290032396}
   - component: {fileID: 290032395}
+  - component: {fileID: 290032400}
   m_Layer: 0
   m_Name: Cylinder
   m_TagString: Untagged
@@ -2488,7 +2492,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 290032393}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: -0.05829, z: 0.0079}
+  m_LocalPosition: {x: 0, y: -0.05044, z: 0.0079}
   m_LocalScale: {x: 0.04, y: 0.0123123005, z: 0.04}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2510,26 +2514,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onButtonOff:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   onButtonOn:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 290032400}
+        m_TargetAssemblyTypeName: TeleportRig, Assembly-CSharp
+        m_MethodName: Teleport
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2562,9 +2554,7 @@ MonoBehaviour:
     m_snaps: 0
   m_screwRate: 0
   m_dualHandsOnly: 0
-  m_discreteStates:
-  - 0
-  - 0.01
+  m_discreteStates: []
   m_anchor: {fileID: 2128761301}
   m_pushDirection: {fileID: 2128761301}
 --- !u!64 &290032397
@@ -2631,6 +2621,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 290032393}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &290032400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 290032393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f791ee1784b3f74198d980d4819c87d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1723945342}
+  rigComponents:
+  - {fileID: 1154114541}
+  - {fileID: 496554619}
 --- !u!1 &292408162
 GameObject:
   m_ObjectHideFlags: 0
@@ -3230,11 +3236,11 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1221780044}
     m_Modifications:
     - target: {fileID: 5201423646680458952, guid: ea0853a3b2545524481b0c984f27afd1, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 5201423646680458952, guid: ea0853a3b2545524481b0c984f27afd1, type: 3}
       propertyPath: m_LocalScale.x
@@ -3250,15 +3256,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5201423646680458952, guid: ea0853a3b2545524481b0c984f27afd1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.166
+      value: 4.8703203
       objectReference: {fileID: 0}
     - target: {fileID: 5201423646680458952, guid: ea0853a3b2545524481b0c984f27afd1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.677
+      value: -0.074007034
       objectReference: {fileID: 0}
     - target: {fileID: 5201423646680458952, guid: ea0853a3b2545524481b0c984f27afd1, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.3728
+      value: 0.33971655
       objectReference: {fileID: 0}
     - target: {fileID: 5201423646680458952, guid: ea0853a3b2545524481b0c984f27afd1, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3266,15 +3272,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5201423646680458952, guid: ea0853a3b2545524481b0c984f27afd1, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 5201423646680458952, guid: ea0853a3b2545524481b0c984f27afd1, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 5201423646680458952, guid: ea0853a3b2545524481b0c984f27afd1, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 5201423646680458952, guid: ea0853a3b2545524481b0c984f27afd1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -3294,6 +3300,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea0853a3b2545524481b0c984f27afd1, type: 3}
+--- !u!4 &394136450 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5201423646680458952, guid: ea0853a3b2545524481b0c984f27afd1, type: 3}
+  m_PrefabInstance: {fileID: 391277592}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &398999352
 GameObject:
   m_ObjectHideFlags: 0
@@ -3828,12 +3839,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 506792776}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: -0.05829, z: 0.0079}
+  m_LocalPosition: {x: 0, y: -0.051, z: 0.0079}
   m_LocalScale: {x: 0.04, y: 0.0123123005, z: 0.04}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 241419644}
-  - {fileID: 515870039}
   m_Father: {fileID: 2039298423}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
@@ -4083,17 +4093,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 515870038}
-  m_LocalRotation: {x: 0.5, y: -0.5, z: 0.5, w: 0.5}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.24999997, y: 0.24999999, z: 0.81219596}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: -0.065999985}
+  m_LocalScale: {x: 0.01, y: 0.009999998, z: 0.009999999}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 506792777}
-  m_RootOrder: 1
+  m_Father: {fileID: 2039298423}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.8474998, y: -1.6658124}
+  m_AnchoredPosition: {x: 0, y: -0.07880008}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &515870040
@@ -5206,7 +5216,7 @@ Transform:
   - {fileID: 371272244}
   - {fileID: 675099029}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &709804056
 PrefabInstance:
@@ -5658,6 +5668,7 @@ GameObject:
   - component: {fileID: 786977253}
   - component: {fileID: 786977252}
   - component: {fileID: 786977251}
+  - component: {fileID: 786977256}
   m_Layer: 0
   m_Name: Cylinder
   m_TagString: Untagged
@@ -5673,7 +5684,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 786977249}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: -0.05829, z: 0.0079}
+  m_LocalPosition: {x: 0, y: -0.05044, z: 0.0079}
   m_LocalScale: {x: 0.04, y: 0.0123123005, z: 0.04}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5695,26 +5706,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onButtonOff:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   onButtonOn:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 786977256}
+        m_TargetAssemblyTypeName: TeleportRig, Assembly-CSharp
+        m_MethodName: Teleport
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -5747,9 +5746,7 @@ MonoBehaviour:
     m_snaps: 0
   m_screwRate: 0
   m_dualHandsOnly: 0
-  m_discreteStates:
-  - 0
-  - 0.01
+  m_discreteStates: []
   m_anchor: {fileID: 501540200}
   m_pushDirection: {fileID: 501540200}
 --- !u!64 &786977253
@@ -5816,6 +5813,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 786977249}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &786977256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 786977249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f791ee1784b3f74198d980d4819c87d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 402802789}
+  rigComponents:
+  - {fileID: 1154114541}
+  - {fileID: 496554619}
 --- !u!1 &793211971
 GameObject:
   m_ObjectHideFlags: 0
@@ -5979,7 +5992,7 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1221780044}
-  m_RootOrder: 16
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &816507363
 GameObject:
@@ -7643,7 +7656,7 @@ Transform:
   - {fileID: 506952424}
   - {fileID: 402802790}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1055662706
 GameObject:
@@ -8499,7 +8512,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1154114543}
   - component: {fileID: 1154114542}
-  - component: {fileID: 1154114544}
   m_Layer: 0
   m_Name: XRRig
   m_TagString: Untagged
@@ -8538,28 +8550,8 @@ Transform:
   m_Children:
   - {fileID: 1687989034}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1154114544
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1154114541}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3f791ee1784b3f74198d980d4819c87d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targets:
-  - {fileID: 506952423}
-  - {fileID: 402802789}
-  - {fileID: 1723945342}
-  - {fileID: 443521437}
-  rigComponents:
-  - {fileID: 1154114541}
-  - {fileID: 496554619}
 --- !u!1 &1155122712
 GameObject:
   m_ObjectHideFlags: 0
@@ -9206,9 +9198,10 @@ Transform:
   - {fileID: 142253994}
   - {fileID: 1139311384}
   - {fileID: 1786502104}
+  - {fileID: 394136450}
   - {fileID: 808664504}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1228811313
 GameObject:
@@ -9845,7 +9838,7 @@ Transform:
   - {fileID: 2893679414361562382}
   - {fileID: 3970871033958798735}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1434697138
 PrefabInstance:
@@ -9930,6 +9923,7 @@ GameObject:
   - component: {fileID: 1481090970}
   - component: {fileID: 1481090969}
   - component: {fileID: 1481090968}
+  - component: {fileID: 1481090973}
   m_Layer: 0
   m_Name: Cylinder
   m_TagString: Untagged
@@ -9945,7 +9939,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1481090966}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: -0.05829, z: 0.0079}
+  m_LocalPosition: {x: 0, y: -0.05044, z: 0.0079}
   m_LocalScale: {x: 0.04, y: 0.0123123005, z: 0.04}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -9971,25 +9965,13 @@ MonoBehaviour:
   onButtonOn:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 496554619}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: 
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 1154114541}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: 
+      - m_Target: {fileID: 1481090973}
+        m_TargetAssemblyTypeName: TeleportRig, Assembly-CSharp
+        m_MethodName: Teleport
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -10088,6 +10070,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1481090966}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1481090973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1481090966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f791ee1784b3f74198d980d4819c87d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 443521437}
+  rigComponents:
+  - {fileID: 1154114541}
+  - {fileID: 496554619}
 --- !u!1 &1497072726
 GameObject:
   m_ObjectHideFlags: 0
@@ -13496,6 +13494,7 @@ Transform:
   m_Children:
   - {fileID: 840589068}
   - {fileID: 506792777}
+  - {fileID: 515870039}
   - {fileID: 48618706}
   m_Father: {fileID: 1032268226}
   m_RootOrder: 7
@@ -13668,7 +13667,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6122041939142366632, guid: d7695871e4ae6044eb11a184478718f7, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6122041939142366632, guid: d7695871e4ae6044eb11a184478718f7, type: 3}
       propertyPath: m_LocalPosition.x
