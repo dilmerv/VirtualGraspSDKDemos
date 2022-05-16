@@ -5,6 +5,7 @@ sensor_setup {
   finger_pose_sensor: ExternalController
   finger_control_type: BY_SENSOR_FULL_DOFS
   sensor_origin_position {
+    x: 380.63208
   }
   sensor_origin_rotation {
     w: 1
@@ -46,7 +47,7 @@ object {
 }
 object {
   joint {
-    id: 36776
+    id: 255490
     name: "unknown"
     parent_id: 2147483647
     joint_type: fixed
@@ -62,105 +63,300 @@ object {
 }
 object {
   joint {
-    id: 37128
-    name: "stool"
-    parent_id: 36776
-    joint_type: floating
-    position {
-      x: 7.4
-      y: -67.0000076
-      z: -13.9999981
-    }
-    rotation {
-      x: -2.16958629e-08
-      y: 2.65407625e-08
-      z: -1.3741154e-08
-      w: 1
-    }
-  }
-}
-object {
-  joint {
-    id: 37012
-    name: "stool"
-    parent_id: 36776
-    joint_type: floating
-    position {
-      x: 258.532043
-      y: -66.9992
-      z: -13.9999866
-    }
-    rotation {
-      x: -3.30896022e-08
-      y: 5.06164838e-07
-      z: -8.22709509e-08
-      w: 1
-    }
-  }
-}
-object {
-  joint {
-    id: 36138
-    name: "stool"
-    parent_id: 36776
-    joint_type: floating
-    position {
-      x: 143.432068
-      y: -66.9992
-      z: -13.9999866
-    }
-    rotation {
-      x: 2.10020925e-08
-      y: 2.11884625e-07
-      z: 8.39352126e-08
-      w: 1
-    }
-  }
-}
-object {
-  joint {
-    id: 36130
-    name: "stool"
-    parent_id: 36776
-    joint_type: floating
-    position {
-      x: -115.667938
-      y: -66.9992
-      z: -13.9999866
-    }
-    rotation {
-      x: 5.7723204e-09
-      y: 1.9046378e-07
-      z: 8.37140348e-08
-      w: 1
-    }
-  }
-}
-object {
-  joint {
-    id: 36150
-    name: "firstaid"
-    hash: 2606189051
-    parent_id: 36776
+    id: -254234
+    name: "plate"
+    hash: 3303054841
+    parent_id: 255490
     joint_type: floating
     joint_center {
-      x: 0.144199833
-      y: 3.37999988
-      z: 0.054599762
+      x: 1.90734863e-06
+      y: 1.20210755
+      z: -1.90734863e-06
     }
     axis {
       z: 1
     }
     position {
-      x: -14.0679359
-      y: -31.3358402
-      z: 31.7083588
+      x: 408.075287
+      y: -31.6239567
+      z: 30.2284775
     }
     rotation {
-      x: -7.28835289e-07
-      y: 1
-      z: -6.93165873e-07
-      w: 1.85856294e-07
+      x: 9.84868529e-05
+      y: -0.00467661
+      z: -0.000881159736
+      w: 0.999988675
+    }
+    push_axis {
+      z: 1
+    }
+    grasp_constraint_axis {
+      z: 1
+    }
+  }
+  selection_weight: 1
+  affordance: ONLY_GRASPABLE
+  interaction_type: STICKY_HAND
+  synthesis_method: DYNAMIC_GRASP
+  root_shape {
+    position {
+      x: 1.90734863e-06
+      y: 1.20210755
+      z: -1.90734863e-06
+    }
+    rotation {
+      w: 1
+    }
+    dimension {
+      x: 34.9175224
+      y: 2.40420461
+      z: 34.9175453
+    }
+  }
+  physical: true
+}
+object {
+  joint {
+    id: 254874
+    name: "bottle_assemble_vgarticulation"
+    parent_id: 255490
+    joint_type: fixed
+    position {
+      x: 212.232071
+      y: -60.2992935
+      z: 103.308342
+    }
+    rotation {
+      w: 1
+    }
+  }
+}
+object {
+  joint {
+    id: -231404
+    name: "cap"
+    hash: 1649009536
+    parent_id: 254874
+    joint_type: floating
+    joint_center {
+      x: -0.000849962234
+      y: 0.000349998474
+      z: 0.000349998474
+    }
+    axis {
+      z: 1
+    }
+    position {
+      x: 220.062073
+      y: -38.8592949
+      z: 103.30793
+    }
+    rotation {
+      w: 1
+    }
+    push_axis {
+      z: 1
+    }
+    grasp_constraint_axis {
+      z: 1
+    }
+  }
+  selection_weight: 1
+  affordance: ONLY_GRASPABLE
+  synthesis_method: DYNAMIC_GRASP
+}
+object {
+  joint {
+    id: -231384
+    name: "bottle"
+    hash: 2291279352
+    parent_id: 254874
+    joint_type: floating
+    joint_center {
+      y: -0.54665041
+    }
+    axis {
+      z: 1
+    }
+    position {
+      x: 212.232071
+      y: -49.3478661
+      z: 103.308342
+    }
+    rotation {
+      w: 1
+    }
+    push_axis {
+      z: 1
+    }
+    grasp_constraint_axis {
+      z: 1
+    }
+  }
+  selection_weight: 1
+  affordance: ONLY_GRASPABLE
+  synthesis_method: DYNAMIC_GRASP
+}
+object {
+  joint {
+    id: -261642
+    name: "banana"
+    hash: 752933147
+    parent_id: 255490
+    joint_type: floating
+    joint_center {
+      x: -9.6591375e-06
+      y: 2.75999904
+      z: 15.3400049
+    }
+    axis {
+      x: 2.02931671e-09
+      y: 0.707106829
+      z: 0.707106709
+    }
+    position {
+      x: 406.822815
+      y: -24.63587
+      z: 29.8117161
+    }
+    rotation {
+      x: -0.0122095915
+      y: 0.133774683
+      z: -0.259875804
+      w: 0.956253052
+    }
+    user_specified_joint_center: true
+    push_axis {
+      x: 2.02931671e-09
+      y: 0.707106829
+      z: 0.707106709
+    }
+    grasp_constraint_axis {
+      x: 2.02931671e-09
+      y: 0.707106829
+      z: 0.707106709
+    }
+  }
+  selection_weight: 1
+  affordance: ONLY_GRASPABLE
+  synthesis_method: DYNAMIC_GRASP
+  physical: true
+}
+object {
+  joint {
+    id: -232074
+    name: "banana"
+    hash: 752933147
+    parent_id: 255490
+    joint_type: floating
+    joint_center {
+      x: -1.09304e-05
+      y: 2.75999904
+      z: 15.3399887
+    }
+    axis {
+      x: -1.3702568e-09
+      y: 0.707106888
+      z: 0.70710665
+    }
+    position {
+      x: 413.454376
+      y: -25.4882393
+      z: 26.658989
+    }
+    rotation {
+      x: -0.266765028
+      y: 0.029573787
+      z: -0.630861104
+      w: 0.727994621
+    }
+    user_specified_joint_center: true
+    push_axis {
+      x: -1.3702568e-09
+      y: 0.707106888
+      z: 0.70710665
+    }
+    grasp_constraint_axis {
+      x: -1.3702568e-09
+      y: 0.707106888
+      z: 0.70710665
+    }
+  }
+  selection_weight: 1
+  affordance: ONLY_GRASPABLE
+  synthesis_method: DYNAMIC_GRASP
+  physical: true
+}
+object {
+  joint {
+    id: -258922
+    name: "banana"
+    hash: 752933147
+    parent_id: 255490
+    joint_type: floating
+    joint_center {
+      x: 2.82152505e-05
+      y: 2.75999904
+      z: 15.3399782
+    }
+    axis {
+      x: -1.88381888e-09
+      y: 0.707106888
+      z: 0.70710665
+    }
+    position {
+      x: 420.311401
+      y: -27.7476749
+      z: 35.294342
+    }
+    rotation {
+      x: -0.369848818
+      y: 0.241926506
+      z: 0.773611069
+      w: -0.454102874
+    }
+    user_specified_joint_center: true
+    push_axis {
+      x: -1.88381888e-09
+      y: 0.707106888
+      z: 0.70710665
+    }
+    grasp_constraint_axis {
+      x: -1.88381888e-09
+      y: 0.707106888
+      z: 0.70710665
+    }
+  }
+  selection_weight: 1
+  affordance: ONLY_GRASPABLE
+  synthesis_method: DYNAMIC_GRASP
+  physical: true
+}
+object {
+  joint {
+    id: -233234
+    name: "task2_radio"
+    hash: 1632860167
+    parent_id: 2147483647
+    joint_type: floating
+    joint_center {
+      x: -2.85335016
+      y: 1.87255
+      z: 1.0763998
+    }
+    axis {
+      z: 1
+    }
+    position {
+      x: 352.659973
+      y: -22.3167267
+      z: 23
+    }
+    rotation {
+      x: -7.67340591e-09
+      y: 0.707106233
+      z: 2.51457113e-08
+      w: 0.707107306
     }
     push_axis {
       z: 1
@@ -176,10 +372,274 @@ object {
 }
 object {
   joint {
-    id: 36184
+    id: -233182
+    name: "knob2"
+    hash: 4083822253
+    parent_id: -233234
+    joint_center {
+    }
+    axis {
+      z: 1
+    }
+    range_max: 6.28318548
+    position {
+      x: 342.077698
+      y: -27.7744713
+      z: 25.9382973
+    }
+    rotation {
+      x: -7.6734068e-09
+      y: 0.707106292
+      z: 2.51457148e-08
+      w: 0.707107365
+    }
+    user_specified_joint_center: true
+    discrete: 0
+    discrete: 6.28318548
+    push_axis {
+      z: 1
+    }
+    grasp_constraint_axis {
+      z: 1
+    }
+  }
+  selection_weight: 1
+  affordance: ONLY_GRASPABLE
+  synthesis_method: DYNAMIC_GRASP
+}
+object {
+  joint {
+    id: -233198
+    name: "knob1"
+    hash: 4083822253
+    parent_id: -233234
+    joint_center {
+    }
+    axis {
+      z: 1
+    }
+    range_max: 3.14159274
+    position {
+      x: 342.077698
+      y: -19.7195797
+      z: 25.9382973
+    }
+    rotation {
+      x: -7.6734068e-09
+      y: 0.707106292
+      z: 2.51457148e-08
+      w: 0.707107365
+    }
+    user_specified_joint_center: true
+    discrete: 0
+    discrete: 1.57079637
+    discrete: 3.14159274
+    push_axis {
+      z: 1
+    }
+    grasp_constraint_axis {
+      z: 1
+    }
+  }
+  selection_weight: 1
+  affordance: ONLY_GRASPABLE
+  synthesis_method: DYNAMIC_GRASP
+}
+object {
+  joint {
+    id: -233218
+    name: "antenna"
+    hash: 2527133158
+    parent_id: -233234
+    joint_type: cone
+    joint_center {
+      y: -0.39999783
+    }
+    axis {
+      y: 1
+      z: -2.38418579e-07
+    }
+    range_min: 0.52359879
+    position {
+      x: 342.691101
+      y: -14.5982761
+      z: 30.031126
+    }
+    rotation {
+      x: -7.6734068e-09
+      y: 0.707106292
+      z: 2.51457148e-08
+      w: 0.707107365
+    }
+    user_specified_joint_center: true
+    push_axis {
+      y: 1
+      z: -2.38418579e-07
+    }
+    grasp_constraint_axis {
+      y: 1
+      z: -2.38418579e-07
+    }
+  }
+  selection_weight: 1
+  affordance: ONLY_GRASPABLE
+  synthesis_method: DYNAMIC_GRASP
+}
+object {
+  joint {
+    id: 255538
+    name: "unknown"
+    parent_id: 2147483647
+    joint_type: fixed
+    position {
+      x: 170.432068
+      y: -60.2992935
+      z: 103.308342
+    }
+    rotation {
+      w: 1
+    }
+  }
+}
+object {
+  joint {
+    id: 255960
+    name: "stool"
+    parent_id: 255538
+    joint_type: floating
+    position {
+      x: 7.4
+      y: -67.0000076
+      z: -13.9999981
+    }
+    rotation {
+      x: -2.35878392e-08
+      y: 4.65640255e-08
+      z: -1.49676076e-08
+      w: 1
+    }
+  }
+}
+object {
+  joint {
+    id: 255808
+    name: "stool"
+    parent_id: 255538
+    joint_type: floating
+    position {
+      x: 258.532043
+      y: -67.0000076
+      z: -13.9999981
+    }
+    rotation {
+      x: 4.00287e-08
+      y: 3.44571625e-08
+      z: -2.90486284e-08
+      w: 1
+    }
+  }
+}
+object {
+  joint {
+    id: 254984
+    name: "stool"
+    parent_id: 255538
+    joint_type: floating
+    position {
+      x: 381.032074
+      y: -67.0000076
+      z: -13.9999981
+    }
+    rotation {
+      x: 3.84799854e-08
+      y: 3.16631734e-08
+      z: -2.88631483e-08
+      w: 1
+    }
+  }
+}
+object {
+  joint {
+    id: 254826
+    name: "stool"
+    parent_id: 255538
+    joint_type: floating
+    position {
+      x: 143.432053
+      y: -67.0000076
+      z: -13.9999981
+    }
+    rotation {
+      x: 2.18183471e-09
+      y: 9.2989314e-09
+      z: -1.46985e-07
+      w: 1
+    }
+  }
+}
+object {
+  joint {
+    id: 254810
+    name: "stool"
+    parent_id: 255538
+    joint_type: floating
+    position {
+      x: -115.667938
+      y: -66.9992
+      z: -13.9999866
+    }
+    rotation {
+      x: 6.90947299e-09
+      y: 1.90463837e-07
+      z: 8.40805043e-08
+      w: 1
+    }
+  }
+}
+object {
+  joint {
+    id: 254838
+    name: "firstaid"
+    hash: 2606189051
+    parent_id: 255538
+    joint_type: floating
+    joint_center {
+      x: 0.144199833
+      y: 3.37999988
+      z: 0.054599762
+    }
+    axis {
+      z: 1
+    }
+    position {
+      x: -14.0679359
+      y: -31.3358402
+      z: 31.708353
+    }
+    rotation {
+      x: -7.29423732e-07
+      y: 1
+      z: -6.83765336e-07
+      w: 1.48697481e-07
+    }
+    push_axis {
+      z: 1
+    }
+    grasp_constraint_axis {
+      z: 1
+    }
+  }
+  selection_weight: 1
+  affordance: ONLY_GRASPABLE
+  synthesis_method: DYNAMIC_GRASP
+  physical: true
+}
+object {
+  joint {
+    id: 254890
     name: "cannedfood"
     hash: 3487517182
-    parent_id: 36776
+    parent_id: 255538
     joint_type: floating
     joint_center {
       x: 0.0316
@@ -212,10 +672,10 @@ object {
 }
 object {
   joint {
-    id: 36226
+    id: 254934
     name: "cannedfood"
     hash: 3487517182
-    parent_id: 36776
+    parent_id: 255538
     joint_type: floating
     joint_center {
       x: 0.0316
@@ -224,15 +684,15 @@ object {
       z: 1
     }
     position {
-      x: -27.9680481
-      y: -26.6345825
-      z: 38.0084152
+      x: -27.9679527
+      y: -26.6350307
+      z: 38.0086441
     }
     rotation {
-      x: -1.02761142e-05
-      y: 0.994399309
-      z: 8.6460841e-06
-      w: 0.105689116
+      x: 7.37347e-07
+      y: 0.99439919
+      z: 2.78402113e-05
+      w: 0.105689347
     }
     push_axis {
       z: 1
@@ -248,10 +708,10 @@ object {
 }
 object {
   joint {
-    id: 36266
+    id: 254976
     name: "tape"
     hash: 2109703936
-    parent_id: 36776
+    parent_id: 255538
     joint_type: floating
     joint_center {
     }
@@ -283,10 +743,10 @@ object {
 }
 object {
   joint {
-    id: 36420
+    id: 255156
     name: "cannedfood"
     hash: 3487517182
-    parent_id: 36776
+    parent_id: 255538
     joint_type: floating
     joint_center {
       x: 0.0316
@@ -319,10 +779,10 @@ object {
 }
 object {
   joint {
-    id: 36428
+    id: 255174
     name: "cannedfood"
     hash: 3487517182
-    parent_id: 36776
+    parent_id: 255538
     joint_type: floating
     joint_center {
       x: 0.0316
@@ -355,10 +815,10 @@ object {
 }
 object {
   joint {
-    id: 36456
+    id: 255202
     name: "battery"
     hash: 1632010339
-    parent_id: 36776
+    parent_id: 255538
     joint_type: floating
     joint_center {
       y: 0.114899874
@@ -368,15 +828,15 @@ object {
       z: 1
     }
     position {
-      x: 37.8589401
-      y: -30.0250473
-      z: 36.7982216
+      x: 37.9198418
+      y: -30.0300274
+      z: 34.6695137
     }
     rotation {
-      x: 0.0633947253
-      y: 0.0836627334
-      z: 0.704137683
-      w: -0.702262
+      x: 0.478892744
+      y: 0.497934908
+      z: 0.518266857
+      w: -0.50410533
     }
     push_axis {
       z: 1
@@ -392,10 +852,10 @@ object {
 }
 object {
   joint {
-    id: 36516
+    id: 255270
     name: "cannedfood"
     hash: 3487517182
-    parent_id: 36776
+    parent_id: 255538
     joint_type: floating
     joint_center {
       x: 0.0316
@@ -428,10 +888,10 @@ object {
 }
 object {
   joint {
-    id: 36586
+    id: 255340
     name: "waterbottle"
     hash: 3901159506
-    parent_id: 36776
+    parent_id: 255538
     joint_type: floating
     joint_center {
       y: -4.44475
@@ -464,10 +924,10 @@ object {
 }
 object {
   joint {
-    id: 36594
+    id: 255348
     name: "cannedfood"
     hash: 3487517182
-    parent_id: 36776
+    parent_id: 255538
     joint_type: floating
     joint_center {
       x: 0.0316
@@ -500,10 +960,10 @@ object {
 }
 object {
   joint {
-    id: 36606
+    id: 255360
     name: "cannedfood"
     hash: 3487517182
-    parent_id: 36776
+    parent_id: 255538
     joint_type: floating
     joint_center {
       x: 0.0316
@@ -536,10 +996,10 @@ object {
 }
 object {
   joint {
-    id: 36698
+    id: 255454
     name: "flashlight"
     hash: 2257427956
-    parent_id: 36776
+    parent_id: 255538
     joint_type: floating
     joint_center {
       x: 0.0232499819
@@ -550,15 +1010,15 @@ object {
       z: 1
     }
     position {
-      x: 5.9699297
-      y: -29.8868713
-      z: 49.4668617
+      x: 5.95971346
+      y: -29.8853931
+      z: 49.469696
     }
     rotation {
-      x: -0.633342683
-      y: -0.17819345
-      z: 0.277493626
-      w: 0.700086832
+      x: -0.632480383
+      y: -0.180251822
+      z: 0.279627204
+      w: 0.69949019
     }
     push_axis {
       z: 1
@@ -574,10 +1034,10 @@ object {
 }
 object {
   joint {
-    id: 36710
+    id: 255466
     name: "battery"
     hash: 1632010339
-    parent_id: 36776
+    parent_id: 255538
     joint_type: floating
     joint_center {
       y: 0.114899874
@@ -611,10 +1071,10 @@ object {
 }
 object {
   joint {
-    id: 36748
+    id: 255504
     name: "cannedfood"
     hash: 3487517182
-    parent_id: 36776
+    parent_id: 255538
     joint_type: floating
     joint_center {
       x: 0.0316
@@ -647,10 +1107,10 @@ object {
 }
 object {
   joint {
-    id: 36820
+    id: 255598
     name: "pills"
     hash: 1232395120
-    parent_id: 36776
+    parent_id: 255538
     joint_type: floating
     joint_center {
       y: 0.3031
@@ -683,10 +1143,10 @@ object {
 }
 object {
   joint {
-    id: 36832
+    id: 255614
     name: "battery"
     hash: 1632010339
-    parent_id: 36776
+    parent_id: 255538
     joint_type: floating
     joint_center {
       y: 0.114899874
@@ -696,15 +1156,15 @@ object {
       z: 1
     }
     position {
-      x: 37.8956451
-      y: -28.7751408
-      z: 40.0532227
+      x: 37.8968468
+      y: -28.7745571
+      z: 39.999485
     }
     rotation {
-      x: -0.00655893795
-      y: 0.71892339
-      z: 0.0057347822
-      w: -0.695034683
+      x: -0.000281067478
+      y: 0.717749834
+      z: -0.000423712365
+      w: -0.696300924
     }
     push_axis {
       z: 1
@@ -720,10 +1180,10 @@ object {
 }
 object {
   joint {
-    id: 36844
+    id: 255626
     name: "battery"
     hash: 1632010339
-    parent_id: 36776
+    parent_id: 255538
     joint_type: floating
     joint_center {
       y: 0.114899874
@@ -757,10 +1217,10 @@ object {
 }
 object {
   joint {
-    id: 36938
+    id: 255724
     name: "cannedfood"
     hash: 3487517182
-    parent_id: 36776
+    parent_id: 255538
     joint_type: floating
     joint_center {
       x: 0.0316
@@ -793,10 +1253,10 @@ object {
 }
 object {
   joint {
-    id: 36958
+    id: 255744
     name: "cannedfood"
     hash: 3487517182
-    parent_id: 36776
+    parent_id: 255538
     joint_type: floating
     joint_center {
       x: 0.0316
@@ -829,10 +1289,10 @@ object {
 }
 object {
   joint {
-    id: 36962
+    id: 255748
     name: "cannedfood"
     hash: 3487517182
-    parent_id: 36776
+    parent_id: 255538
     joint_type: floating
     joint_center {
       x: 0.0316
@@ -865,10 +1325,10 @@ object {
 }
 object {
   joint {
-    id: 36984
+    id: 255780
     name: "flashlight"
     hash: 2257427956
-    parent_id: 36776
+    parent_id: 255538
     joint_type: floating
     joint_center {
       x: 0.0232499819
@@ -879,15 +1339,15 @@ object {
       z: 1
     }
     position {
-      x: 16.3626671
-      y: -10.5788383
-      z: 36.3648643
+      x: 16.362
+      y: -10.5789185
+      z: 36.3640137
     }
     rotation {
       x: 0.999999762
-      y: -0.000743899436
-      z: 0.000192589592
-      w: 2.92148343e-05
+      y: -0.000727760373
+      z: 0.000195897403
+      w: 4.93538064e-05
     }
     push_axis {
       z: 1
@@ -903,10 +1363,10 @@ object {
 }
 object {
   joint {
-    id: 37004
+    id: 255800
     name: "pills"
     hash: 1232395120
-    parent_id: 36776
+    parent_id: 255538
     joint_type: floating
     joint_center {
       y: 0.3031
@@ -915,15 +1375,15 @@ object {
       z: 1
     }
     position {
-      x: 24.9826546
-      y: -28.7315197
-      z: 25.5457153
+      x: 24.982666
+      y: -28.7310486
+      z: 25.5457401
     }
     rotation {
-      x: 2.78291027e-05
-      y: -0.663716137
-      z: 3.62481624e-05
-      w: 0.747984588
+      x: 2.95108366e-05
+      y: -0.663715959
+      z: 3.26913505e-05
+      w: 0.747984767
     }
     push_axis {
       z: 1
@@ -939,10 +1399,10 @@ object {
 }
 object {
   joint {
-    id: 37016
+    id: 255828
     name: "cannedfood"
     hash: 3487517182
-    parent_id: 36776
+    parent_id: 255538
     joint_type: floating
     joint_center {
       x: 0.0316
@@ -975,10 +1435,10 @@ object {
 }
 object {
   joint {
-    id: 37036
+    id: 255848
     name: "walkie"
     hash: 968160876
-    parent_id: 36776
+    parent_id: 255538
     joint_type: floating
     joint_center {
       y: 2.3686
@@ -988,15 +1448,15 @@ object {
       z: 1
     }
     position {
-      x: 55.4840317
-      y: -30.4142628
-      z: 17.0941715
+      x: 55.4838524
+      y: -30.4142151
+      z: 17.0941048
     }
     rotation {
-      x: -0.0665943176
-      y: 0.733417034
-      z: -0.672094941
-      w: -0.0771561563
+      x: -0.0666471869
+      y: 0.733398855
+      z: -0.672115326
+      w: -0.0771056339
     }
     push_axis {
       z: 1
@@ -1012,10 +1472,10 @@ object {
 }
 object {
   joint {
-    id: 37048
+    id: 255880
     name: "cannedfood"
     hash: 3487517182
-    parent_id: 36776
+    parent_id: 255538
     joint_type: floating
     joint_center {
       x: 0.0316
@@ -1048,10 +1508,10 @@ object {
 }
 object {
   joint {
-    id: 37090
+    id: 255922
     name: "oxygen"
     hash: 2647579521
-    parent_id: 36776
+    parent_id: 255538
     joint_type: floating
     joint_center {
       y: 11.7932501
@@ -1081,10 +1541,10 @@ object {
 }
 object {
   joint {
-    id: 37098
+    id: 255930
     name: "medicine"
     hash: 668758900
-    parent_id: 36776
+    parent_id: 255538
     joint_type: floating
     joint_center {
       y: 6.74415
@@ -1093,15 +1553,15 @@ object {
       z: 1
     }
     position {
-      x: -103.469681
-      y: -31.506876
-      z: 23.9986725
+      x: -103.403786
+      y: -31.6261826
+      z: 23.9780426
     }
     rotation {
-      x: 0.00239835563
-      y: 0.00576575613
-      z: 0.0291286651
-      w: 0.999556184
+      x: -0.00060862879
+      y: 0.00292864372
+      z: 0.0126240468
+      w: 0.999915838
     }
     push_axis {
       z: 1
@@ -1117,10 +1577,10 @@ object {
 }
 object {
   joint {
-    id: 37114
+    id: 255946
     name: "hammer"
     hash: 2880690903
-    parent_id: 36776
+    parent_id: 255538
     joint_type: floating
     joint_center {
       x: -0.866000175
@@ -1131,15 +1591,15 @@ object {
       z: 1
     }
     position {
-      x: -79.6027451
-      y: -30.7950325
-      z: 23.9488125
+      x: -79.3150177
+      y: -30.728508
+      z: 23.3844032
     }
     rotation {
-      x: 0.0453057438
-      y: -0.0314007849
-      z: 0.596866131
-      w: 0.800445
+      x: 0.0687941536
+      y: -0.0295398142
+      z: 0.597045183
+      w: 0.798706412
     }
     push_axis {
       z: 1
@@ -1155,10 +1615,10 @@ object {
 }
 object {
   joint {
-    id: 37136
+    id: 255968
     name: "multitool"
     hash: 3310009594
-    parent_id: 36776
+    parent_id: 255538
     joint_type: floating
     joint_center {
       x: 2.98023224e-08
@@ -1193,7 +1653,7 @@ object {
 }
 object {
   joint {
-    id: 36618
+    id: 255372
     name: "unknown"
     parent_id: 2147483647
     joint_type: fixed
@@ -1209,9 +1669,9 @@ object {
 }
 object {
   joint {
-    id: 36536
+    id: 255290
     name: "lever_prismatic_bounce_index_push"
-    parent_id: 36618
+    parent_id: 255372
     joint_type: fixed
     position {
       x: 284.43
@@ -1225,10 +1685,10 @@ object {
 }
 object {
   joint {
-    id: 36094
+    id: 254770
     name: "cylinder"
     hash: 677297386
-    parent_id: 36536
+    parent_id: 255290
     joint_type: prismatic
     joint_center {
     }
@@ -1239,7 +1699,7 @@ object {
     range_max: 1
     position {
       x: 284.43
-      y: -29.5190029
+      y: -28.7900028
       z: 28.3000031
     }
     rotation {
@@ -1264,9 +1724,92 @@ object {
 }
 object {
   joint {
-    id: 36314
+    id: 255602
+    name: "assemble_vg_articulation_cup"
+    parent_id: 255372
+    joint_type: fixed
+    position {
+      x: 379.332062
+      y: -23.6900024
+      z: 27.5100021
+    }
+    rotation {
+      w: 1
+    }
+  }
+}
+object {
+  joint {
+    id: 254856
+    name: "cup"
+    hash: 4064619603
+    parent_id: 255602
+    joint_type: floating
+    joint_center {
+    }
+    axis {
+      z: 1
+    }
+    position {
+      x: 379.332062
+      y: -27.6262169
+      z: 27.5099983
+    }
+    rotation {
+      x: 1.80813906e-08
+      y: 0.707106948
+      z: 1.9378e-08
+      w: -0.70710659
+    }
+    push_axis {
+      z: 1
+    }
+    grasp_constraint_axis {
+      z: 1
+    }
+  }
+  selection_weight: 1
+  affordance: ONLY_GRASPABLE
+  synthesis_method: DYNAMIC_GRASP
+  physical: true
+}
+object {
+  joint {
+    id: 255812
+    name: "cap"
+    hash: 528421302
+    parent_id: 255602
+    joint_type: floating
+    joint_center {
+    }
+    axis {
+      z: 1
+    }
+    position {
+      x: 384.252075
+      y: -15.2069988
+      z: 27.5099983
+    }
+    rotation {
+      y: 0.707106769
+      w: -0.707106829
+    }
+    push_axis {
+      z: 1
+    }
+    grasp_constraint_axis {
+      z: 1
+    }
+  }
+  selection_weight: 1
+  affordance: ONLY_GRASPABLE
+  synthesis_method: DYNAMIC_GRASP
+}
+object {
+  joint {
+    id: 255034
     name: "lever_direction"
-    parent_id: 36618
+    parent_id: 255372
     joint_type: fixed
     position {
       x: 7.33206177
@@ -1281,10 +1824,10 @@ object {
 }
 object {
   joint {
-    id: 36204
+    id: 254910
     name: "cylinder"
     hash: 677297386
-    parent_id: 36314
+    parent_id: 255034
     joint_type: prismatic
     joint_center {
     }
@@ -1294,9 +1837,9 @@ object {
     }
     range_max: 1
     position {
-      x: 7.33206272
+      x: 7.33206177
       y: -39.3092918
-      z: 12.3473473
+      z: 11.5623522
     }
     rotation {
       x: 0.5
@@ -1322,9 +1865,9 @@ object {
 }
 object {
   joint {
-    id: 36300
+    id: 255020
     name: "lever_direction"
-    parent_id: 36618
+    parent_id: 255372
     joint_type: fixed
     position {
       x: 258.332062
@@ -1339,10 +1882,10 @@ object {
 }
 object {
   joint {
-    id: 36232
+    id: 254940
     name: "cylinder"
     hash: 677297386
-    parent_id: 36300
+    parent_id: 255020
     joint_type: prismatic
     joint_center {
     }
@@ -1354,7 +1897,7 @@ object {
     position {
       x: 258.332062
       y: -39.3092918
-      z: 12.3473492
+      z: 11.5623512
     }
     rotation {
       x: 0.5
@@ -1380,9 +1923,9 @@ object {
 }
 object {
   joint {
-    id: 36796
+    id: 255568
     name: "lever_revolute_bounce_one_hand"
-    parent_id: 36618
+    parent_id: 255372
     joint_type: fixed
     position {
       x: 258.800018
@@ -1396,10 +1939,10 @@ object {
 }
 object {
   joint {
-    id: 36246
+    id: 254956
     name: "cylinder"
     hash: 3861050288
-    parent_id: 36796
+    parent_id: 255568
     joint_center {
     }
     axis {
@@ -1435,9 +1978,9 @@ object {
 }
 object {
   joint {
-    id: 36474
+    id: 255222
     name: "lever_prismatic_bounce_bounce"
-    parent_id: 36618
+    parent_id: 255372
     joint_type: fixed
     position {
       x: 149.6
@@ -1451,10 +1994,10 @@ object {
 }
 object {
   joint {
-    id: 36318
+    id: 255046
     name: "cylinder"
     hash: 4194283348
-    parent_id: 36474
+    parent_id: 255222
     joint_type: prismatic
     joint_center {
       y: -2.87999821
@@ -1491,9 +2034,9 @@ object {
 }
 object {
   joint {
-    id: 37060
+    id: 255892
     name: "lever_prismatic_bounce_grasp_push"
-    parent_id: 36618
+    parent_id: 255372
     joint_type: fixed
     position {
       x: 305.62
@@ -1507,10 +2050,10 @@ object {
 }
 object {
   joint {
-    id: 36336
+    id: 255064
     name: "cylinder"
     hash: 677297386
-    parent_id: 37060
+    parent_id: 255892
     joint_type: prismatic
     joint_center {
     }
@@ -1521,7 +2064,7 @@ object {
     range_max: 1
     position {
       x: 305.62
-      y: -29.5190029
+      y: -28.7900028
       z: 28.3000031
     }
     rotation {
@@ -1546,9 +2089,9 @@ object {
 }
 object {
   joint {
-    id: 36348
+    id: 255076
     name: "lever_direction"
-    parent_id: 36618
+    parent_id: 255372
     joint_type: fixed
     position {
       x: 143.432068
@@ -1563,10 +2106,10 @@ object {
 }
 object {
   joint {
-    id: 36460
+    id: 255206
     name: "cylinder"
     hash: 677297386
-    parent_id: 36348
+    parent_id: 255076
     joint_type: prismatic
     joint_center {
     }
@@ -1578,7 +2121,7 @@ object {
     position {
       x: 143.432068
       y: -39.3092918
-      z: 12.3473492
+      z: 11.5623522
     }
     rotation {
       x: 0.5
@@ -1604,9 +2147,9 @@ object {
 }
 object {
   joint {
-    id: 36648
+    id: 255402
     name: "lever_revolute_bounce_forward"
-    parent_id: 36618
+    parent_id: 255372
     joint_type: fixed
     position {
       x: 100.08
@@ -1620,10 +2163,10 @@ object {
 }
 object {
   joint {
-    id: 36566
+    id: 255320
     name: "cylinder"
     hash: 1889076218
-    parent_id: 36648
+    parent_id: 255402
     joint_center {
       y: -7.83999872
     }
@@ -1656,9 +2199,9 @@ object {
 }
 object {
   joint {
-    id: 36374
+    id: 255102
     name: "lever_revolute_bounce_two_hands"
-    parent_id: 36618
+    parent_id: 255372
     joint_type: fixed
     position {
       x: 220.359985
@@ -1672,10 +2215,10 @@ object {
 }
 object {
   joint {
-    id: 36632
+    id: 255386
     name: "cylinder"
     hash: 3861050288
-    parent_id: 36374
+    parent_id: 255102
     joint_center {
     }
     axis {
@@ -1712,9 +2255,9 @@ object {
 }
 object {
   joint {
-    id: 36912
+    id: 255698
     name: "lever_direction"
-    parent_id: 36618
+    parent_id: 255372
     joint_type: fixed
     position {
       x: -115.267944
@@ -1729,10 +2272,10 @@ object {
 }
 object {
   joint {
-    id: 36782
+    id: 255552
     name: "cylinder"
     hash: 677297386
-    parent_id: 36912
+    parent_id: 255698
     joint_type: prismatic
     joint_center {
     }
@@ -1744,7 +2287,7 @@ object {
     position {
       x: -115.267944
       y: -39.3092918
-      z: 12.3473492
+      z: 11.5623512
     }
     rotation {
       x: 0.5
@@ -1770,9 +2313,9 @@ object {
 }
 object {
   joint {
-    id: 36876
+    id: 255662
     name: "lever_revolute_bounce_left_right"
-    parent_id: 36618
+    parent_id: 255372
     joint_type: fixed
     position {
       x: 125.100006
@@ -1786,10 +2329,10 @@ object {
 }
 object {
   joint {
-    id: 36860
+    id: 255642
     name: "cylinder"
     hash: 1889076218
-    parent_id: 36876
+    parent_id: 255662
     joint_center {
       y: -7.83999872
     }
@@ -1826,9 +2369,67 @@ object {
 }
 object {
   joint {
-    id: 36196
+    id: 255876
+    name: "lever_direction"
+    parent_id: 255372
+    joint_type: fixed
+    position {
+      x: 380.63208
+      y: -40.0992928
+      z: 6.51834869
+    }
+    rotation {
+      x: 0.707106769
+      w: -0.707106829
+    }
+  }
+}
+object {
+  joint {
+    id: 255860
+    name: "cylinder"
+    hash: 677297386
+    parent_id: 255876
+    joint_type: prismatic
+    joint_center {
+    }
+    axis {
+      y: -1
+      z: -4.76837215e-07
+    }
+    range_max: 1
+    position {
+      x: 380.63208
+      y: -39.3092918
+      z: 11.5623474
+    }
+    rotation {
+      x: 0.5
+      y: 0.50000006
+      z: -0.5
+      w: -0.50000006
+    }
+    user_specified_joint_center: true
+    discrete: 0
+    discrete: 1
+    push_axis {
+      y: -1
+      z: -4.76836931e-07
+    }
+    grasp_constraint_axis {
+      y: -1
+      z: -4.76837215e-07
+    }
+  }
+  selection_weight: 1
+  affordance: FINGER_PUSHABLE_AND_BOUNCE
+  synthesis_method: DYNAMIC_GRASP
+}
+object {
+  joint {
+    id: 254902
     name: "lever_prismatic_bounce_snaps"
-    parent_id: 36618
+    parent_id: 255372
     joint_type: fixed
     position {
       x: 176.5
@@ -1842,10 +2443,10 @@ object {
 }
 object {
   joint {
-    id: 37064
+    id: 255896
     name: "cylinder"
     hash: 4194283348
-    parent_id: 36196
+    parent_id: 254902
     joint_type: prismatic
     joint_center {
       y: -2.87999821
